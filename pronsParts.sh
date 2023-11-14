@@ -1,4 +1,4 @@
-CS="java -classpath /home/joelcw/CurrentLx/OldNorse/CS_2.003.04.jar csearch/CorpusSearch"
+ CS="java -classpath /home/joelcw/CurrentLx/OldNorse/CS_2.003.04.jar csearch/CorpusSearch"
 
 icepahc="/home/joelcw/icecorpus/finished/*.psd"
 
@@ -18,7 +18,9 @@ $CS codes.q outputs/pronsParts.ice.raw.cod
 
 echo "Done with study on icepahc"
 
-python fixIdFormat.ice.py < outputs/pronsParts.ice.raw.cod.ooo > outputs/pronsParts.ice.cod.ooo.tmp
+
+
+python3 fixIdFormat.ice.py < outputs/pronsParts.ice.raw.cod.ooo > outputs/pronsParts.ice.cod.ooo.tmp
 mv outputs/pronsParts.ice.treeIDandIDfixed.cod.ooo outputs/pronsParts.ice.treeIDandIDfixed.cod.ooo.old
 mv outputs/pronsParts.ice.cod.ooo.tmp outputs/pronsParts.ice.treeIDandIDfixed.cod.ooo
 
