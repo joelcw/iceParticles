@@ -44,30 +44,30 @@ coding_query:
 */
 }
 
-//diagnostic is: both diagnostics in same clause, or pronoun, or particle
+//diagnostic is: both diagnostics in same clause, or pronoun, or particle. Auxs are constrained to precede so that we don't get "both" examples with top or stylistic fronting.
 
 3:{
 
-    qobj: (IP* idoms object) AND (object idoms Q*|NUM*|NEG|ONE*)
-    both: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms RP)
-    pronobj: (IP* idoms object) AND (object idomsonly PRO*)
-    rp: (IP* idoms RP)
-    posobj: (IP* idoms object) AND (object doms any_nominal|CONJ*|N*|D*)
+ qobj: (IP* idoms object) AND (object idoms Q*|NUM*|NEG|ONE*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
+    both: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes object) AND (finite_aux precedes RP)
+    pronobj: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
+    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP)
+    posobj: (IP* idoms object) AND (object doms any_nominal|CONJ*|N*|D*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
 
     //Note that object traces will be in this later category and should be excluded:
     z: ELSE
   
 }
 
-//Subject status, including trace subjects ; these will behave differently in dif construction types: in rel clauses, the last over thing was the comp or the wh-word, i.e. low info, or the head word with a zero comp, which is higher info (but english only, not ice); in Qs, the preceding thing is a wh-word, so low info. Note: subject must precede objects, or else all of the above is different, so no postposed subjects are considered here (including ambiguous quirky passives in early ice)
+//Subject status, including trace subjects ; these will behave differently in dif construction types: in rel clauses, the last over thing was the comp or the wh-word, i.e. low info, or the head word with a zero comp, which is higher info (but english only, not ice); in Qs, the preceding thing is a wh-word, so low info. Note: subject DO NOT NEED TO  precede objects IN THIS QUERY, BUT THEY DO IN THE INFO THEORY QUERIES.
 
 4: {
   
- gapsbj: ((IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM idomsonly \**) AND (IP* idoms object) AND (NP-SBJ|NP-NOM precedes object)) OR (IP-*-*|IP-*=* idoms !NP-SBJ|NP-NOM)
+ gapsbj: ((IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM idomsonly \**) AND (IP* idoms object)) OR (IP-*-*|IP-*=* idoms !NP-SBJ|NP-NOM)
      
-     pronsbj: (IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM idomsonly PRO*) AND (IP* idoms object) AND (NP-SBJ|NP-NOM precedes object)
+     pronsbj: (IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM idomsonly PRO*) AND (IP* idoms object)
     
-     nomsbj: (IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object) AND (NP-SBJ|NP-NOM precedes object)
+     nomsbj: (IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object) 
     
     z: ELSE
     }

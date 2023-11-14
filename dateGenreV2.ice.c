@@ -1,6 +1,6 @@
 //This query just finds the date for IcePaHC texts. There's definitely a more efficient way of doing this, but I don't feel like creating a metadata file right now.
 
-node: IP-MAT*
+node: IP*
 define: ../CurrentLx/OldNorse/verbtopic.def
 coding_query:
 
