@@ -1,0 +1,28 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Nov 23 12:22:43 GMT 2023
+
+command file:     both.q
+input file:       outputs/pronsParts.ice.raw.cod
+output file:      outputs/both.out
+
+node:   CODING*
+query:  (CODING-IP* column  2  both) 
+*/
+/*
+HEADER:
+source file:  pronsParts.ice.raw.cod
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  pronsParts.ice.raw.cod	0/0/73225
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  pronsParts.ice.raw.cod	0/0/73225
+whole search, hits/tokens/total
+		0/0/73225
+*/
