@@ -1,7 +1,7 @@
 /*
 PREFACE:  
 Copyright 2010 Beth Randall
-Date:  Thu Nov 23 12:27:03 GMT 2023
+Date:  Thu Nov 23 12:29:31 GMT 2023
 
 command file:     both.q
 input file:       outputs/pronsParts.ice.raw.cod
@@ -88,7 +88,6 @@ til-til kennt-kenna ,-, að-að þar-þar skal-skulu undir-undir felast-felast .
 /*
 0 :  184 CODING-IP-SUB, 185 1:sub:both:nomsbj:1150:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1150:rel)
 	  (NP-1 (PRO-A Það-það)
 		(CP-REL *ICH*-2)
@@ -191,7 +190,6 @@ og-og svo-svo yfir$-yfir $bætt-bætt ,-, sem-sem máttur-máttur er-vera til-ti
 /*
 0 :  57 CODING-IP-SUB, 58 1:sub:both:nomsbj:1150:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 0:mat:pronobj:pronsbj:1150:rel)
 	  (NP-OB1 (PRO-A Það-það))
 	  (MDPI vil-vilja)
@@ -257,7 +255,6 @@ skyldi-skulu þeim-það við-við hjálpa-hjálpa öllum-allur saman-saman .-.
 /*
 0 :  38 CODING-IP-SUB, 39 1:sub:both:pronsbj:1210:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1210:rel)
 	  (ADVP-TMP (ADV Síðan-síðan))
 	  (VBDI hétu-heita)
@@ -289,7 +286,6 @@ að-að hann-hann skyldi-skulu honum-hann við-við hjálpa-hjálpa .-.
 /*
 0 :  59 CODING-IP-SUB, 60 1:sub:both:pronsbj:1210:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1210:rel)
 	  (VBDI Kvaðst-kveða)
 	  (NP-SBJ (PRO-N hann-hann))
@@ -329,7 +325,6 @@ $hent-henda þá-þá er-er til-til þurfti-þurfa að-að taka-taka
 /*
 0 :  31 CODING-IP-SUB, 32 1:sub:both:pronsbj:1210:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:1210:rel)
 	  (CONJ og-og)
 	  (VBDI sýndi-sýna)
@@ -370,7 +365,6 @@ metnaði-metnaður þeim-það er-er sjálfvirðing-sjálfvirðing heitir-heita
 /*
 0 :  25 CODING-IP-SUB, 26 1:sub:both:pronsbj:1210:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:z:1210:rel)
 	  (CONJ En-en)
 	  (NP-SBJ (PRO-G þess-það)
@@ -410,7 +404,6 @@ kristna-kristna alla-allur Danmörk-danmörk ,-, ef-ef hann-hann mætti-mega
 /*
 0 :  124 CODING-IP-SUB, 125 1:sub:both:pronsbj:1260:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1260:nar)
 	  (NP-SBJ (PRO-G Þess-það)
 		  (CP-THT-PRN *ICH*-1))
@@ -473,7 +466,6 @@ konungur-konungur gerði-gera ,-, móðurbróðir-móðurbróðir yðar-þú ,-,
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1275:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1275:nar)
 	      (ADVP-TMP (ADV Þá-þá))
 	      (MDPI viljum-vilja)
@@ -527,7 +519,6 @@ hús$-hús $in-hinn þar-þar ,-, sem-sem hann-hann fékk-fá því-það á-á 
 /*
 0 :  49 CODING-IP-SUB, 50 1:sub:both:pronsbj:1300:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1300:nar)
 	  (NP-1 (N-A Eld-eldur))
 	  (VBDI lét-láta)
@@ -563,7 +554,6 @@ hefði-hafa þig-þú til-til til-til bana-bani leitt-leiða .-.
 /*
 0 :  45 CODING-IP-SUB-SPE, 46 1:sub:both:nomsbj:1300:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1300:nar)
 	      (CONJ En-en)
 	      (ADVP (ADV gjarna-gjarna))
@@ -598,7 +588,6 @@ Mun-munu eg-ég og-og þau-það ekki-ekki til-til láta-láta .-. "-"
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1310:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1310:nar)
 	      (MDPI Mun-munu)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -618,7 +607,6 @@ en-en mér-ég segir-segja svo-svo hugur-hugur um-um að-að þú-þú munir-mun
 /*
 0 :  23 CODING-IP-SUB-SPE, 24 1:sub:both:pronsbj:1310:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:z:nomsbj:1310:nar)
 	      (CONJ en-en)
 	      (NP-OB2 (PRO-D mér-ég))
@@ -646,7 +634,6 @@ mér-ég hins-hinn vaskasta-vaskur manns-maður hvað-hver sem-sem í-í gerist-
 /*
 0 :  44 CODING-IP-SUB-SPE, 45 1:sub:both:pronsbj:1310:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:z:pronsbj:1310:nar)
 	      (" "-")
 	      (NEG Eigi-ekki)
@@ -687,7 +674,6 @@ ei-ei upp-upp gefa-gefa .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1325:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1325:nar)
 	  (NP-SBJ (NPR-N Ketill-ketill)
 		  (NPR-N Loftsson-loftsson)
@@ -716,7 +702,6 @@ breyta-breyta þar-þar sem-sem þeim-það líkaði-líka .-.
 /*
 0 :  43 CODING-IP-SUB, 44 1:sub:both:pronsbj:1325:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1325:nar)
 	  (CONJ og-og)
 	  (BEDI var-vera)
@@ -781,7 +766,6 @@ væru-vera föng-fang á-á .-.
 /*
 0 :  5 CODING-IP-MAT-1, 6 1:mat:both:gapsbj:1325:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1325:nar)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:both:gapsbj:1325:nar)
 		    (NP-SBJ *pro*)
@@ -846,7 +830,6 @@ skynsemd-skynsemd mega-mega framleiðis-framleiðis úr-úr biðja-biðja .-.
 /*
 0 :  368 CODING-IP-SUB, 369 1:sub:both:pronsbj:1325:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1325:nar)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:posobj:nomsbj:1325:nar)
 		    (NP-SBJ (NS-N Bændur-bóndi))
@@ -1016,7 +999,6 @@ vinna-vinna .-. "-"
 /*
 0 :  19 CODING-IP-SUB-SPE, 20 1:sub:both:pronsbj:1350:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1350:nar)
 	      (CONJ og-og)
 	      (VBPI veit-vita)
@@ -1040,7 +1022,6 @@ og-og vil-vilja eg-ég þig-þú frá-frá taka-taka .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1350:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1350:nar)
 	      (CONJ og-og)
 	      (MDPI vil-vilja)
@@ -1057,7 +1038,6 @@ og-og vil-vilja eg-ég þig-þú fyrir-fyrir því-það frá-frá kjósa-kjósa
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1350:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1350:nar)
 	      (CONJ og-og)
 	      (MDPI vil-vilja)
@@ -1077,7 +1057,6 @@ af-af ráða-ráða .-.
 /*
 0 :  14 CODING-IP-MAT-SPE, 15 1:mat:both:pronsbj:1350:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1350:nar)
 	  (NP-SBJ (NPR-N Finnbogi-finnbogi))
 	  (VBPI segir-segja)
@@ -1102,7 +1081,6 @@ framast-framar mundu-munu þóknast-þóknast þeirra-þeir þjónusta-þjónust
 /*
 0 :  10 CODING-IP-SUB, 11 1:sub:both:pronsbj:1350:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:nomsbj:1350:rel)
 	  (CONJ Og-og)
 	  (CP-ADV (C er-er)
@@ -1144,7 +1122,6 @@ er-vera upprisa-upprísa og-og líf-líf .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1350:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1350:rel)
 	  (CONJ en-en)
 	  (ADVP (ADV þó-þó))
@@ -1182,7 +1159,6 @@ reisa-reisa .-.
 /*
 0 :  46 CODING-IP-SUB, 47 1:sub:both:pronsbj:1350:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1350:rel)
 	  (CONJ En-en)
 	  (BEPI er-vera)
@@ -1216,7 +1192,6 @@ hefði-hafa hann-hann getað-geta honum-hann fyrir-fyrir komið-koma .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1400:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1400:nar)
 	  (CONJ og-og)
 	  (CP-ADV (IP-SUB (CODING-IP-SUB 1:invq:pronobj:nomsbj:1400:nar)
@@ -1241,7 +1216,6 @@ mun-munu eg-ég ekki-ekki lengur-lengi yður-þú þjóna-þjóna .-. "-"
 /*
 0 :  6 CODING-IP-SUB-SPE, 7 1:invq:both:pronsbj:1400:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:pronobj:pronsbj:1400:nar)
 	      (CP-ADV-LFD-SPE (IP-SUB-SPE (CODING-IP-SUB-SPE 1:invq:both:pronsbj:1400:nar)
 					  (MDPS Viljið-vilja)
@@ -1269,7 +1243,6 @@ enda-enda munuð-munu þið-þú og-og þess-það við-við þurfa-þurfa því
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1400:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1400:nar)
 	      (ADVP (ADV enda-enda))
 	      (MDPI munuð-munu)
@@ -1297,7 +1270,6 @@ Mun-munu eg-ég og-og ekki-ekki því-það fram-fram fara-fara .-. "-"
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1400:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1400:nar)
 	      (MDPI Mun-munu)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -1316,7 +1288,6 @@ en-en þó-þó mun-munu eg-ég hann-hann eigi-ekki til-til kjósa-kjósa .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1450:nar)
 	      (CONJ en-en)
 	      (ADVP (ADV þó-þó))
@@ -1338,7 +1309,6 @@ gefið-gefa þér-þú góðar-góður gjafir-gjöf ,-,
 /*
 0 :  37 CODING-IP-SUB-SPE, 38 1:sub:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1450:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -1384,7 +1354,6 @@ og-og ætlaði-ætla að-að hann-hann mundi-munu hann-hann til-til kjósa-kjós
 /*
 0 :  14 CODING-IP-SUB, 15 1:sub:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1450:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -1406,7 +1375,6 @@ hann-hann áður-áður af-af leyst-leysa .-.
 /*
 0 :  27 CODING-IP-SUB-SPE, 28 1:sub:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1450:nar)
 	  (NP-SBJ (NPR-N Oddur-oddur))
 	  (VBPI segir-segja)
@@ -1434,7 +1402,6 @@ hann-hann áður-áður af-af leyst-leysa .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1450:nar)
 	      (NP-SBJ (PRO-N Þú-þú))
 	      (HVPI hefir-hafa)
@@ -1453,7 +1420,6 @@ er-vera synjað-synja .-.
 /*
 0 :  13 CODING-IP-SUB-SPE, 14 1:sub:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1450:nar)
 	      (CONJ En-en)
 	      (PP (P ef-ef)
@@ -1500,7 +1466,6 @@ rósa-rósa .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:nomsbj:1450:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:nomsbj:1450:nar)
 	      (HVPI Hafa-hafa)
 	      (NP-SBJ (NS-N meistarar-meistari))
@@ -1542,7 +1507,6 @@ $stíga-stíga .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1450:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1450:rel)
 	      (CONJ en-en)
 	      (ADVP (ADV þó-þó))
@@ -1566,7 +1530,6 @@ yðru-yðar augliti-auglit .-.
 /*
 0 :  43 CODING-IP-SUB-SPE, 44 1:sub:both:pronsbj:1450:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1450:rel)
 	      (CONJ en-en)
 	      (PP (P fyrir-fyrir)
@@ -1633,7 +1596,6 @@ mig-ég að-að öllu-allur óreyndu-óreyndur "-" .-.
 /*
 0 :  36 CODING-IP-SUB-SPE, 37 1:sub:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:z:pronsbj:1450:nar)
 	      (" "-")
 	      (NP-OB1 (PRO-A Það-það)
@@ -1670,7 +1632,6 @@ honum-hann fyrir-fyrir sagt-segja
 /*
 0 :  49 CODING-IP-SUB, 50 1:sub:both:nomsbj:1450:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1450:nar)
 	  (CONJ en-en)
 	  (ADVP-TMP (ADV þá-þá)
@@ -1707,7 +1668,6 @@ hug-hugur á-á það-það leggja-leggja .-.
 /*
 0 :  29 CODING-IP-SUB-1, 30 1:sub:both:pronsbj:1450:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:1450:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -1741,7 +1701,6 @@ sagt-segja .-.
 /*
 0 :  35 CODING-IP-SUB, 36 1:sub:both:nomsbj:1450:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:qobj:pronsbj:1450:nar)
 	  (CONJ og-og)
 	  (DOPI gjörir-gera)
@@ -1771,7 +1730,6 @@ ráð-ráð af-af sínum-sinn guði-guð .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1475:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1475:nar)
 	  (CONJ en-en)
 	  (NP-SBJ (N-N stúlka$-stúlka) (D-N $n-hinn))
@@ -1806,7 +1764,6 @@ hann-hann miskunnar-miskunn .-. "-"
 /*
 0 :  17 CODING-IP-MAT-SPE, 18 1:mat:both:nomsbj:1475:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1475:nar)
 	  (NP-SBJ (PRO-N Hann-hann))
 	  (VBDI sagði-segja)
@@ -1862,7 +1819,6 @@ hann-hann .-.
 /*
 0 :  30 CODING-IP-SUB, 31 1:sub:both:nomsbj:1475:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1475:nar)
 	  (CONJ og-og)
 	  (PP (RP upp-upp)
@@ -1898,7 +1854,6 @@ til-til keypt-kaupa .-. "-"
 0 :  11 CODING-IP-SUB-SPE, 12 1:sub:both:pronsbj:1475:nar
 0 :  72 CODING-IP-SUB-SPE, 73 1:sub:both:pronsbj:1475:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1475:nar)
 	      (PP-LFD (P Þó-þó)
 		      (CP-ADV-SPE (C að-að)
@@ -1943,7 +1898,6 @@ að-að þessi-þessi stund-stund skyldi-skulu vera-vera
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1475:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1475:nar)
 	  (CONJ en-en)
 	  (NP-SBJ (N-N engill$-engill) (D-N $inn-hinn))
@@ -1968,7 +1922,6 @@ yfir-yfir bæta-bæta og-og af-af láta-láta og-og lifa-lifa vel-vel síðan-s�
 /*
 0 :  14 CODING-IP-SUB-SPE, 15 1:sub:both:nomsbj:1475:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1475:nar)
 	      (PP (P 0)
 		  (NP (PRO-D Því-það)
@@ -2031,7 +1984,6 @@ er-er eg-ég þoldi-þola fyrir-fyrir þig-þú .-.
 /*
 0 :  63 CODING-IP-SUB-SPE, 64 1:sub:both:gapsbj:1475:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:z:pronsbj:1475:nar)
 	      (" "-")
 	      (PP (P Ef-ef)
@@ -2099,7 +2051,6 @@ eg-ég hefi-hafa þér-þú fyrir$-fyrir $búið-búa .-. "-"
 /*
 0 :  34 CODING-IP-SUB-SPE, 35 1:sub:both:pronsbj:1475:nar
 */
-
 ( (IP-IMP-SPE (CODING-IP-IMP-SPE z:z:z:gapsbj:1475:nar)
 	      (CONJ og-og)
 	      (VBDI gakk-ganga)
@@ -2130,7 +2081,6 @@ megi-mega yður-þú við-við hjálpa-hjálpa .-.
 /*
 0 :  40 CODING-IP-SUB-SPE, 41 1:sub:both:nomsbj:1480:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 0:mat:posobj:pronsbj:1480:nar)
 	      (HVPI Hefir-hafa)
 	      (NP-SBJ (PRO-N hann-hann))
@@ -2161,7 +2111,6 @@ hefðir-hafa ekki-ekki mín-minn við-við notið-njóta .-.
 /*
 0 :  27 CODING-IP-SUB-SPE, 28 1:sub:both:pronsbj:1480:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:posobj:pronsbj:1480:nar)
 	      (CONJ Og-og)
 	      (NEG ekki-ekki)
@@ -2189,7 +2138,6 @@ eiða-eiður sem-sem vér-ég sverjum-sverja heiðnum-heiðinn mönnum-maður
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1480:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1480:nar)
 	  (MDPI Mun-munu)
 	  (NP-OB1 (PRO-A oss-ég))
@@ -2219,7 +2167,6 @@ leyfa-leyfa honum-hann það-það ,-,
 /*
 0 :  166 CODING-IP-SUB, 167 1:sub:both:pronsbj:1525:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1525:nar)
 	  (ADVP (ADV Þá-þá))
 	  (ADVP-TMP-LFD (ADV nú-nú)
@@ -2307,7 +2254,6 @@ upp-upp taka-taka sem-sem þér-þú líkar-líka helst-heldur ,-,
 /*
 0 :  17 CODING-IP-MAT-SPE, 18 1:mat:both:pronsbj:1525:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1525:nar)
 	  (ADVP-TMP (ADV Þá-þá))
 	  (VBPI svarar-svara)
@@ -2344,7 +2290,6 @@ vér-ég mættum-mega til-til leggja-leggja ,-,
 /*
 0 :  16 CODING-IP-MAT-SPE, 17 1:mat:both:pronsbj:1525:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1525:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -2422,7 +2367,6 @@ hann-hann hefði-hafa þvingað-þvinga með-með herskildi-herskjöldur allt-al
 /*
 0 :  42 CODING-IP-SUB, 43 1:sub:both:nomsbj:1525:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1525:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -2483,7 +2427,6 @@ hann-hann hefði-hafa þvingað-þvinga með-með herskildi-herskjöldur allt-al
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1525:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1525:nar)
 	      (PP (ADVP (ADV Þar-þar))
 		  (P fyrir-fyrir))
@@ -2508,7 +2451,6 @@ nærri-nærri guði-guð og-og hans-hann útvöldum-útvalinn vinum-vinur .-.
 /*
 0 :  93 CODING-IP-SUB-SPE, 94 1:sub:both:nomsbj:1525:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1525:nar)
 	      (CONJ en-en)
 	      (NP-SBJ-1 (ES það-það))
@@ -2591,7 +2533,6 @@ honum-hann .-.
 /*
 0 :  107 CODING-IP-SUB, 108 1:sub:both:nomsbj:1525:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1525:nar)
 	  (NP-SBJ (PRO-N Þeir-hann))
 	  (BEDI voru-vera)
@@ -2646,7 +2587,6 @@ stað-staður sér-sig til-til dýrkanar-dýrkan .-.
 /*
 0 :  21 CODING-IP-SUB-SPE, 22 1:sub:both:nomsbj:1525:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1525:nar)
 	      (CONJ og-og)
 	      (VBPI hygg-hyggja)
@@ -2678,7 +2618,6 @@ gefið-gefa fyrir-fyrir guðs-guð skuld-skuld .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:nomsbj:1525:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:nomsbj:1525:nar)
 	      (CONJ En-en)
 	      (ADVP (ADV þó-þó))
@@ -2708,7 +2647,6 @@ séð-sjá .-.
 0 :  7 CODING-IP-MAT-SPE-1, 8 1:mat:both:pronsbj:1540:rel
 0 :  52 CODING-IP-SUB-SPE, 53 1:sub:both:nomsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1540:rel)
 	      (CODE VS:II_30P)
 	      (IP-MAT-SPE-1 (CODING-IP-MAT-SPE-1 1:mat:both:pronsbj:1540:rel)
@@ -2799,7 +2737,6 @@ líkan-líkan .-.
 /*
 0 :  278 CODING-IP-MAT-SPE, 279 1:mat:both:nomsbj:1540:rel
 */
-
 ( (IP-IMP-SPE (CODING-IP-IMP-SPE z:z:z:gapsbj:1540:rel)
 	      (CONJ og-og)
 	      (VBPI snúist-snúa)
@@ -2929,7 +2866,6 @@ og-og þeir-hann munu-munu þig-þú út-út bera-bera .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ og-og)
 	      (NP-SBJ (PRO-N þeir-hann))
@@ -2948,7 +2884,6 @@ vekja-vekja yður-þú af-af bræðrum-bróðir yðar-þú líkan-líkur mér-é
 /*
 0 :  42 CODING-IP-MAT-SPE, 43 1:mat:both:nomsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1540:rel)
 	      (CODE VS:VII_37P)
 	      (NP-SBJ (D-N Þessi-þessi))
@@ -2997,7 +2932,6 @@ tjaldbúð-tjaldbúð finna-finna Guði-guð Jakobs-jakob .-.
 /*
 0 :  39 CODING-IP-SUB-SPE, 40 1:sub:both:nomsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:posobj:nomsbj:1540:rel)
 	      (CODE VS:VII_44P)
 	      (NP-SBJ (NP-POS (PRO-N Vorir-vor))
@@ -3120,7 +3054,6 @@ segir-segja Drottinn-drottinn ,-,
 /*
 0 :  8 CODING-IP-SUB-SPE, 9 1:sub:both:pronsbj:1540:rel
 */
-
 ( (CP-QUE-SPE (WNP-1 (WD-D Hvaða-hvaða) (N-D húsi-hús))
 	      (IP-SUB-SPE (CODING-IP-SUB-SPE 1:sub:both:pronsbj:1540:rel)
 			  (NP-OB1 *T*-1)
@@ -3145,7 +3078,6 @@ líka-líka sem-sem vér-ég ?-?
 /*
 0 :  21 CODING-IP-SUB-SPE, 22 1:invq:both:gapsbj:1540:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1540:rel)
 	  (CODE VS:X_47P)
 	  (ADVP-TMP (ADV Þá-þá))
@@ -3191,7 +3123,6 @@ bandingja$-bandingi $na-hinn burt-burt flýða-flýja .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:gapsbj:1540:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:gapsbj:1540:rel)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -3223,7 +3154,6 @@ og-og á$-á $lyktað-lykta trú-trú að-að veita-veita öllum-allur eftir-eft
 /*
 0 :  138 CODING-IP-SUB-SPE, 139 1:sub:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:z:pronsbj:1540:rel)
 	      (CONJ en-en)
 	      (ADVP-TMP (ADV nú-nú))
@@ -3305,7 +3235,6 @@ megi-mega skaða-skaða því-það að-að margt-margur fólk-fólk er-vera mit
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1540:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1540:rel)
 	  (CONJ Og-og)
 	  (NP-SBJ (Q-N enginn-enginn))
@@ -3338,7 +3267,6 @@ reisa-reisa .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ en-en)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -3359,7 +3287,6 @@ en-en þú-þú vilt-vilja upp-upp reisa-reisa það-það á-á þrim-þrír d�
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ en-en)
 	      (NP-SBJ (PRO-N þú-þú))
@@ -3382,7 +3309,6 @@ hefir-hafa hann-hann inn$-inn $siglað-sigla .-.
 /*
 0 :  105 CODING-IP-SUB-SPE, 106 1:sub:both:nomsbj:1540:rel
 */
-
 ( (IP-IMP-SPE (CODING-IP-IMP-SPE z:z:z:gapsbj:1540:rel)
 	      (CODE VS:VI_27J)
 	      (IP-IMP-SPE-1 (CODING-IP-IMP-SPE-1 z:z:z:gapsbj:1540:rel)
@@ -3439,7 +3365,6 @@ vekja-vekja það-það á-á efsta-efri degi-dagur .-.
 /*
 0 :  90 CODING-IP-SUB-SPE, 91 1:invq:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1540:rel)
 	      (CODE VS:VI_39J)
 	      (NP-SBJ (D-N Þetta-þessi))
@@ -3493,7 +3418,6 @@ og-og eg-ég mun-munu upp-upp vekja-vekja hann-hann á-á efsta-efri degi-dagur
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ og-og)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -3513,7 +3437,6 @@ og-og eg-ég mun-munu upp-upp vekja-vekja hann-hann á-á efsta-efri degi-dagur
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ og-og)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -3534,7 +3457,6 @@ mitt-minn blóð-blóð er-vera sannur-sannur drykkur-drykkur .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ og-og)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -3573,7 +3495,6 @@ hann-hann .-.
 /*
 0 :  40 CODING-IP-SUB, 41 1:sub:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:1540:rel)
 	  (CODE VS:VIII_6J)
 	  (CONJ En-en)
@@ -3607,7 +3528,6 @@ son-sonur ?-?
 /*
 0 :  32 CODING-IP-SUB-SPE, 33 1:sub:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1540:rel)
 	  (CODE VS:IX_35J)
 	  (ADVP-TMP-LFD (ADV Þá-þá)
@@ -3656,7 +3576,6 @@ Eg-ég hefi-hafa það-það upp-upp birt-birta ,-,
 /*
 0 :  31 CODING-IP-MAT-SPE, 32 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1540:rel)
 	  (ADVP-TMP (ADV Þá-þá))
 	  (VBDI kom-koma)
@@ -3683,7 +3602,6 @@ og-og eg-ég skal-skulu það-það enn-enn upp-upp birta-birta .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (CONJ og-og)
 	      (NP-SBJ (PRO-N eg-ég))
@@ -3701,7 +3619,6 @@ heldur-heldur hefi-hafa eg-ég út$-út $valið-velja yður-þú .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (ADVP (ADVR heldur-heldur))
 	      (HVPI hefi-hafa)
@@ -3720,7 +3637,6 @@ Ef-ef þeir-hann hafa-hafa of$-of $sókt-sækja mig-ég ,-, þá-þá munu-munu
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1540:rel
 0 :  11 CODING-IP-SUB-SPE, 12 1:sub:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1540:rel)
 	      (PP-LFD (P Ef-ef)
 		      (CP-ADV-SPE (C 0)
@@ -3749,7 +3665,6 @@ sennilega-sennilega viðurkennt-viðurkenna það-það eg-ég em-vera af-af þ�
 /*
 0 :  5 CODING-IP-MAT-SPE-1, 6 1:mat:both:pronsbj:1540:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1540:rel)
 	      (IP-MAT-SPE-1 (CODING-IP-MAT-SPE-1 1:mat:both:pronsbj:1540:rel)
 			    (CONJ Og-og)
@@ -3780,7 +3695,6 @@ kraft-kraftur allan-allur þá-þá gætum-geta vér-ég ekki-ekki um$-um $buna�
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1593:rel)
 	  (PP-LFD (P Þó-þó)
 		  (CP-ADV (C 0)
@@ -3814,7 +3728,6 @@ mig-ég nú-nú inn$-inn $leggja-leggja .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1593:rel)
 	  (NP-VOC (NP-POS (PRO-N Minn-minn))
 		  (NPR-N herra-herra)
@@ -3837,7 +3750,6 @@ sagt-segja .-.
 /*
 0 :  13 CODING-IP-SUB, 14 1:sub:both:nomsbj:1593:rel
 */
-
 ( (IP-IMP (CODING-IP-IMP z:z:z:z:1593:rel)
 	  (VBI Þenk-þenkja)
 	  (CP-QUE (WNP-1 (WPRO-A hvað-hver))
@@ -3862,7 +3774,6 @@ gegnum-gegnum þennan-þessi eymdardal-eymdardalur .-.
 /*
 0 :  33 CODING-IP-SUB, 34 1:sub:both:pronsbj:1593:rel
 */
-
 ( (IP-IMP (CODING-IP-IMP z:z:z:pronsbj:1593:rel)
 	  (VBI Kenn-kenna)
 	  (NP-SBJ (PRO-N þú-þú))
@@ -3914,7 +3825,6 @@ gegnum-gegnum þennan-þessi eymdardal-eymdardalur .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1593:rel)
 	      (ADVP-LOC (ADV Þar-þar))
 	      (MDPI skulu-skulu)
@@ -3932,7 +3842,6 @@ dýrðarlega-dýrðarlegur líkama-líkami samlíkt-samlíkur gjöra-gera .-.
 /*
 0 :  5 CODING-IP-MAT-1, 6 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1593:rel)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:both:pronsbj:1593:rel)
 		    (ADVP (ADVR heldur-heldur))
@@ -3960,7 +3869,6 @@ hvar-hvar með-með eg-ég hefi-hafa þig-þú styggðan-styggja ,-, svo-svo sem
 /*
 0 :  64 CODING-IP-SUB-3, 65 1:sub:both:pronsbj:1593:rel
 */
-
 ( (IP-IMP (CODING-IP-IMP z:z:z:z:1593:rel)
 	  (VBI Þvo-þvo)
 	  (NP-OB1 (NP-POS (PRO-A mína-minn))
@@ -4008,7 +3916,6 @@ dæmandi-dæma xii-xii kynkvíslir-kynkvísl Ísraels-ísrael .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1593:rel)
 	  (CONJ og-og)
 	  (NP-SBJ (PRO-N eg-ég))
@@ -4067,7 +3974,6 @@ sás$-sá $tu-þú fyrir-fyrir það-sá hryggilega-hryggilega fall-fall Pétri-
 /*
 0 :  135 CODING-IP-SUB, 136 1:sub:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:1593:rel)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -4136,7 +4042,6 @@ skenkt-skenkja þér-þú sigur$-sigurur $inn-hinn .-.
 /*
 0 :  5 CODING-IP-MAT-1, 6 1:mat:both:nomsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1593:rel)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:both:nomsbj:1593:rel)
 		    (NP-SBJ (NPR-N Drottinn-drottinn))
@@ -4158,7 +4063,6 @@ heldur-heldur hef-hafa eg-ég út$-út $valið-velja yður-þú ,-,
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1593:rel)
 	      (ADVP (ADVR heldur-heldur))
 	      (HVPI hef-hafa)
@@ -4177,7 +4081,6 @@ yður-þú of$-of $sækja-sækja einnin-einnig .-.
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1593:rel
 0 :  11 CODING-IP-SUB-SPE, 12 1:sub:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1593:rel)
 	      (PP-LFD (P Ef-ef)
 		      (CP-ADV-SPE (C 0)
@@ -4205,7 +4108,6 @@ viðurkennt-viðurkenna það-það eg-ég er-vera af-af þér-þú út$-út $ge
 /*
 0 :  5 CODING-IP-MAT-SPE-1, 6 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1593:rel)
 	      (IP-MAT-SPE-1 (CODING-IP-MAT-SPE-1 1:mat:both:pronsbj:1593:rel)
 			    (CONJ og-og)
@@ -4238,7 +4140,6 @@ $tu-þú af$-af $neita-neita mér-ég þrisvar-þrisvar .-.
 /*
 0 :  18 CODING-IP-MAT-SPE, 19 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1593:rel)
 	  (NP-SBJ (NPR-N Jesús-jesús))
 	  (VBDI sagði-segja)
@@ -4274,7 +4175,6 @@ ekki-ekki af$-af $neita-neita þér-þú .-.
 /*
 0 :  23 CODING-IP-MAT-SPE, 24 1:mat:both:pronsbj:1593:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1593:rel)
 	  (NP-LFD (NPR-N Pétur-pétur))
 	  (NP-SBJ-RSP (PRO-N hann-hann))
@@ -4317,7 +4217,6 @@ Jerúsalemsborgar$-jerúsalemsborg $innar-hinn .-.
 /*
 0 :  75 CODING-IP-SUB-SPE-1, 76 1:sub:both:nomsbj:1593:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1593:rel)
 	      (PP (P Á-á)
 		  (NP (D-D þessari-þessi) (N-D nótt-nótt) (CODE <paren>)))
@@ -4386,7 +4285,6 @@ til$-til $bundið-binda sig-sig að-að bænheyra-bænheyra oss-ég ,-,
 /*
 0 :  99 CODING-IP-SUB, 100 1:sub:both:nomsbj:1628:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:1628:bio)
 	  (ADVP (ADV Sannlega-sannlega) (, ,-,) (ADV sannlega-sannlega))
 	  (VBPI segi-segja)
@@ -4445,7 +4343,6 @@ Hann-hann hefur-hafa þér-þú áður-áður til$-til $heyrt-heyra vegna-vegna
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1630:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1630:rel)
 	      (NP-SBJ (PRO-N Hann-hann))
 	      (HVPI hefur-hafa)
@@ -4470,7 +4367,6 @@ $brenna-brenna .-. "-"
 /*
 0 :  16 CODING-IP-MAT-SPE, 17 1:mat:both:pronsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1630:rel)
 	  (NP-SBJ (N-N Eldur$-eldur) (D-N $inn-hinn))
 	  (VBPI segir-segja)
@@ -4493,7 +4389,6 @@ en-en það-það að-að þeir-hann skyldu-skulu lifa-lifa til-til morguns-morg
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1630:rel)
 	  (CONJ en-en)
 	  (NP-LFD (PRO-A það-það)
@@ -4523,7 +4418,6 @@ iðrun$-iðrun $inni-hinn .-.
 /*
 0 :  44 CODING-IP-SUB, 45 1:sub:both:nomsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1630:rel)
 	  (NP-SBJ (NP-POS (NPR-G Guðs-guð))
 		  (N-N sonur-sonur))
@@ -4561,7 +4455,6 @@ sem-sem þú-þú hefur-hafa mér-ég fyrir$-fyrir $heitið-heita .-.
 /*
 0 :  48 CODING-IP-SUB, 49 1:sub:both:pronsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 0:mat:pronobj:pronsbj:1630:rel)
 	  (NP-SBJ (PRO-N Þú-þú))
 	  (HVPI hefur-hafa)
@@ -4598,7 +4491,6 @@ andláti-andlát .-.
 /*
 0 :  27 CODING-IP-SUB, 28 1:sub:both:nomsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1630:rel)
 	  (NP-SBJ (NPR-N Kristus-kristur))
 	  (VBDI sveittist-sveita)
@@ -4637,7 +4529,6 @@ míns-minn líkama-líkami .-.
 /*
 0 :  152 CODING-IP-SUB, 153 1:sub:both:gapsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1630:rel)
 	  (NP-LFD (D-N Sá-sá)
 		  (CP-REL (WNP-1 0)
@@ -4721,7 +4612,6 @@ fylling-fylling guðdóms$-guðdómur $ins-hinn .-.
 /*
 0 :  26 CODING-IP-SUB, 27 1:sub:both:pronsbj:1630:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1630:rel)
 	  (NEG Ekki-ekki)
 	  (MDPI skal-skulu)
@@ -4782,7 +4672,6 @@ að-að Guð-guð hefur-hafa hana-hún upp$-upp $hafið-hefja ?-?
 /*
 0 :  56 CODING-IP-SUB, 57 1:sub:both:nomsbj:1630:rel
 */
-
 ( (CP-QUE (IP-SUB (CODING-IP-SUB z:z:z:z:1630:rel)
 		  (BEPI Er-vera)
 		  (NP-SBJ (PRO-N það-það))
@@ -4819,7 +4708,6 @@ yfir$-yfir $stigið-stígja hana-hún og-og drepið-drepa til-til fulls-fullur .
 /*
 0 :  28 CODING-IP-SUB-2, 29 1:sub:both:nomsbj:1650:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1650:nar)
 	  (NP-SBJ *exp*)
 	  (VBPI Kemur-koma)
@@ -4852,7 +4740,6 @@ næst-nærri glugga$-gluggi $num-hinn í-í mínu-minn vanasæti-vanasæti .-.
 /*
 0 :  39 CODING-IP-INF-2, 40 1:z:both:gapsbj:1659:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1659:bio)
 	  (CONJ og-og)
 	  (NP-TMP (NS-D stundum-stund)
@@ -4892,7 +4779,6 @@ skuli-skulu verða-verða .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1661:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1661:bio)
 	  (CONJ en-en)
 	  (NP-SBJ (PRO-N hann-hann))
@@ -4921,7 +4807,6 @@ Nokkrir-nokkur vildu-vilja á$-á $þyngja-þyngja mér-ég ,-,
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1661:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1661:bio)
 	  (CODE <P_56>)
 	  (NP-SBJ (Q-N Nokkrir-nokkur))
@@ -4940,7 +4825,6 @@ skildvakt-skildvakt .-.
 /*
 0 :  13 CODING-IP-SUB, 14 1:sub:both:pronsbj:1661:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1661:bio)
 	  (NP-SBJ (PRO-N Hann-hann))
 	  (VBPI segir-segja)
@@ -4973,7 +4857,6 @@ vitstola-vitstola verið-vera .-.
 /*
 0 :  23 CODING-IP-SUB-1, 24 1:sub:both:pronsbj:1661:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:1661:bio)
 	  (NP-SBJ (PRO-N Hann-hann))
 	  (VBPI spyr-spyrja)
@@ -5011,7 +4894,6 @@ fá-fá yfir$-yfir $bugað-buga .-. "-"
 /*
 0 :  32 CODING-IP-SUB, 33 1:sub:both:nomsbj:1675:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1675:nar)
 	  (CONJ en-en)
 	  (NP-SBJ (PRO-N þú-þú))
@@ -5057,7 +4939,6 @@ með-með haglegum-haglegur skurði-skurður ,-, því-það eg-ég veit-vita a�
 /*
 0 :  5 CODING-IP-MAT-SPE-1, 6 1:mat:both:pronsbj:1675:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1675:nar)
 	      (IP-MAT-SPE-1 (CODING-IP-MAT-SPE-1 1:mat:both:pronsbj:1675:nar)
 			    (MDPI skal$-skulu)
@@ -5096,7 +4977,6 @@ $unnið-vinna af-af vizku-viska þinni-þinn ,-,
 /*
 0 :  32 CODING-IP-MAT-SPE, 33 1:mat:both:pronsbj:1675:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1675:nar)
 	  (CONJ og-og)
 	  (ADVP (NP (PRO-D því-það))
@@ -5132,7 +5012,6 @@ setja-setja .-.
 /*
 0 :  15 CODING-IP-SUB, 16 1:sub:both:pronsbj:1675:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1675:bio)
 	  (CONJ og-og)
 	  (VBDI kvað-kveða)
@@ -5155,7 +5034,6 @@ ofmikið-ofmikill óveður-óveður hefði-hafa þá-hann að$-að $skilið-skil
 /*
 0 :  51 CODING-IP-SUB, 52 1:sub:both:nomsbj:1675:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1675:bio)
 	  (CONJ en-en)
 	  (NP-SBJ (PRO-N þeir-hann))
@@ -5194,7 +5072,6 @@ langt-langt hann-hann hafi-hafa á$-á $sett-setja sér-sig að-að reisa-reisa 
 /*
 0 :  53 CODING-IP-SUB, 54 1:sub:both:pronsbj:1675:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:nomsbj:1675:bio)
 	  (NP-TMP (ONE-A Einn-einn)
 		  (N-A dag-dagur)
@@ -5234,7 +5111,6 @@ veraldar$-veröld $innar-hinn .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:z:1720:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:z:1720:rel)
 	  (PP-LFD (P 0)
 		  (NP (PRO-D Því-það)
@@ -5280,7 +5156,6 @@ vara-vara svo-svo skamma-skammur stund-stund ,-,
 /*
 0 :  14 CODING-IP-SUB, 15 1:sub:both:nomsbj:1720:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1720:rel)
 	  (PP-LFD (P 0)
 		  (NP (PRO-D því-það)
@@ -5337,7 +5212,6 @@ sínum-sinn syni-sonur ,-,
 /*
 0 :  231 CODING-IP-SUB, 232 1:sub:both:nomsbj:1720:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1720:rel)
 	  (NP-SBJ (D-N Sú-sá)
 		  (CP-THT-PRN *ICH*-1))
@@ -5453,7 +5327,6 @@ kostað-kosta öngvu-enginn minna-lítill erfiði-erfiði að-að corrigera-corr
 /*
 0 :  346 CODING-IP-SUB, 347 1:sub:both:pronsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1725:nar)
 	  (NP-SBJ (NPR-D Herra-herra) (NPR-D Ólafi-ólafur) (NPR-D Hjaltasyni-hjaltason))
 	  (BEPI er-vera)
@@ -5599,7 +5472,6 @@ virði-virði .-.
 /*
 0 :  25 CODING-IP-SUB, 26 1:sub:both:nomsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1725:nar)
 	  (CONJ Og-og)
 	  (PP (ADV þar-þar)
@@ -5637,7 +5509,6 @@ eftir-eftir þann-sá dag-dagur .-.
 /*
 0 :  19 CODING-IP-SUB, 20 1:sub:both:nomsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:z:1725:nar)
 	  (NP-TMP (FW Anno-anno) (NUM-A 1624-1624))
 	  (RP á$-á)
@@ -5669,7 +5540,6 @@ til-til keypta-kaupa í-í Skagafirði-skagafjörður .-.
 /*
 0 :  14 CODING-IP-SUB, 15 1:sub:both:gapsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1725:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *exp*)
@@ -5713,7 +5583,6 @@ hér-hér að-að út$-út $rétta-rétta og-og leiðrétta-leiðrétta .-.
 /*
 0 :  34 CODING-IP-SUB, 35 1:sub:both:pronsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:1725:nar)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -5778,7 +5647,6 @@ Og-og bauð-bjóða sig-sig til-til að-að standa-standa lög-lög og-og rétt-
 /*
 0 :  39 CODING-IP-SUB, 40 1:sub:both:nomsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:1725:nar)
 	  (CONJ Og-og)
 	  (NP-SBJ *con*)
@@ -5823,7 +5691,6 @@ kristfjárjarðir-kristfjárjörð eða-eða fátækragóss-fátækragóss ,-, m
 /*
 0 :  245 CODING-IP-SUB, 246 1:sub:both:nomsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1725:nar)
 	  (IP-MAT-1 (CODING-IP-MAT-1 z:z:z:z:1725:nar)
 		    (NP-SBJ (PRO-N Hann-hann))
@@ -5948,7 +5815,6 @@ væri-vera .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1725:nar)
 	  (NP-SBJ (PRO-N Þeir-hann))
 	  (MDDS skyldu-skulu)
@@ -5992,7 +5858,6 @@ aflausnar-aflausn .-.
 /*
 0 :  82 CODING-IP-SUB, 83 1:sub:both:nomsbj:1725:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1725:nar)
 	  (IP-MAT-1 (CODING-IP-MAT-1 0:mat:posobj:nomsbj:1725:nar)
 		    (PP (ADV Hér-hér)
@@ -6041,7 +5906,6 @@ svo-svo dreissuglega-dreissuglega forsmáði-forsmá ,-, var-vera mér-ég
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1745:nar)
 	  (NP-SBJ (NP-POS (N-G Réttar$-réttur) (D-G $ins-hinn))
 		  (N-N rannsókn-rannsókn)
@@ -6071,7 +5935,6 @@ $klagað-klaga og-og óskað-óska refsingar-refsing ;-;
 /*
 0 :  5 CODING-IP-MAT-1, 6 1:mat:both:nomsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1745:nar)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:both:nomsbj:1745:nar)
 		    (NP-SBJ (D-N Sá-sá)
@@ -6100,7 +5963,6 @@ hefði-hafa dauð$-dauði $inn-hinn yfir$-yfir $fallið-falla hann-hann .-.
 /*
 0 :  72 CODING-IP-SUB, 73 1:sub:both:nomsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:1745:nar)
 	  (NP-SBJ (PRO-N Hann-hann))
 	  (VBDI andsvaraði-andsvara)
@@ -6145,7 +6007,6 @@ og-og hafði-hafa hann-hann það-það út$-út $staðið-standa ;-;
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1745:nar)
 	  (CONJ og-og)
 	  (HVDI hafði-hafa)
@@ -6168,7 +6029,6 @@ frá-frá sannleik$-sannleikur $num-hinn ;-;
 /*
 0 :  37 CODING-IP-SUB, 38 1:sub:both:nomsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1745:nar)
 	  (CONJ En-en)
 	  (NP-LFD (CP-FRL (WNP-1 (WPRO-N hvað-hver))
@@ -6240,7 +6100,6 @@ $ina-hinn hið-hinn kostgæfilegasta-kostgæfilega ;-;
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1745:nar)
 	  (CP-ADV-LFD (IP-SUB (CODING-IP-SUB z:z:z:z:1745:nar)
 			      (BEPS Sé-vera)
@@ -6311,7 +6170,6 @@ andar-andi ,-,
 /*
 0 :  100 CODING-IP-SUB, 101 1:sub:both:pronsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1745:nar)
 	  (CONJ en-en)
 	  (ADVP-TMP-LFD (ADV þá-þá)
@@ -6418,7 +6276,6 @@ hann-hann hefði-hafa sett-setja mig-ég til-til að-að vera-vera einn-einn af-
 /*
 0 :  13 CODING-IP-SUB, 14 1:sub:both:pronsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1745:nar)
 	  (CONJ Og-og)
 	  (PP-LFD (P svo-svo)
@@ -6476,7 +6333,6 @@ væri-vera það-það einn-einn æverandi-æverandi máni-máni ,-,
 /*
 0 :  83 CODING-IP-SUB, 84 1:sub:both:z:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1745:nar)
 	  (NP-ADV-LFD (PRO-N Það-það)
 		      (CP-REL (WNP-1 0)
@@ -6600,7 +6456,6 @@ leggur-leggja á-á úrskurð$-úrskurður $inn-hinn .-.
 /*
 0 :  46 CODING-IP-SUB, 47 1:sub:both:pronsbj:1745:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1745:nar)
 	  (LS (NUM-N 2.-2.))
 	  (CODE </paren>)
@@ -6702,7 +6557,6 @@ betur-vel .-. "-"
 /*
 0 :  39 CODING-IP-SUB-SPE, 40 1:sub:both:pronsbj:1790:nar
 */
-
 ( (IP-IMP-SPE (CODING-IP-IMP-SPE z:z:z:gapsbj:1790:nar)
 	      (CONJ og-og)
 	      (VBPI leyfið-leyfa)
@@ -6742,7 +6596,6 @@ trúarbrögð-trúarbragð sem-sem hann-hann hafði-hafa sér-sig út$-út $vali
 /*
 0 :  110 CODING-IP-SUB, 111 1:sub:both:pronsbj:1790:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:1790:nar)
 	  (VBDI Innti-inna)
 	  (NP-SBJ (PRO-N hann-hann))
@@ -6799,7 +6652,6 @@ eftir-eftir jól$-jól $in-hinn .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:gapsbj:1791:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:gapsbj:1791:bio)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -6841,7 +6693,6 @@ vildi-vilja fyrir$-fyrir $koma-koma mér-ég .-.
 /*
 0 :  113 CODING-IP-SUB, 114 1:sub:both:nomsbj:1791:bio
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1791:bio)
 	  (ADVP-LOC (ADV Hér-hér))
 	  (MDPI vil-vilja)
@@ -6903,7 +6754,6 @@ meira-mikill fyrir-fyrir svik-svik sín-sinn og-og vélræði-vélræði .-.
 /*
 0 :  74 CODING-IP-SUB-SPE, 75 1:sub:both:pronsbj:1830:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1830:nar)
 	      (BEPI Er-vera)
 	      (ALSO og-og)
@@ -6956,7 +6806,6 @@ $ina-hinn öðruvísi-öðruvísi ,-,
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1850:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1850:nar)
 	  (NP-SBJ (PRO-N Ég-ég))
 	  (MDPI get-geta)
@@ -6977,7 +6826,6 @@ $sett-setja sér-sig að-að fara-fara ,-,
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1850:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1850:nar)
 	  (NP-SBJ (PRO-N Þær-hún)
 		  (NP-PRN (NS-N mæðgur$-mæðga)
@@ -7003,7 +6851,6 @@ hugsa-hugsa ég-ég .-.
 /*
 0 :  28 CODING-IP-SUB-SPE, 29 1:sub:both:pronsbj:1850:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1850:nar)
 	      (IP-MAT-SPE-1 (CODING-IP-MAT-SPE-1 z:mat:z:pronsbj:1850:nar)
 			    (NP-SBJ (PRO-N þú-þú))
@@ -7042,7 +6889,6 @@ tvisvar-tvisvar ,-, munt-munu þú-þú af$-af $neita-neita mér-ég þrisvar-þ
 /*
 0 :  33 CODING-IP-SUB-SPE, 34 1:sub:both:pronsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1859:rel)
 	  (NP-SBJ (NPR-N Jesús-jesús))
 	  (VBDI sagði-segja)
@@ -7087,7 +6933,6 @@ með-með þér-þú ,-, skal-skulu ég-ég ekki-ekki af$-af $neita-neita þér-
 /*
 0 :  15 CODING-IP-MAT-SPE, 16 1:mat:both:pronsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1859:rel)
 	  (CONJ og-og)
 	  (NP-SBJ *con*)
@@ -7124,7 +6969,6 @@ ekki-ekki yfir$-yfir $gefið-gefa þig-þú og-og flúið-flýja frá-frá þér
 /*
 0 :  23 CODING-IP-SUB-2, 24 1:sub:both:pronsbj:1859:rel
 */
-
 ( (CP-EXL (INTJ Æ-æ)
 	  (, ,-,)
 	  (NP-VOC (NPR-N Drottinn-drottinn)
@@ -7155,7 +6999,6 @@ hafi-hafa reynst-reyna ótrúr-ótrúr ;-;
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1859:rel)
 	  (NP-SBJ (PRO-N Þú-þú))
 	  (HVPI hefir-hafa)
@@ -7181,7 +7024,6 @@ $neitað-neita þér-þú í-í hugsunum-hugsun ,-, orðum-orð og-og verkum-ver
 /*
 0 :  15 CODING-IP-SUB-SPE, 16 1:sub:both:pronsbj:1859:rel
 */
-
 ( (CP-QUE-SPE (INTJ Ó-ó)
 	      (, ,-,)
 	      (NP-VOC (NPR-N Jesú-jesú))
@@ -7208,7 +7050,6 @@ $tu-þú af$-af $neita-neita mér-ég þrisvar-þrisvar "-" .-.
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1859:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1859:rel)
 	      (ADVP-TMP (ADVR Áður-áður)
 			(PP (P en-en)
@@ -7238,7 +7079,6 @@ mun$-munu $tu-þú af$-af $neita-neita mér-ég þrisvar-þrisvar "-" ;-; en-en
 /*
 0 :  9 CODING-IP-MAT-1, 10 1:mat:both:pronsbj:1859:rel
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1859:rel)
 	      (, :-:)
 	      (" "-")
@@ -7281,7 +7121,6 @@ allir-allur ,-, sem-sem verða-verða fyrir-fyrir einhverjum-einhver
 /*
 0 :  5 CODING-IP-MAT-1, 6 1:mat:both:nomsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1859:rel)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:both:nomsbj:1859:rel)
 		    (CONJ en-en)
@@ -7337,7 +7176,6 @@ grýta-grýta hann-hann ;-;
 /*
 0 :  5 CODING-IP-MAT-1, 6 1:mat:both:nomsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1859:rel)
 	  (IP-MAT-1 (CODING-IP-MAT-1 1:mat:both:nomsbj:1859:rel)
 		    (PP (NP (PRO-G Þess-það))
@@ -7378,7 +7216,6 @@ yfirsjónir-yfirsjón ,-,
 /*
 0 :  89 CODING-IP-SUB, 90 1:sub:both:gapsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1859:rel)
 	  (PP-LFD (P Ef-ef)
 		  (CP-ADV (C 0)
@@ -7445,7 +7282,6 @@ föður-faðir til-til dýrðar-dýrð "-" Filipp.-filipp. 2.-2. ,-,
 /*
 0 :  48 CODING-IP-SUB-SPE-1, 49 1:sub:both:nomsbj:1859:rel
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1859:rel)
 	  (INTJ Já-já)
 	  (, ,-,)
@@ -7549,7 +7385,6 @@ vor-vor allra-allur .-. "-"
 /*
 0 :  40 CODING-IP-SUB, 41 1:sub:both:pronsbj:1861:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1861:nar)
 	  (IP-MAT-1 (CODING-IP-MAT-1 0:mat:posobj:pronsbj:1861:nar)
 		    (MDPI Vil-vilja)
@@ -7610,7 +7445,6 @@ með-með honum-hann sé-vera o.-og s.-svo frv.-framvegis
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1882:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1882:nar)
 	      (NP-SBJ (PRO-N ég-ég))
 	      (MDPI vil-vilja)
@@ -7640,7 +7474,6 @@ yngismann-yngismaður ,-, minn-minn eigin-eiginn náfrænda-náfrændi ,-, hér-
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1882:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1882:nar)
 	      (NP-OB1 (D-A Þessa-þessi) (N-A meðhjálp-meðhjálp))
 	      (HVPI hef-hafa)
@@ -7678,7 +7511,6 @@ ekki-ekki fyrir$-fyrir $hugað-huga .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:1882:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:1882:nar)
 	  (CP-ADV (IP-SUB (CODING-IP-SUB z:invq:pronobj:pronsbj:1882:nar)
 			  (RDPS Verði-verða)
@@ -7706,7 +7538,6 @@ eða-eða hversu-hversu skal-skulu maður-maður út$-út $vega-vega sér-sig
 /*
 0 :  8 CODING-IP-SUB-SPE, 9 1:sub:both:z:1882:nar
 */
-
 ( (CP-QUE-SPE (CONJ eða-eða)
 	      (WADVP-1 (WADV hversu-hversu))
 	      (IP-SUB-SPE (CODING-IP-SUB-SPE 1:sub:both:z:1882:nar)
@@ -7728,7 +7559,6 @@ lönd-land sín-sinn laus-laus við-við alla-allur þegnskyldu-þegnskylda ,-,
 /*
 0 :  2 CODING-IP-MAT-SPE, 3 1:mat:both:pronsbj:1882:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1882:nar)
 	      (" "-")
 	      (ADVP (ADV enda-enda))
@@ -7766,7 +7596,6 @@ smátt-smátt og-og smátt-smátt ,-, með-með lagni-lagni og-og lempni-lempni 
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:nomsbj:1907:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:nomsbj:1907:nar)
 	  (NP-SBJ (NPR-N Þorgeir-þorgeir))
 	  (HVDI hafði-hafa)
@@ -7802,7 +7631,6 @@ hvenær-hvenær sem-sem hann-hann gat-geta því-það við-við komið-koma .-.
 /*
 0 :  35 CODING-IP-SUB, 36 1:sub:both:pronsbj:1907:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:nomsbj:1907:nar)
 	  (NP-OB1 (D-A Þessar-þessi)
 		  (NS-A grundvallarreglur-grundvallarregla)
@@ -7831,7 +7659,6 @@ hennar-hún að$-að $njótandi-njóta ?-?
 /*
 0 :  18 CODING-IP-SUB, 19 1:sub:both:gapsbj:1920:rel
 */
-
 ( (CP-QUE (CODE *XXX*)
 	  (NP-LFD (NS-G Huggunar-huggun)
 		  (NP-POS (NPR-G Krists-kristur)))
@@ -7860,7 +7687,6 @@ ljóðlist-ljóðlist "-"
 /*
 0 :  17 CODING-IP-SUB, 18 1:sub:both:gapsbj:1985:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:mat:z:nomsbj:1985:nar)
 	  (NP-SBJ (NPR-N Heimir-heimir)
 		  (NPR-N Viðar-viðar)
@@ -7916,7 +7742,6 @@ gæti-geta reyndar-reyndar varla-varla í$-í $myndað-mynda mér-ég hvað-hver
 /*
 0 :  67 CODING-IP-SUB, 68 1:sub:both:pronsbj:1985:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
 	  (NP-SBJ *con*)
 	  (ADVP (ADVR heldur-heldur))
@@ -7977,7 +7802,6 @@ sem-sem á-á eftir-eftir gekk-ganga ,-, að-að einhverjar-einhver illar-illur
 /*
 0 :  55 CODING-IP-SUB-SPE, 56 1:sub:both:nomsbj:1985:nar
 */
-
 ( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:1985:nar)
 	      (NP-SBJ (PRO-D Mér-ég))
 	      (VBPI finnst-finna)
@@ -8018,7 +7842,6 @@ $inn-hinn sæi-sjá auglýsingu-auglýsing mína-minn ,-,
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:gapsbj:1985:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:gapsbj:1985:nar)
 	  (NP-SBJ *exp*)
 	  (PP (P Í-í)
@@ -8052,7 +7875,6 @@ hafði-hafa nokkurn-nokkur tíma-tími getað-geta í$-í $myndað-mynda mér-é
 /*
 0 :  54 CODING-IP-SUB, 55 1:sub:both:pronsbj:1985:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
 	  (NP-SBJ (N-N Útlit$-útlit) (D-N $ið-hinn))
 	  (VBDI stemmdi-stemma)
@@ -8094,7 +7916,6 @@ sem-sem var-vera fyrir-fyrir hendi-hönd .-.
 /*
 0 :  61 CODING-IP-SUB, 62 1:sub:both:pronsbj:1985:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
 	  (NP-SBJ *exp*)
 	  (PP (P Ef-ef)
@@ -8155,7 +7976,6 @@ sjálfum-sjálfur mér-ég .-.
 /*
 0 :  84 CODING-IP-SUB, 85 1:sub:both:pronsbj:1985:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
 	  (ADVP (ADV Kannski-kannski))
 	  (BEPI er-vera)
@@ -8210,7 +8030,6 @@ Snorra-snorri úr-úr landi-land ,-, út-út til-til sín-sig .-.
 /*
 0 :  2 CODING-IP-MAT, 3 1:mat:both:pronsbj:2008:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT 1:mat:both:pronsbj:2008:nar)
 	  (NP-SBJ (PRO-N hann-hann))
 	  (HVPI hefur-hafa)
@@ -8248,7 +8067,6 @@ ofjarl-ofjarl sinn-sinn í-í Eyjólfi-eyjólfur Þorsteinssyni-þorsteinsson ;-
 /*
 0 :  17 CODING-IP-SUB, 18 1:sub:both:gapsbj:2008:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
 	  (CONJ og-og)
 	  (NP-SBJ (D-N þeir-sá)
@@ -8289,7 +8107,6 @@ lágra-lágur ,-, Jafnvel-jafnvel biskupa-biskup .-.
 /*
 0 :  23 CODING-IP-SUB, 24 1:sub:both:pronsbj:2008:nar
 */
-
 ( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
 	  (ADVP (ADV kannski-kannski))
 	  (BEPI er-vera)
