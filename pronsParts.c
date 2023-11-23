@@ -63,11 +63,11 @@ coding_query:
 
 4: {
   
- gapsbj: ((IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM idomsonly \**) AND (IP* idoms object)) OR (IP-*-*|IP-*=* idoms !NP-SBJ|NP-NOM)
+ gapsbj: ((IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly \**) AND (IP* idoms object)) OR (IP-*-*|IP-*=* idoms !NP-SBJ*)
      
-     pronsbj: (IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM idomsonly PRO*) AND (IP* idoms object)
+     pronsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly PRO*) AND (IP* idoms object)
     
-     nomsbj: (IP* idoms NP-SBJ|NP-NOM) AND (NP-SBJ|NP-NOM doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object) 
+     nomsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object) 
     
     z: ELSE
     }

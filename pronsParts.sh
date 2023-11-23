@@ -7,6 +7,7 @@ $CS pronsParts.c $icepahc -out outputs/pronsParts.ice.nodates.cod
 
 echo "done with query on IcePaHC"
 
+rm outputs/pronsParts.ice.raw.cod
 $CS dateGenre.ice.c outputs/pronsParts.ice.nodates.cod -out outputs/pronsParts.ice.raw.cod
 
 echo "done with dating IcePaHC data"
