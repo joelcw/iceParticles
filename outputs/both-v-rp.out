@@ -1,0 +1,170 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Thu Jan 18 15:25:25 GMT 2024
+
+command file:     both-v-rp.q
+input file:       outputs/pronsParts.ice.raw.cod
+output file:      outputs/both-v-rp.out
+
+definition file:  verbtopic.def
+node:   IP*
+query:   IP*  idoms  CODING-IP* 
+   AND  (CODING-IP* column  3  both) 
+  AND  (CODING-IP* column  1  \1) 
+  AND  IP*  idoms 
+   *VB|V*N*|*HV|H*N*|*DO|D*N*|*BE|B*N*|*AX|AXN*|*RD|R*N*|HAG*|DAG*|BAG*|RAG*|VAG* 
+   AND  IP*  idoms  RP 
+   AND 
+   *VB|V*N*|*HV|H*N*|*DO|D*N*|*BE|B*N*|*AX|AXN*|*RD|R*N*|HAG*|DAG*|BAG*|RAG*|VAG*  precedes  RP   
+*/
+/*
+HEADER:
+source file:  pronsParts.ice.raw.cod
+*/
+/~*
+og-og mælti-mæla síðan-síðan :-: Nú-nú eftir-eftir ykkrum-ykkar góðum-góður
+vilja-vilji og-og ástsamlegri-ástsamlegur gjöf-gjöf er-er þið-þú viljið-vilja
+veita-veita mér-ég þá-þá vil-vilja eg-ég hana-hún þiggja-þiggja af-af ykkur-þú
+til-til ,-, með-með því-sá móti-mót að-að vér-ég bræður-bróðir allir-allur
+viljum-vilja arbeiða-arbeiða í-í guðs-guð þjónustu-þjónusta allan-allur
+tíð-tíð svo-svo að-að heilög-heilagur kristileg-kristilegur trú-trú mætti-mega
+nokkuð-nokkur að-að heldur-heldur aukast-auka og-og vitkast-vitka það-það
+vér-ég mættum-mega til-til leggja-leggja ,-,
+(1525.GEORGIUS.NAR-REL,.49)
+*~/
+/*
+15 IP-MAT-SPE:  15 IP-MAT-SPE, 16 CODING-IP-MAT-SPE
+, 17 1:mat:both:pronsbj:1525:nar, 71 VB, 79 RP
+*/
+( (CODING-IP-MAT z:z:z:z:1525:nar)(IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:pronsbj:1525:nar)
+	      (ADVP-TMP (ADV Nú-nú))
+	      (PP-LFD (P eftir-eftir)
+		      (NP (NP-POS (PRO-D ykkrum-ykkar))
+			  (ADJ-D góðum-góður)
+			  (N-D vilja-vilji)
+			  (CONJP (CONJ og-og)
+				 (NX (ADJ-D ástsamlegri-ástsamlegur) (N-D gjöf-gjöf)))
+			  (CP-REL-SPE (WNP-1 0)
+				      (C er-er)
+				      (IP-SUB-SPE RMV:0:sub:pronobj:pronsbj:1525:nar_*T*-1_þið-þú...))))
+	      (ADVP-TMP-RSP (ADV þá-þá))
+	      (MDPI vil-vilja)
+	      (NP-SBJ (PRO-N eg-ég))
+	      (NP-OB1 (PRO-A hana-hún))
+	      (VB þiggja-þiggja)
+	      (PP (P af-af)
+		  (NP (PRO-D ykkur-þú)))
+	      (RP til-til)
+	      (, ,-,)
+	      (PP (P með-með)
+		  (NP (D-D því-sá)
+		      (N-D móti-mót)
+		      (CP-THT-SPE-PRN (C að-að)
+				      (IP-SUB-SPE RMV:z:z:z:z:1525:nar_vér-ég_bræður-bróðir...)))))
+  (ID 1525.GEORGIUS.NAR-REL,.49)) 
+
+/~*
+Þeir-hann voru-vera að-að tölu-tala 72-sjötíuogtveir og-og öðrum-annar
+herrum-herra og-og máttugum-máttugur höfðingjum-höfðingi að-að leita-leita
+til-til ráðs-ráð við-við þá-hann hvað-hver þeir-hann skyldu-skulu gjöra-gera
+við-við sankti-sankti Georgíum-georgíus því-það hann-hann ætlaði-ætla að-að
+hungur-hungur mundi-munu löngu-langur hafa-hafa fyrir$-fyrir $komið-koma
+honum-hann .-.
+(1525.GEORGIUS.NAR-REL,.609)
+*~/
+/*
+106 IP-SUB:  106 IP-SUB, 107 CODING-IP-SUB, 108 1:sub:both:nomsbj:1525:nar
+, 117 HV, 119 RP
+*/
+( (CODING-IP-SUB z:z:z:z:1525:nar)(IP-SUB (CODING-IP-SUB 1:sub:both:nomsbj:1525:nar)
+	  (NP-SBJ (N-N hungur-hungur))
+	  (MDDS mundi-munu)
+	  (NP-MSR (ADJ-A löngu-langur))
+	  (HV hafa-hafa)
+	  (RP fyrir$-fyrir)
+	  (VBN $komið-koma)
+	  (NP-OB1 (PRO-D honum-hann)))
+  (ID 1525.GEORGIUS.NAR-REL,.609)) 
+
+/~*
+og-og hygg-hyggja eg-ég án-án efa-efi að-að minn-minn guð-guð muni-munu
+hafa-hafa út$-út $valið-velja sér-sig einvirðulega-einvirðulega þenna-þessi
+stað-staður sér-sig til-til dýrkanar-dýrkan .-.
+(1525.GEORGIUS.NAR-REL,.627)
+*~/
+/*
+20 IP-SUB-SPE:  20 IP-SUB-SPE, 21 CODING-IP-SUB-SPE
+, 22 1:sub:both:nomsbj:1525:nar, 31 HV, 33 RP
+*/
+( (CODING-IP-MAT-SPE z:z:z:z:1525:nar)(IP-SUB-SPE (CODING-IP-SUB-SPE 1:sub:both:nomsbj:1525:nar)
+	      (NP-SBJ (NP-POS (PRO-N minn-minn))
+		      (N-N guð-guð))
+	      (MDPS muni-munu)
+	      (HV hafa-hafa)
+	      (RP út$-út)
+	      (VBN $valið-velja)
+	      (NP-OB2 (PRO-D sér-sig))
+	      (ADVP (ADV einvirðulega-einvirðulega))
+	      (NP-OB1 (D-A þenna-þessi) (N-A stað-staður))
+	      (PP (NP-1 (PRO-D sér-sig))
+		  (P til-til)
+		  (NP (N-G dýrkanar-dýrkan)
+		      (NP-COM *ICH*-1))))
+  (ID 1525.GEORGIUS.NAR-REL,.627)) 
+
+/~*
+En-en þó-þó skal-skulu allt-allur þetta-þessi vera-vera þér-þú upp-upp
+gefið-gefa fyrir-fyrir guðs-guð skuld-skuld .-.
+(1525.GEORGIUS.NAR-REL,.809)
+*~/
+/*
+1 IP-MAT-SPE:  1 IP-MAT-SPE, 2 CODING-IP-MAT-SPE, 3 1:mat:both:nomsbj:1525:nar
+, 16 BE, 21 RP
+*/
+( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:both:nomsbj:1525:nar)
+	      (CONJ En-en)
+	      (ADVP (ADV þó-þó))
+	      (MDPI skal-skulu)
+	      (NP-SBJ (Q-N allt-allur) (D-N þetta-þessi))
+	      (BE vera-vera)
+	      (NP-OB2 (PRO-D þér-þú))
+	      (RP upp-upp)
+	      (VAN gefið-gefa)
+	      (PP (P fyrir-fyrir)
+		  (NP (NP-POS (NPR-G guðs-guð))
+		      (N-D skuld-skuld)))
+	      (. .-.))
+  (ID 1525.GEORGIUS.NAR-REL,.809)) 
+
+/~*
+Huggunar-huggun Krists-kristur hver-hver vill-vilja ekki-ekki verða-verða
+hennar-hún að$-að $njótandi-njóta ?-?
+(1920.ARIN.REL-SER,.564)
+*~/
+/*
+17 IP-SUB:  17 IP-SUB, 18 CODING-IP-SUB, 19 1:sub:both:gapsbj:1920:rel, 26 RD
+, 31 RP
+*/
+( (IP-SUB (CODING-IP-SUB 1:sub:both:gapsbj:1920:rel)
+	  (NP-SBJ *T*-1)
+	  (MDPI vill-vilja)
+	  (NEG ekki-ekki)
+	  (RD verða-verða)
+	  (NP-OB1-RSP (PRO-G hennar-hún))
+	  (RP að$-að)
+	  (VAG $njótandi-njóta))
+  (ID 1920.ARIN.REL-SER,.564)) 
+
+/*
+FOOTER
+  source file, hits/tokens/total
+  pronsParts.ice.raw.cod	5/5/73225
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  pronsParts.ice.raw.cod	5/5/73225
+whole search, hits/tokens/total
+		5/5/73225
+*/

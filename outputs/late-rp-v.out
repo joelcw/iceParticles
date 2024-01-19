@@ -1,0 +1,2289 @@
+/*
+PREFACE:  
+Copyright 2010 Beth Randall
+Date:  Fri Jan 19 09:40:40 GMT 2024
+
+command file:     late-rp-v.q
+input file:       outputs/pronsParts.ice.raw.cod
+output file:      outputs/late-rp-v.out
+
+node:   CODING*
+query:  (CODING-IP* column  3  rp) 
+  AND  (CODING-IP* column  1  \1) 
+  AND  (CODING-IP* column  5  \1\9*|\2*) 
+*/
+/*
+HEADER:
+source file:  pronsParts.ice.raw.cod
+*/
+/~*
+nú-nú væri-vera hann-hann við$-við $búinn-búa .-.
+(1902.FOSSAR.NAR-FIC,.726)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1902:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1902:nar)
+	  (ADVP-TMP (ADV nú-nú))
+	  (BEDS væri-vera)
+	  (NP-SBJ (PRO-N hann-hann))
+	  (RP við$-við)
+	  (VBN $búinn-búa)
+	  (. .-.))
+  (ID 1902.FOSSAR.NAR-FIC,.726))
+/~*
+Náttúra$-náttúra $n-hinn var-vera ekkert-enginn um$-um $breytt-breyta ,-,
+(1902.FOSSAR.NAR-FIC,.946)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1902:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1902:nar)
+	  (NP-SBJ (N-N Náttúra$-náttúra) (D-N $n-hinn))
+	  (BEDI var-vera)
+	  (NP-MSR (Q-N ekkert-enginn))
+	  (RP um$-um)
+	  (VAN $breytt-breyta)
+	  (. ,-,))
+  (ID 1902.FOSSAR.NAR-FIC,.946))
+/~*
+það-það hafði-hafa hann-hann ekki-ekki á$-á $rætt-ræða fyrri-fyrri .-.
+(1902.FOSSAR.NAR-FIC,.1236)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:pronsbj:1902:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:pronsbj:1902:nar)
+	  (NP-OB1 (PRO-A það-það))
+	  (HVDI hafði-hafa)
+	  (NP-SBJ (PRO-N hann-hann))
+	  (NEG ekki-ekki)
+	  (RP á$-á)
+	  (VBN $rætt-ræða)
+	  (NP-TMP (ADJR-A fyrri-fyrri))
+	  (. .-.))
+  (ID 1902.FOSSAR.NAR-FIC,.1236))
+/~*
+ekki-ekki gæti-geta hún-hún af$-af $borið-bera að-að skilja-skilja við-við
+börn$-barn $in-hinn - blessuð-blessaður ,-, litlu-lítill börn$-barn $in-hinn
+sín-sinn .-.
+(1902.FOSSAR.NAR-FIC,.1499)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1902:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1902:nar)
+	  (NEG ekki-ekki)
+	  (MDDS gæti-geta)
+	  (NP-SBJ (PRO-N hún-hún))
+	  (RP af$-af)
+	  (VBN $borið-bera)
+	  (IP-INF (CODING-IP-INF z:z:z:z:1902:nar)
+		  (TO að-að)
+		  (VB skilja-skilja)
+		  (PP (P við-við)
+		      (NP (NS-A börn$-barn)
+			  (D-A $in-hinn)
+			  (, -)
+			  (NP-PRN (ADJP (ADJ-A blessuð-blessaður) (, ,-,) (ADJ-A litlu-lítill))
+				  (NS-A börn$-barn)
+				  (D-A $in-hinn)
+				  (NP-POS (PRO-A sín-sinn))))))
+	  (. .-.))
+  (ID 1902.FOSSAR.NAR-FIC,.1499))
+/~*
+Eins-eins og-og áður-áður er-vera um-um getið-geta ,-, var-vera verið-vera
+að-að af$-af $ferma-ferma gufuskip-gufuskip fram-fram undan-undan ytri-ytri
+kaupstað$-kaupstaður $num-hinn .-.
+(1907.LEYSING.NAR-FIC,.459)
+*~/
+/*
+0 :  18 CODING-IP-SUB, 19 1:sub:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1907:nar)
+	  (NP-SBJ *exp*)
+	  (ADVP (ADVR Eins-eins)
+		(PP (P og-og)
+		    (CP-CMP (WADVP-1 0)
+			    (C 0)
+			    (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1907:nar)
+				    (ADVP *T*-1)
+				    (NP-SBJ *exp*)
+				    (ADVP-TMP (ADVR áður-áður))
+				    (BEPI er-vera)
+				    (RP um-um)
+				    (VAN getið-geta)))))
+	  (, ,-,)
+	  (BEDI var-vera)
+	  (BAN verið-vera)
+	  (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+		  (TO að-að)
+		  (RP af$-af)
+		  (VB $ferma-ferma)
+		  (NP-OB1 (N-A gufuskip-gufuskip))
+		  (PP (RP fram-fram)
+		      (P undan-undan)
+		      (NP (ADJR-D ytri-ytri) (N-D kaupstað$-kaupstaður) (D-D $num-hinn))))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.459))
+/~*
+en-en var-vera svo-svo jafnan-jafnan reiðubúið-reiðubúinn að-að gera-gera
+þar-þar eitthvað-eitthvað til-til þægðar-þægð ,-, ef-ef því-það varð-verða
+við-við komið-koma ,-, til-til þess-það að-að verða-verða síður-síður
+rekið-reka burtu-burtu .-.
+(1907.LEYSING.NAR-FIC,.478)
+*~/
+/*
+0 :  47 CODING-IP-SUB, 48 1:sub:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1907:nar)
+	  (CONJ en-en)
+	  (NP-SBJ *con*)
+	  (BEDI var-vera)
+	  (ADVP-TMP (ADV svo-svo))
+	  (ADVP-TMP (ADV jafnan-jafnan))
+	  (ADJP (ADJ-N reiðubúið-reiðubúinn)
+		(IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+			(TO að-að)
+			(DO gera-gera)
+			(ADVP-LOC (ADV þar-þar))
+			(NP-OB1 (Q-A eitthvað-eitthvað))
+			(PP (P til-til)
+			    (NP (N-G þægðar-þægð)))
+			(, ,-,)
+			(PP (P ef-ef)
+			    (CP-ADV (C 0)
+				    (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1907:nar)
+					    (NP-SBJ (PRO-D því-það))
+					    (RDDI varð-verða)
+					    (RP við-við)
+					    (VAN komið-koma))))
+			(, ,-,)
+			(PP (P til-til)
+			    (NP (PRO-G þess-það)
+				(IP-INF-PRP (CODING-IP-INF-PRP z:z:z:gapsbj:1907:nar)
+					    (TO að-að)
+					    (RD verða-verða)
+					    (ADVP (ADVR síður-síður))
+					    (VAN rekið-reka)
+					    (ADVP-DIR (ADV burtu-burtu)))))))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.478))
+/~*
+Hann-hann var-vera upp$-upp $alinn-ala á-á meðal-meðal þeirra-hann
+(1907.LEYSING.NAR-FIC,.874)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1907:nar)
+	  (NP-SBJ (PRO-N Hann-hann))
+	  (BEDI var-vera)
+	  (RP upp$-upp)
+	  (VAN $alinn-ala)
+	  (PP (ADV á-á)
+	      (PP (P meðal-meðal)
+		  (NP (PRO-G þeirra-hann)))))
+  (ID 1907.LEYSING.NAR-FIC,.874))
+/~*
+Öllu-allur þessu-þessi hugðist-hyggja hann-hann að-að geta-geta fram-fram
+komið-koma með-með því-það fyrst-fyrr og-og fremst-fremur að-að gera-gera
+viðskifti-viðskifti landsmanna-landsmaður við-við verzlun$-verzlun $ina-hinn
+annars-annar eðlis-eðli en-en þau-það höfðu-hafa áður-áður verið-vera .-.
+(1907.LEYSING.NAR-FIC,.883)
+*~/
+/*
+0 :  15 CODING-IP-INF, 16 1:z:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1907:nar)
+	  (NP-1 (PRO-D Öllu-allur) (D-D þessu-þessi))
+	  (VBDI hugðist-hyggja)
+	  (NP-SBJ (PRO-N hann-hann))
+	  (IP-INF (CODING-IP-INF 1:z:rp:z:1907:nar)
+		  (NP-OB1 *ICH*-1)
+		  (TO að-að)
+		  (MD geta-geta)
+		  (RP fram-fram)
+		  (VBN komið-koma)
+		  (PP (P með-með)
+		      (NP (PRO-D því-það)
+			  (IP-INF *ICH*-2)))
+		  (ADVP (ADVS fyrst-fyrr) (C og-og) (ADVS fremst-fremur))
+		  (IP-INF-2 (CODING-IP-INF-2 z:z:z:gapsbj:1907:nar)
+			    (TO að-að)
+			    (DO gera-gera)
+			    (IP-SMC (CODING-IP-SMC z:z:z:z:1907:nar)
+				    (NP-SBJ (NS-A viðskifti-viðskifti)
+					    (NP-POS (NS-G landsmanna-landsmaður))
+					    (PP (P við-við)
+						(NP (N-A verzlun$-verzlun) (D-A $ina-hinn))))
+				    (NP-PRD (OTHER-G annars-annar)
+					    (N-G eðlis-eðli)
+					    (PP (P en-en)
+						(CP-CMP (WADVP-3 0)
+							(C 0)
+							(IP-SUB (CODING-IP-SUB z:z:z:z:1907:nar)
+								(ADVP *T*-3)
+								(NP-SBJ (PRO-N þau-það))
+								(HVDI höfðu-hafa)
+								(ADVP-TMP (ADVR áður-áður))
+								(BEN verið-vera))))))))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.883))
+/~*
+Skuldaverzlun$-skuldaverzlun $ina-hinn vildi-vilja hann-hann af$-af $nema-nema
+með-með öllu-allur .-.
+(1907.LEYSING.NAR-FIC,.886)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:pronsbj:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:pronsbj:1907:nar)
+	  (NP-OB1 (N-A Skuldaverzlun$-skuldaverzlun) (D-A $ina-hinn))
+	  (MDDI vildi-vilja)
+	  (NP-SBJ (PRO-N hann-hann))
+	  (RP af$-af)
+	  (VB $nema-nema)
+	  (PP (P með-með)
+	      (NP (Q-D öllu-allur)))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.886))
+/~*
+Ekki-ekki fór-fara hann-hann fyr-fyr á-á haust$-haust $in-hinn en-en
+vörur-vara hans-hann voru-vera upp$-upp $seldar-selja ,-, eða-eða því-sá
+sem-sem næst-nærri ,-,
+(1907.LEYSING.NAR-FIC,.980)
+*~/
+/*
+0 :  33 CODING-IP-SUB, 34 1:sub:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1907:nar)
+	  (NEG Ekki-ekki)
+	  (VBDI fór-fara)
+	  (NP-SBJ (PRO-N hann-hann))
+	  (ADVP-TMP (ADVR fyr-fyr)
+		    (PP *ICH*-1))
+	  (PP (P á-á)
+	      (NP (NS-A haust$-haust) (D-A $in-hinn)))
+	  (PP-1 (P en-en)
+		(CP-CMP (WADVP-2 0)
+			(C 0)
+			(IP-SUB (CODING-IP-SUB 1:sub:rp:z:1907:nar)
+				(ADVP-TMP *T*-2)
+				(NP-SBJ (NS-N vörur-vara)
+					(NP-POS (PRO-G hans-hann)))
+				(BEDI voru-vera)
+				(RP upp$-upp)
+				(VAN $seldar-selja)
+				(, ,-,)
+				(CONJ eða-eða)
+				(ADVP (NP (D-D því-sá))
+				      (CP-CMP (CODE *XXX*-unsure)
+					      (WNP-3 0)
+					      (C sem-sem)
+					      (IP-SUB (CODING-IP-SUB z:z:z:z:1907:nar)
+						      (ADVP (ADVS næst-nærri)
+							    (NP *T*-3))))))))
+	  (. ,-,))
+  (ID 1907.LEYSING.NAR-FIC,.980))
+/~*
+Jafnframt-jafnframt voru-vera þeir-hann á$-á $mintir-minna um-um að-að
+panta-panta sér-sig nóg-nógur til-til árs$-ár $ins-hinn ,-, svo-svo þeir-hann
+kæmust-koma af-af þar-þar til-til vörur-vara kæmu-koma aftur-aftur ,-, án-án
+þess-það að-að þurfa-þurfa að-að leita-leita til-til
+fastaverzlunar$-fastaverzlun $innar-hinn .-.
+(1907.LEYSING.NAR-FIC,.1127)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1907:nar)
+	  (ADVP (ADVR+ADV Jafnframt-jafnframt))
+	  (BEDI voru-vera)
+	  (NP-SBJ (PRO-N þeir-hann))
+	  (RP á$-á)
+	  (VAN $mintir-minna)
+	  (PP (P um-um)
+	      (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+		      (TO að-að)
+		      (VB panta-panta)
+		      (NP-OB2 (PRO-D sér-sig))
+		      (NP-OB1 (ADJ-A nóg-nógur))
+		      (PP (P til-til)
+			  (NP (N-G árs$-ár) (D-G $ins-hinn)))
+		      (, ,-,)
+		      (PP (P svo-svo)
+			  (CP-ADV (C 0)
+				  (IP-SUB (CODING-IP-SUB z:sub:z:z:1907:nar)
+					  (NP-SBJ (PRO-N þeir-hann))
+					  (VBDS kæmust-koma)
+					  (RP af-af)
+					  (PP (ADV þar-þar)
+					      (P til-til)
+					      (CP-ADV (C 0)
+						      (IP-SUB (CODING-IP-SUB z:z:z:z:1907:nar)
+							      (NP-SBJ (NS-N vörur-vara))
+							      (VBDS kæmu-koma)
+							      (ADVP (ADV aftur-aftur)))))
+					  (, ,-,)
+					  (PP (P án-án)
+					      (NP (PRO-G þess-það)
+						  (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+							  (TO að-að)
+							  (VB þurfa-þurfa)
+							  (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+								  (TO að-að)
+								  (VB leita-leita)
+								  (PP (P til-til)
+								      (NP (N-G fastaverzlunar$-fastaverzlun) (D-G $innar-hinn))))))))))))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.1127))
+/~*
+Yrði-verða því-það nú-nú fyrir$-fyrir $komið-koma ,-, væru-vera slíkar-slíkur
+hreyfingar-hreyfing niður-niður kveðnar-kveða fyrst-fyrr um-um sinn-sinn .-.
+(1907.LEYSING.NAR-FIC,.1196)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1907:nar
+0 :  6 CODING-IP-SUB, 7 1:invq:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1907:nar)
+	  (CP-ADV (IP-SUB (CODING-IP-SUB 1:invq:rp:z:1907:nar)
+			  (RDDS Yrði-verða)
+			  (NP-SBJ (PRO-D því-það))
+			  (ADVP-TMP (ADV nú-nú))
+			  (RP fyrir$-fyrir)
+			  (VAN $komið-koma)))
+	  (, ,-,)
+	  (BEDS væru-vera)
+	  (NP-SBJ (SUCH-N slíkar-slíkur) (NS-N hreyfingar-hreyfing))
+	  (RP niður-niður)
+	  (VAN kveðnar-kveða)
+	  (ADVP-TMP (ADVS fyrst-fyrr))
+	  (PP (P um-um)
+	      (NP (PRO-A sinn-sinn)))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.1196))
+/~*
+Honum-hann var-vera fyrir-fyrir lagt-leggja að-að selja-selja upp-upp
+hinar-hinn eldri-gamall birgðir-birgð og-og krefja-krefja inn-inn
+skuldir$-skuld $nar-hinn .-.
+(1907.LEYSING.NAR-FIC,.1316)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1907:nar)
+	  (NP-SBJ (PRO-D Honum-hann))
+	  (BEDI var-vera)
+	  (RP fyrir-fyrir)
+	  (VAN lagt-leggja)
+	  (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+		  (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+			  (TO að-að)
+			  (VB selja-selja)
+			  (RP upp-upp)
+			  (NP-OB1 (D-A hinar-hinn) (ADJR-A eldri-gamall) (NS-A birgðir-birgð)))
+		  (CONJP (CONJ og-og)
+			 (IP-INF (CODING-IP-INF z:z:z:z:1907:nar)
+				 (VB krefja-krefja)
+				 (RP inn-inn)
+				 (NP-OB1 (NS-A skuldir$-skuld) (D-A $nar-hinn)))))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.1316))
+/~*
+Auðvitað-auðvitað varð-verða heimkoma$-heimkoma $n-hinn ekki-ekki um$-um
+$flúin-flýja fyr-fyr eða-eða síðar-síðar .-.
+(1907.LEYSING.NAR-FIC,.1398)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1907:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1907:nar)
+	  (ADVP (ADV Auðvitað-auðvitað))
+	  (RDDI varð-verða)
+	  (NP-SBJ (N-N heimkoma$-heimkoma) (D-N $n-hinn))
+	  (NEG ekki-ekki)
+	  (RP um$-um)
+	  (VAN $flúin-flýja)
+	  (ADVP-TMP (ADVR fyr-fyr) (CONJ eða-eða) (ADVR síðar-síðar))
+	  (. .-.))
+  (ID 1907.LEYSING.NAR-FIC,.1398))
+/~*
+og-og vísaði-vísa honum-hann inn-inn í-í herberg$-herbergi $in-hinn ,-,
+sem-sem honum-hann höfðu-hafa verið-vera út$-út $veguð-vega .-.
+(1908.OFUREFLI.NAR-FIC,.11)
+*~/
+/*
+0 :  31 CODING-IP-SUB, 32 1:sub:rp:pronsbj:1908:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:1908:nar)
+	  (CONJ og-og)
+	  (NP-SBJ *con*)
+	  (VBDI vísaði-vísa)
+	  (NP-OB2 (PRO-D honum-hann))
+	  (PP (RP inn-inn)
+	      (P í-í)
+	      (NP (NS-A herberg$-herbergi)
+		  (D-A $in-hinn)
+		  (, ,-,)
+		  (CP-REL (WNP-1 0)
+			  (C sem-sem)
+			  (IP-SUB (CODING-IP-SUB 1:sub:rp:pronsbj:1908:nar)
+				  (NP-OB1 *T*-1)
+				  (NP-SBJ (PRO-D honum-hann))
+				  (HVDI höfðu-hafa)
+				  (BEN verið-vera)
+				  (RP út$-út)
+				  (VAN $veguð-vega)))))
+	  (. .-.))
+  (ID 1908.OFUREFLI.NAR-FIC,.11))
+/~*
+Hún-hún fann-finna ,-, að-að illa-illa var-vera til-til fundið-finna að-að
+draga-draga hann-hann á-á þessu-þessi ,-, sem-sem átti-eiga að-að víkja-víkja
+honum-hann
+(1908.OFUREFLI.NAR-FIC,.677)
+*~/
+/*
+0 :  15 CODING-IP-SUB, 16 1:sub:rp:z:1908:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1908:nar)
+	  (NP-SBJ (PRO-N Hún-hún))
+	  (VBDI fann-finna)
+	  (, ,-,)
+	  (CP-THT (C að-að)
+		  (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1908:nar)
+			  (ADVP (ADV illa-illa))
+			  (BEDI var-vera)
+			  (RP til-til)
+			  (VBN fundið-finna)
+			  (IP-INF-SBJ (CODING-IP-INF-SBJ z:z:z:gapsbj:1908:nar)
+				      (TO að-að)
+				      (VB draga-draga)
+				      (NP-OB1 (PRO-A hann-hann))
+				      (PP (P á-á)
+					  (NP (D-D þessu-þessi)
+					      (, ,-,)
+					      (CP-REL (WNP-1 0)
+						      (C sem-sem)
+						      (IP-SUB (CODING-IP-SUB z:z:z:z:1908:nar)
+							      (NP-SBJ *T*-1)
+							      (VBDI átti-eiga)
+							      (IP-INF (CODING-IP-INF z:z:z:z:1908:nar)
+								      (TO að-að)
+								      (VB víkja-víkja)
+								      (NP-OB1 (PRO-D honum-hann)))))))))))
+  (ID 1908.OFUREFLI.NAR-FIC,.677))
+/~*
+Guð-guð má-mega vita-vita ,-, hvað-hver varð-verða af-af bros$-bros $inu-hinn
+og-og ástúð$-ástúð $inni-hinn og-og kátínu$-kátína $nni-hinn á-á henni-hún ,-,
+meðan-meðan hún-hún var-vera á-á leið$-leið $inni-hinn inn-inn ganginn-ganga
+.-.
+(1908.OFUREFLI.NAR-FIC,.840)
+*~/
+/*
+0 :  66 CODING-IP-SUB, 67 1:sub:rp:z:1908:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1908:nar)
+	  (NP-SBJ (NPR-N Guð-guð))
+	  (MDPI má-mega)
+	  (VB vita-vita)
+	  (, ,-,)
+	  (CP-QUE (WNP-1 (WPRO-N hvað-hver))
+		  (C 0)
+		  (IP-SUB (CODING-IP-SUB z:z:z:z:1908:nar)
+			  (NP-SBJ *T*-1)
+			  (RDDI varð-verða)
+			  (PP (P af-af)
+			      (NP (NP (N-D bros$-bros) (D-D $inu-hinn))
+				  (CONJP (CONJ og-og)
+					 (NP (N-D ástúð$-ástúð) (D-D $inni-hinn)))
+				  (CONJP (CONJ og-og)
+					 (NP (N-D kátínu$-kátína) (D-D $nni-hinn)))
+				  (PP (P á-á)
+				      (NP (PRO-D henni-hún)))))
+			  (, ,-,)
+			  (PP (P meðan-meðan)
+			      (CP-ADV (C 0)
+				      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1908:nar)
+					      (CODE *XXX*)
+					      (NP-SBJ (PRO-N hún-hún))
+					      (BEDI var-vera)
+					      (PP (P á-á)
+						  (NP (N-D leið$-leið) (D-D $inni-hinn)))
+					      (RP inn-inn)
+					      (VBN ganginn-ganga))))))
+	  (. .-.))
+  (ID 1908.OFUREFLI.NAR-FIC,.840))
+/~*
+Fátt-fár í-í bókmenntum-bókmenntir heims$-heimur $ins-hinn er-vera
+unaðslegra-unaðslegur að-að lesa-lesa en-en ævisögur-ævisaga
+mikilmenna$-mikilmenni $nna-hinn ,-, þeirra-hann er-er mest-meira hafa-hafa
+af$-af $rekað-reka og-og mestum-mikill breytingum-breyting valdið-valda á-á
+framsóknarbraut-framsóknarbraut mannkyns$-mannkyn $ins-hinn .-.
+(1920.ARIN.REL-SER,.209)
+*~/
+/*
+0 :  74 CODING-IP-SUB-5, 75 1:sub:rp:gapsbj:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1920:rel)
+	  (CODE *XXX*-might_be_cp-eop)
+	  (NP-1 (Q-A Fátt-fár)
+		(PP (P í-í)
+		    (NP (NS-D bókmenntum-bókmenntir)
+			(NP-POS (N-G heims$-heimur) (D-G $ins-hinn)))))
+	  (BEPI er-vera)
+	  (ADJP (ADJR-N unaðslegra-unaðslegur)
+		(PP *ICH*-2))
+	  (IP-INF-SBJ (CODING-IP-INF-SBJ z:z:z:gapsbj:1920:rel)
+		      (NP-OB1 *ICH*-1)
+		      (TO að-að)
+		      (VB lesa-lesa))
+	  (PP-2 (P en-en)
+		(CP-CMP (WADJP-3 0)
+			(C 0)
+			(IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+				(ADJP *T*-3)
+				(IP-INF-SBJ (CODING-IP-INF-SBJ z:z:z:gapsbj:1920:rel)
+					    (NP-OB1 (NS-A ævisögur-ævisaga)
+						    (NP-POS (NS-G mikilmenna$-mikilmenni)
+							    (D-G $nna-hinn)
+							    (, ,-,)
+							    (NP-PRN (PRO-G þeirra-hann)
+								    (CP-REL (WNP-4 0)
+									    (C er-er)
+									    (IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+										    (IP-SUB-5 (CODING-IP-SUB-5 1:sub:rp:gapsbj:1920:rel)
+											      (NP-SBJ *T*-4)
+											      (NP-OB1 (QS-A mest-meira))
+											      (HVPI hafa-hafa)
+											      (RP af$-af)
+											      (VBN $rekað-reka))
+										    (CONJP (CONJ og-og)
+											   (IP-SUB=5 (CODING-IP-SUB=5 z:sub:z:gapsbj:1920:rel)
+												     (NP-OB1 (QS-D mestum-mikill) (NS-D breytingum-breyting))
+												     (VBN valdið-valda)
+												     (PP (P á-á)
+													 (NP (N-D framsóknarbraut-framsóknarbraut)
+													     (NP-POS (N-G mannkyns$-mannkyn) (D-G $ins-hinn)))))))))))))))
+	  (. .-.))
+  (ID 1920.ARIN.REL-SER,.209))
+/~*
+En-en hitt-hinn láta-láta ófáir-ófár sig-sig litlu-lítill skipta-skipta ,-,
+hver-hver trúar<dash/>-trú og-og siðferðisalvara-siðferðisalvara kemst-koma
+inn-inn hjá-hjá börnu$-barn $num-hinn ,-, hvert-hver
+siðgæðishugarfar-siðgæðishugarfar þeim-það er-vera inn$-inn $rætt-ræða .-.
+(1920.ARIN.REL-SER,.321)
+*~/
+/*
+0 :  75 CODING-IP-SUB, 76 1:sub:rp:pronsbj:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1920:rel)
+	  (CONJ En-en)
+	  (NP-1 (D-A hitt-hinn)
+		(CP-QUE-PRN *ICH*-2)
+		(CP-QUE-PRN *ICH*-4))
+	  (VBPI láta-láta)
+	  (NP-SBJ (Q-N ófáir-ófár))
+	  (IP-INF (CODING-IP-INF z:z:z:gapsbj:1920:rel)
+		  (NP-SBJ *ICH*-1)
+		  (NP-OB2 (PRO-A sig-sig))
+		  (NP-MSR (Q-D litlu-lítill))
+		  (VB skipta-skipta)
+		  (, ,-,)
+		  (CP-QUE-PRN-2 (WNP-3 (WD-N hver-hver)
+				       (N-N trúar<dash/>-trú)
+				       (CONJP (CONJ og-og)
+					      (NX (N-N siðferðisalvara-siðferðisalvara))))
+				(C 0)
+				(IP-SUB (CODING-IP-SUB z:sub:z:z:1920:rel)
+					(NP-SBJ *T*-3)
+					(VBPI kemst-koma)
+					(RP inn-inn)
+					(PP (P hjá-hjá)
+					    (NP (NS-D börnu$-barn) (D-D $num-hinn)))))
+		  (, ,-,)
+		  (CP-QUE-PRN-4 (WNP-5 (WD-N hvert-hver) (N-N siðgæðishugarfar-siðgæðishugarfar))
+				(C 0)
+				(IP-SUB (CODING-IP-SUB 1:sub:rp:pronsbj:1920:rel)
+					(NP-OB1 *T*-5)
+					(NP-SBJ (PRO-D þeim-það))
+					(BEPI er-vera)
+					(RP inn$-inn)
+					(VAN $rætt-ræða))))
+	  (. .-.))
+  (ID 1920.ARIN.REL-SER,.321))
+/~*
+Þeir-hann ,-, sem-sem ekki-ekki hafa-hafa séð-sjá þetta-þessi ,-, geta-geta
+naumast-naumt trúað-trúa því-það ,-, að-að slíkt-slíkur geti-geta fyrir-fyrir
+komið-koma .-.
+(1920.ARIN.REL-SER,.623)
+*~/
+/*
+0 :  46 CODING-IP-SUB, 47 1:sub:rp:z:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT 0:mat:posobj:nomsbj:1920:rel)
+	  (NP-SBJ (PRO-N Þeir-hann)
+		  (, ,-,)
+		  (CP-REL (WNP-1 0)
+			  (C sem-sem)
+			  (IP-SUB (CODING-IP-SUB 0:sub:posobj:gapsbj:1920:rel)
+				  (NP-SBJ *T*-1)
+				  (NEG ekki-ekki)
+				  (HVPI hafa-hafa)
+				  (VBN séð-sjá)
+				  (NP-OB1 (D-A þetta-þessi)))))
+	  (, ,-,)
+	  (MDPI geta-geta)
+	  (ADVP (ADVS naumast-naumt))
+	  (VBN trúað-trúa)
+	  (NP-OB1 (PRO-D því-það)
+		  (, ,-,)
+		  (CP-THT-PRN (C að-að)
+			      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1920:rel)
+				      (NP-SBJ (SUCH-N slíkt-slíkur))
+				      (MDPS geti-geta)
+				      (RP fyrir-fyrir)
+				      (VBN komið-koma))))
+	  (. .-.))
+  (ID 1920.ARIN.REL-SER,.623))
+/~*
+Að-að þetta-þessi sé-vera samband$-samband $ið-hinn í-í frásögu-frásaga
+guðspjallamanna$-guðspjallamaður $nna-hinn hafa-hafa margir-margur
+biblíufræðingar-biblíufræðingur á$-á $litið-líta
+(1920.ARIN.REL-SER,.708)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1920:rel)
+	  (CP-THT (C Að-að)
+		  (IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+			  (NP-SBJ (D-N þetta-þessi))
+			  (BEPS sé-vera)
+			  (NP-PRD (N-N samband$-samband)
+				  (D-N $ið-hinn)
+				  (PP (P í-í)
+				      (NP (N-D frásögu-frásaga)
+					  (NP-POS (NS-G guðspjallamanna$-guðspjallamaður) (D-G $nna-hinn)))))))
+	  (HVPI hafa-hafa)
+	  (NP-SBJ (Q-N margir-margur) (NS-N biblíufræðingar-biblíufræðingur))
+	  (RP á$-á)
+	  (VBN $litið-líta))
+  (ID 1920.ARIN.REL-SER,.708))
+/~*
+Mönnum-maður kemur-koma alls-allur ekki-ekki saman-saman um-um það-það að-að
+öllu-allur leyti-leyti ,-, í-í hverju-hver hann-hann hafi-hafa á$-á
+$litið-líta guðsríki-guðsríki vera-vera fólgið-fela .-.
+(1920.ARIN.REL-SER,.723)
+*~/
+/*
+0 :  45 CODING-IP-SUB, 46 1:sub:rp:z:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1920:rel)
+	  (NP-SBJ (NS-D Mönnum-maður))
+	  (VBPI kemur-koma)
+	  (NP-MSR (Q-G alls-allur))
+	  (NEG ekki-ekki)
+	  (ADVP (ADV saman-saman))
+	  (PP (P um-um)
+	      (NP (PRO-A það-það)
+		  (CP-QUE-PRN *ICH*-1)))
+	  (PP (P að-að)
+	      (NP (Q-D öllu-allur) (N-D leyti-leyti)))
+	  (, ,-,)
+	  (CP-QUE-PRN-1 (WPP-2 (P í-í)
+			       (WNP (WPRO-D hverju-hver)))
+			(C 0)
+			(IP-SUB (CODING-IP-SUB 1:sub:rp:z:1920:rel)
+				(NP-SBJ (PRO-N hann-hann))
+				(HVPS hafi-hafa)
+				(RP á$-á)
+				(VBN $litið-líta)
+				(IP-INF (CODING-IP-INF z:z:z:z:1920:rel)
+					(PP *T*-2)
+					(NP-SBJ (NPR-A guðsríki-guðsríki))
+					(BE vera-vera)
+					(VAN fólgið-fela))))
+	  (. .-.))
+  (ID 1920.ARIN.REL-SER,.723))
+/~*
+Í-í almanakinu-almanaki er-vera þetta-þessi
+sunnudagsguðspjall-sunnudagsguðspjall ,-, sem-sem svo-svo að-að segja-segja
+ævinlega-ævinlega hefir-hafa orðið-verða út-út undan-undan ,-,
+einkennt-einkenna með-með fyrirsögn$-fyrirsögn $inni-hinn "-" Krists-kristur
+dýrð-dýrð "-" .-.
+(1920.ARIN.REL-SER,.775)
+*~/
+/*
+0 :  25 CODING-IP-SUB, 26 1:sub:rp:z:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1920:rel)
+	  (PP (P Í-í)
+	      (NP (N-D almanakinu-almanaki)))
+	  (BEPI er-vera)
+	  (NP-SBJ (D-N þetta-þessi)
+		  (N-N sunnudagsguðspjall-sunnudagsguðspjall)
+		  (, ,-,)
+		  (CP-REL (WNP-1 0)
+			  (C sem-sem)
+			  (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1920:rel)
+				  (NP-SBJ-2 *T*-1)
+				  (ADVP (ADV svo-svo)
+					(CP-EOP (WADVP-3 0)
+						(IP-INF (CODING-IP-INF z:z:z:z:1920:rel)
+							(ADVP *T*-3)
+							(TO að-að)
+							(VB segja-segja))))
+				  (ADVP-TMP (ADV ævinlega-ævinlega))
+				  (HVPI hefir-hafa)
+				  (RDN orðið-verða)
+				  (RP út-út)
+				  (ADVP (ADV undan-undan))
+				  (, ,-,)
+				  (VAN einkennt-einkenna)
+				  (PP (P með-með)
+				      (NP (N-D fyrirsögn$-fyrirsögn) (D-D $inni-hinn)))
+				  (" "-")
+				  (IP-SMC (CODING-IP-SMC z:z:z:z:1920:rel)
+					  (NP-SBJ *-2)
+					  (NP-PRD (NP-POS (NPR-G Krists-kristur))
+						  (N-A dýrð-dýrð))))))
+	  (" "-")
+	  (. .-.))
+  (ID 1920.ARIN.REL-SER,.775))
+/~*
+Hann-hann hafi-hafa sjálfur-sjálfur verið-vera sannfærður-sannfæra um-um
+það-það ,-, að-að hann-hann hafi-hafa áður-áður verið-vera í-í dýrð-dýrð
+hjá-hjá föður-faðir sínum-sinn á-á himni-himinn ,-, en-en þeirri-sá
+vegsemd-vegsemd hafi-hafa hann-hann af$-af $klæðst-klæða og-og
+lítillækkað-lítillækka sjálfan-sjálfur sig-sig af-af elsku-elska til-til
+manna$-maður $nna-hinn ,-, svo-svo að-að hann-hann gæti-geta fæðst-fæða í-í
+þjónsmynd-þjónsmynd á-á þessa-þessi jörð-jörð .-.
+(1920.ARIN.REL-SER,.786)
+*~/
+/*
+0 :  75 CODING-IP-SUB-2, 76 1:sub:rp:pronsbj:1920:rel
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1920:rel)
+	  (NP-SBJ (PRO-N Hann-hann)
+		  (NP-PRN *ICH*-1))
+	  (HVPS hafi-hafa)
+	  (NP-PRN-1 (PRO-N sjálfur-sjálfur))
+	  (BEN verið-vera)
+	  (VAN sannfærður-sannfæra)
+	  (PP (P um-um)
+	      (NP (PRO-A það-það)
+		  (, ,-,)
+		  (CP-THT-PRN (C að-að)
+			      (IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+				      (IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+					      (NP-SBJ (PRO-N hann-hann))
+					      (HVPS hafi-hafa)
+					      (ADVP-TMP (ADVR áður-áður))
+					      (BEN verið-vera)
+					      (PP (P í-í)
+						  (NP (N-D dýrð-dýrð)))
+					      (PP (P hjá-hjá)
+						  (NP (N-D föður-faðir)
+						      (NP-POS (PRO-D sínum-sinn))
+						      (PP (P á-á)
+							  (NP (NPR-D himni-himinn))))))
+				      (, ,-,)
+				      (CONJP (CONJ en-en)
+					     (IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+						     (IP-SUB-2 (CODING-IP-SUB-2 1:sub:rp:pronsbj:1920:rel)
+							       (NP-OB1 (D-D þeirri-sá) (N-D vegsemd-vegsemd))
+							       (HVPS hafi-hafa)
+							       (NP-SBJ (PRO-N hann-hann))
+							       (RP af$-af)
+							       (VBN $klæðst-klæða))
+						     (CONJP (CONJ og-og)
+							    (IP-SUB=2 (CODING-IP-SUB=2 z:sub:z:gapsbj:1920:rel)
+								      (VBN lítillækkað-lítillækka)
+								      (NP-OB1 (NP-PRN (PRO-A sjálfan-sjálfur))
+									      (PRO-A sig-sig))
+								      (PP (P af-af)
+									  (NP (N-D elsku-elska)
+									      (PP (P til-til)
+										  (NP (NS-G manna$-maður) (D-G $nna-hinn)))))
+								      (, ,-,)
+								      (PP (P svo-svo)
+									  (CP-ADV (C að-að)
+										  (IP-SUB (CODING-IP-SUB z:z:z:z:1920:rel)
+											  (NP-SBJ (PRO-N hann-hann))
+											  (MDDS gæti-geta)
+											  (VBN fæðst-fæða)
+											  (PP (P í-í)
+											      (NP (N-D þjónsmynd-þjónsmynd)))
+											  (PP (P á-á)
+											      (NP (D-A þessa-þessi) (N-A jörð-jörð))))))))))))))
+	  (. .-.))
+  (ID 1920.ARIN.REL-SER,.786))
+/~*
+<dash/> Æ-æ ,-, þær-hún eru-vera nú-nú víst-víst fram$-fram $leiddar-leiða
+hérna-hérna þó-þó þær-hún heiti-heita ensku-enskur nafni-nafn ,-,
+(1985.MARGSAGA.NAR-FIC,.302)
+*~/
+/*
+0 :  2 CODING-IP-MAT-SPE, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:rp:z:1985:nar)
+	      (, <dash/>)
+	      (INTJ Æ-æ)
+	      (, ,-,)
+	      (NP-SBJ (PRO-N þær-hún))
+	      (BEPI eru-vera)
+	      (ADVP-TMP (ADV nú-nú))
+	      (ADVP (ADV víst-víst))
+	      (RP fram$-fram)
+	      (VAN $leiddar-leiða)
+	      (ADVP-LOC (ADV hérna-hérna))
+	      (PP (P þó-þó)
+		  (CP-ADV-SPE (C 0)
+			      (IP-SUB-SPE (CODING-IP-SUB-SPE z:z:z:z:1985:nar)
+					  (NP-SBJ (PRO-N þær-hún))
+					  (VBPS heiti-heita)
+					  (NP-ADT (CODE *XXX*)
+						  (ADJ-D ensku-enskur)
+						  (N-D nafni-nafn)))))
+	      (. ,-,))
+  (ID 1985.MARGSAGA.NAR-FIC,.302))
+/~*
+Með-með þessu-þessi móti-mót áttu-eiga allir-allur að-að geta-geta vel-vel
+við-við unað-una :-:
+(1985.MARGSAGA.NAR-FIC,.352)
+*~/
+/*
+0 :  18 CODING-IP-INF, 19 1:z:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
+	  (PP (P Með-með)
+	      (NP (D-D þessu-þessi) (N-D móti-mót)))
+	  (VBDI áttu-eiga)
+	  (NP-SBJ (Q-N allir-allur))
+	  (IP-INF (CODING-IP-INF 1:z:rp:z:1985:nar)
+		  (TO að-að)
+		  (MD geta-geta)
+		  (ADVP (ADV vel-vel))
+		  (RP við-við)
+		  (VBN unað-una))
+	  (. :-:))
+  (ID 1985.MARGSAGA.NAR-FIC,.352))
+/~*
+var-vera sem-sem sagt-segja niður$-niður $sokkinn-sökkva í-í einhverja-einhver
+ómerkilegustu-ómerkilegur smánautn-smánautn sem-sem hægt-hægur er-vera að-að
+hugsa-hugsa sér-sig .-.
+(1985.MARGSAGA.NAR-FIC,.550)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (NP-SBJ *con*)
+	  (BEDI var-vera)
+	  (CP-ADV (WADVP-1 0)
+		  (C sem-sem)
+		  (IP-SUB (CODING-IP-SUB z:z:z:z:1985:nar)
+			  (ADVP *T*-1)
+			  (VAN sagt-segja)))
+	  (RP niður$-niður)
+	  (VAN $sokkinn-sökkva)
+	  (PP (P í-í)
+	      (NP (ONE+Q-A einhverja-einhver)
+		  (ADJS-A ómerkilegustu-ómerkilegur)
+		  (N-A smánautn-smánautn)
+		  (CP-REL (WNP-2 0)
+			  (C sem-sem)
+			  (IP-SUB (CODING-IP-SUB z:z:z:z:1985:nar)
+				  (ADJP (ADJ-N hægt-hægur))
+				  (BEPI er-vera)
+				  (IP-INF-SBJ (CODING-IP-INF-SBJ z:z:z:gapsbj:1985:nar)
+					      (NP-OB1 *T*-2)
+					      (TO að-að)
+					      (VB hugsa-hugsa)
+					      (NP-OB2 (PRO-D sér-sig)))))))
+	  (. .-.))
+  (ID 1985.MARGSAGA.NAR-FIC,.550))
+/~*
+Að-að þessu-þessi sinni-sinn var-vera klef$-klefi $inn-hinn ekki-ekki
+lengur-lengi upp$-upp $tekinn-taka ,-,
+(1985.MARGSAGA.NAR-FIC,.645)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (PP (P Að-að)
+	      (NP (D-D þessu-þessi) (N-D sinni-sinn)))
+	  (BEDI var-vera)
+	  (NP-SBJ (N-N klef$-klefi) (D-N $inn-hinn))
+	  (NEG ekki-ekki)
+	  (ADVP-TMP (ADVR lengur-lengi))
+	  (RP upp$-upp)
+	  (VAN $tekinn-taka)
+	  (. ,-,))
+  (ID 1985.MARGSAGA.NAR-FIC,.645))
+/~*
+Ég-ég hef-hafa alltaf-alltaf á$-á $litið-líta sjálfan-sjálfur mig-ég með-með
+eindæmum-eindæmi ódreyminn-ódreyminn mann-maður ,-, lengst-lengi af-af
+draumstola-draumstola með-með öllu-allur .-.
+(1985.MARGSAGA.NAR-FIC,.978)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (NP-SBJ (PRO-N Ég-ég))
+	  (HVPI hef-hafa)
+	  (ADVP-TMP (ADV alltaf-alltaf))
+	  (RP á$-á)
+	  (VBN $litið-líta)
+	  (IP-SMC (CODING-IP-SMC z:z:z:z:1985:nar)
+		  (NP-SBJ (NP-PRN (PRO-A sjálfan-sjálfur))
+			  (PRO-A mig-ég))
+		  (PP (P með-með)
+		      (NP (NS-D eindæmum-eindæmi)))
+		  (NP-PRD (ADJ-A ódreyminn-ódreyminn) (N-A mann-maður)))
+	  (, ,-,)
+	  (PP (ADVP (ADVS lengst-lengi))
+	      (P af-af))
+	  (ADJP-SPR (ADJ-D draumstola-draumstola)
+		    (PP (P með-með)
+			(NP (Q-D öllu-allur))))
+	  (. .-.))
+  (ID 1985.MARGSAGA.NAR-FIC,.978))
+/~*
+kannski-kannski var-vera það-það á$-á $unnið-vinna ,-,
+(1985.MARGSAGA.NAR-FIC,.998)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (ADVP (ADV kannski-kannski))
+	  (BEDI var-vera)
+	  (NP-SBJ (PRO-N það-það))
+	  (RP á$-á)
+	  (VAN $unnið-vinna)
+	  (. ,-,))
+  (ID 1985.MARGSAGA.NAR-FIC,.998))
+/~*
+Leggir$-leggja $nir-hinn voru-vera allir-allur út$-út $steyptir-steypa í-í
+rauðum-rauður bólum-ból :-:
+(1985.MARGSAGA.NAR-FIC,.1088)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (NP-SBJ (NS-N Leggir$-leggja) (D-N $nir-hinn))
+	  (BEDI voru-vera)
+	  (Q-N allir-allur)
+	  (RP út$-út)
+	  (VAN $steyptir-steypa)
+	  (PP (P í-í)
+	      (NP (ADJ-D rauðum-rauður) (NS-D bólum-ból)))
+	  (. :-:))
+  (ID 1985.MARGSAGA.NAR-FIC,.1088))
+/~*
+En-en trygglyndi-trygglyndi og-og drengskap-drengskapur vina-vinur minna-minn
+var-vera við-við brugðið-bregða
+(1985.MARGSAGA.NAR-FIC,.1148)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (CONJ En-en)
+	  (NP-SBJ (N-D trygglyndi-trygglyndi)
+		  (CONJ og-og)
+		  (N-D drengskap-drengskapur)
+		  (NP-POS (NS-G vina-vinur)
+			  (NP-POS (PRO-G minna-minn))))
+	  (BEDI var-vera)
+	  (RP við-við)
+	  (VAN brugðið-bregða))
+  (ID 1985.MARGSAGA.NAR-FIC,.1148))
+/~*
+allt-allur annað-annar hefði-hafa jafnvel-jafnvel verið-vera fyrir$-fyrir
+$gefið-gefa og-og aldrei-aldrei farið-fara hátt-hátt ,-,
+(1985.MARGSAGA.NAR-FIC,.1313)
+*~/
+/*
+0 :  5 CODING-IP-MAT-SPE-1, 6 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:gapsbj:1985:nar)
+	      (IP-MAT-SPE-1 (CODING-IP-MAT-SPE-1 1:mat:rp:z:1985:nar)
+			    (NP-SBJ (Q-N allt-allur) (OTHER-N annað-annar))
+			    (HVDS hefði-hafa)
+			    (FP jafnvel-jafnvel)
+			    (BEN verið-vera)
+			    (RP fyrir$-fyrir)
+			    (VAN $gefið-gefa))
+	      (CONJP (CONJ og-og)
+		     (IP-MAT-SPE=1 (CODING-IP-MAT-SPE=1 z:z:z:gapsbj:1985:nar)
+				   (ADVP-TMP (ADV aldrei-aldrei))
+				   (VBN farið-fara)
+				   (ADVP (ADV hátt-hátt))))
+	      (. ,-,))
+  (ID 1985.MARGSAGA.NAR-FIC,.1313))
+/~*
+Um-um leið-leið fór-fara að-að verða-verða meira-mikill-mikill og-og
+meira-mikill-mikill aðkallandi-aðkallandi að-að eitthvað-einhver yrði-verða
+að$-að $hafst-hafa í-í málum-mál þessa-þessi hjóls-hjól .-.
+(1985.MARGSAGA.NAR-FIC,.1401)
+*~/
+/*
+0 :  33 CODING-IP-SUB, 34 1:sub:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
+	  (PP (P Um-um)
+	      (NP (N-A leið-leið)))
+	  (VBDI fór-fara)
+	  (IP-INF (CODING-IP-INF z:z:z:z:1985:nar)
+		  (TO að-að)
+		  (RD verða-verða)
+		  (ADJP (NP-MSR (QR-N meira-mikill-mikill) (CONJ og-og) (QR-N meira-mikill-mikill))
+			(ADJ-N aðkallandi-aðkallandi)))
+	  (CP-THT-SBJ (C að-að)
+		      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1985:nar)
+			      (NP-SBJ *exp*)
+			      (NP-MSR (ONE+Q-N eitthvað-einhver))
+			      (RDDS yrði-verða)
+			      (RP að$-að)
+			      (VAN $hafst-hafa)
+			      (PP (P í-í)
+				  (NP (NS-D málum-mál)
+				      (NP-POS (D-G þessa-þessi) (N-G hjóls-hjól))))))
+	  (. .-.))
+  (ID 1985.MARGSAGA.NAR-FIC,.1401))
+/~*
+því-það er-vera við$-við $haldið-halda með-með styrjöldum-styrjöld og-og
+arðráni-arðrán út-út um-um allan-allur heim-heimur .-.
+(1985.SAGAN.NAR-FIC,.65)
+*~/
+/*
+0 :  2 CODING-IP-MAT-SPE, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT-SPE (CODING-IP-MAT-SPE 1:mat:rp:z:1985:nar)
+	      (NP-SBJ (PRO-D því-það))
+	      (BEPI er-vera)
+	      (RP við$-við)
+	      (VAN $haldið-halda)
+	      (PP (P með-með)
+		  (NP (NS-D styrjöldum-styrjöld) (CONJ og-og) (N-D arðráni-arðrán)))
+	      (PP (RP út-út)
+		  (P um-um)
+		  (NP (Q-A allan-allur) (N-A heim-heimur)))
+	      (. .-.))
+  (ID 1985.SAGAN.NAR-FIC,.65))
+/~*
+en-en samt-samt sem-sem áður-áður halda-halda þeir-hann uppi-uppi
+ákveðnum-ákveðinn verðmætum-verðmæti sem-sem aðrir-annar hafa-hafa yfir$-yfir
+$gefið-gefa .-.
+(1985.SAGAN.NAR-FIC,.105)
+*~/
+/*
+0 :  41 CODING-IP-SUB-SPE, 42 1:sub:rp:nomsbj:1985:nar
+*/
+( (IP-MAT-SPE (CODING-IP-MAT-SPE z:mat:z:pronsbj:1985:nar)
+	      (CONJ en-en)
+	      (ADVP (ADVR samt-samt)
+		    (CP-CMP-SPE (WADVP-1 0)
+				(C sem-sem)
+				(IP-SUB-SPE (CODING-IP-SUB-SPE z:z:z:gapsbj:1985:nar)
+					    (ADVP *T*-1)
+					    (ADVP-TMP (ADVR áður-áður)))))
+	      (VBPI halda-halda)
+	      (NP-SBJ (PRO-N þeir-hann))
+	      (ADVP-LOC (ADV uppi-uppi))
+	      (NP-OB1 (ADJ-D ákveðnum-ákveðinn)
+		      (NS-D verðmætum-verðmæti)
+		      (CP-REL-SPE (WNP-2 0)
+				  (C sem-sem)
+				  (IP-SUB-SPE (CODING-IP-SUB-SPE 1:sub:rp:nomsbj:1985:nar)
+					      (NP-OB1 *T*-2)
+					      (NP-SBJ (OTHERS-N aðrir-annar))
+					      (HVPI hafa-hafa)
+					      (RP yfir$-yfir)
+					      (VBN $gefið-gefa))))
+	      (. .-.))
+  (ID 1985.SAGAN.NAR-FIC,.105))
+/~*
+Þannig-þannig lætur-láta gleymska$-gleymska $n-hinn greipar-greip sópa-sópa
+um-um líf-líf mitt-minn án-án þess-það að-að vörnum-vörn verði-verða við-við
+komið-koma ,-,
+(1985.SAGAN.NAR-FIC,.355)
+*~/
+/*
+0 :  41 CODING-IP-SUB, 42 1:sub:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
+	  (ADVP (ADV Þannig-þannig))
+	  (VBPI lætur-láta)
+	  (NP-SBJ (N-N gleymska$-gleymska) (D-N $n-hinn))
+	  (IP-INF (CODING-IP-INF z:z:z:z:1985:nar)
+		  (NP-SBJ (NS-A greipar-greip))
+		  (VB sópa-sópa)
+		  (PP (P um-um)
+		      (NP (N-A líf-líf)
+			  (NP-POS (PRO-A mitt-minn))))
+		  (PP (P án-án)
+		      (NP (PRO-G þess-það)
+			  (CP-THT-PRN (C að-að)
+				      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1985:nar)
+					      (NP-SBJ (NS-D vörnum-vörn))
+					      (RDPS verði-verða)
+					      (RP við-við)
+					      (VAN komið-koma))))))
+	  (. ,-,))
+  (ID 1985.SAGAN.NAR-FIC,.355))
+/~*
+Eitthvað-einhver sem-sem allir-allur hafa-hafa upp$-upp $lifað-lifa
+saman-saman en-en samt-samt getað-geta tekið-taka
+einstaklingsbundna-einstaklingsbundinn afstöðu-afstaða til-til .-.
+(1985.SAGAN.NAR-FIC,.387)
+*~/
+/*
+0 :  14 CODING-IP-SUB-SPE-2, 15 1:sub:rp:nomsbj:1985:nar
+*/
+( (QTP (NP (ONE+Q-N Eitthvað-einhver)
+	   (CP-REL-SPE (WNP-1 0)
+		       (C sem-sem)
+		       (IP-SUB-SPE (CODING-IP-SUB-SPE z:z:z:gapsbj:1985:nar)
+				   (IP-SUB-SPE-2 (CODING-IP-SUB-SPE-2 1:sub:rp:nomsbj:1985:nar)
+						 (NP-OB1 *T*-1)
+						 (NP-SBJ (Q-N allir-allur))
+						 (HVPI hafa-hafa)
+						 (RP upp$-upp)
+						 (VBN $lifað-lifa)
+						 (ADVP (ADV saman-saman)))
+				   (CONJP (CONJ en-en)
+					  (IP-MAT-SPE=2 (CODING-IP-MAT-SPE=2 0:mat:posobj:gapsbj:1985:nar)
+							(ADVP (ADV samt-samt))
+							(MDN getað-geta)
+							(VBN tekið-taka)
+							(NP-OB1 (ADJ-A einstaklingsbundna-einstaklingsbundinn) (N-A afstöðu-afstaða))
+							(PP (P til-til)
+							    (NP *T*-1)))))))
+       (. .-.))
+  (ID 1985.SAGAN.NAR-FIC,.387))
+/~*
+Þegar-þegar vel-vel er-vera að-að gáð-gá sést-sjá lítill-lítill stabbi-stabbi
+af-af tuggum-tugga .-.
+(1985.SAGAN.NAR-FIC,.842)
+*~/
+/*
+0 :  11 CODING-IP-SUB, 12 1:sub:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:1985:nar)
+	  (PP (P Þegar-þegar)
+	      (CP-ADV (C 0)
+		      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:1985:nar)
+			      (NP-SBJ *exp*)
+			      (ADVP (ADV vel-vel))
+			      (BEPI er-vera)
+			      (RP að-að)
+			      (VAN gáð-gá))))
+	  (VBPI sést-sjá)
+	  (NP-SBJ (Q-N lítill-lítill)
+		  (N-N stabbi-stabbi)
+		  (PP (P af-af)
+		      (NP (NS-D tuggum-tugga))))
+	  (. .-.))
+  (ID 1985.SAGAN.NAR-FIC,.842))
+/~*
+Á-á áningarstöðum-áningarstaður var-vera honum-hann upp$-upp $á$-á
+$lagt-leggja að-að hringja-hringja í-í skrifstofu$-skrifstofa $na-hinn sem-sem
+var-vera alltaf-alltaf að-að breyta-breyta fyrir-fyrir honum-hann
+áætlun$-áætlun $inni-hinn og-og flækja-flækja fyrir-fyrir honum-hann
+heimferð$-heimferð $ina-hinn .-.
+(1985.SAGAN.NAR-FIC,.1829)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:1985:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:1985:nar)
+	  (PP (P Á-á)
+	      (NP (NS-D áningarstöðum-áningarstaður)))
+	  (BEDI var-vera)
+	  (NP-SBJ (PRO-D honum-hann))
+	  (RP upp$-upp)
+	  (RP $á$-á)
+	  (VAN $lagt-leggja)
+	  (IP-INF (CODING-IP-INF z:z:z:z:1985:nar)
+		  (TO að-að)
+		  (VB hringja-hringja)
+		  (PP (P í-í)
+		      (NP (N-A skrifstofu$-skrifstofa)
+			  (D-A $na-hinn)
+			  (CP-REL (WNP-1 0)
+				  (C sem-sem)
+				  (IP-SUB (CODING-IP-SUB z:z:z:z:1985:nar)
+					  (NP-SBJ *T*-1)
+					  (BEDI var-vera)
+					  (ADVP-TMP (ADV alltaf-alltaf))
+					  (IP-INF (CODING-IP-INF z:z:z:z:1985:nar)
+						  (IP-INF (CODING-IP-INF z:z:z:z:1985:nar)
+							  (TO að-að)
+							  (VB breyta-breyta)
+							  (PP (P fyrir-fyrir)
+							      (NP (PRO-D honum-hann)))
+							  (NP-OB1 (N-D áætlun$-áætlun) (D-D $inni-hinn)))
+						  (CONJP (CONJ og-og)
+							 (IP-INF (CODING-IP-INF z:z:z:z:1985:nar)
+								 (TO *)
+								 (VB flækja-flækja)
+								 (PP (P fyrir-fyrir)
+								     (NP (PRO-D honum-hann)))
+								 (NP-OB1 (N-A heimferð$-heimferð) (D-A $ina-hinn))))))))))
+	  (. .-.))
+  (ID 1985.SAGAN.NAR-FIC,.1829))
+/~*
+og-og Ómi-ómi sagði-segja að-að hann-hann reyndi-reyna yfirleitt-yfirleitt
+að-að halda-halda hlutu$-hlutur $num-hinn að$-að $skildum-skilja í-í
+tilveru$-tilvera $nni-hinn hjá-hjá sér-sig en-en nú-nú hefði-hafa hann-hann
+á$-á $kveðið-kveða að-að láta-láta alls-allur konar-konar fólk-fólk
+hittast-hitta .-.
+(2008.MAMMA.NAR-FIC,.394)
+*~/
+/*
+0 :  65 CODING-IP-SUB, 66 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (CONJ og-og)
+	  (NP-SBJ (NPR-N Ómi-ómi))
+	  (VBDI sagði-segja)
+	  (CP-THT (C að-að)
+		  (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+			  (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+				  (NP-SBJ (PRO-N hann-hann))
+				  (VBDS reyndi-reyna)
+				  (ADVP-TMP (ADV yfirleitt-yfirleitt))
+				  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+					  (TO að-að)
+					  (VB halda-halda)
+					  (IP-SMC (CODING-IP-SMC z:z:z:z:2008:nar)
+						  (NP-SBJ (NS-D hlutu$-hlutur) (D-D $num-hinn))
+						  (RP að$-að)
+						  (VAN-D $skildum-skilja)))
+				  (PP (P í-í)
+				      (NP (N-D tilveru$-tilvera)
+					  (D-D $nni-hinn)
+					  (PP (P hjá-hjá)
+					      (NP (PRO-D sér-sig))))))
+			  (CONJP (CONJ en-en)
+				 (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+					 (ADVP-TMP (ADV nú-nú))
+					 (HVDS hefði-hafa)
+					 (NP-SBJ (PRO-N hann-hann))
+					 (RP á$-á)
+					 (VBN $kveðið-kveða)
+					 (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+						 (TO að-að)
+						 (VB láta-láta)
+						 (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+							 (NP-SBJ (NP-POS (Q-G alls-allur) (N-G konar-konar))
+								 (N-A fólk-fólk))
+							 (VB hittast-hitta)))))))
+	  (. .-.))
+  (ID 2008.MAMMA.NAR-FIC,.394))
+/~*
+Við-ég höfðum-hafa þarna-þarna einn-einn hægindastól-hægindastóll með-með
+skakkri-skakkur löpp-löpp sem-sem pabbi-pabbi hafði-hafa út$-út $vegað-vega
+hjá-hjá Binna-binni Frank-frank og-og einn-einn sófa-sófi frá-frá pabba-pabbi
+hennar-hún sem-sem við-ég breiddum-breiða yfir-yfir grænt-grænn teppi-teppi
+.-.
+(2008.MAMMA.NAR-FIC,.1038)
+*~/
+/*
+0 :  32 CODING-IP-SUB, 33 1:sub:rp:nomsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:mat:posobj:pronsbj:2008:nar)
+	  (NP-SBJ (PRO-N Við-ég))
+	  (HVDI höfðum-hafa)
+	  (ADVP-LOC (ADV þarna-þarna))
+	  (NP-OB1 (NP (ONE-A einn-einn)
+		      (N-A hægindastól-hægindastóll)
+		      (PP (P með-með)
+			  (NP (ADJR-D skakkri-skakkur) (N-D löpp-löpp)))
+		      (CP-REL (WNP-1 0)
+			      (C sem-sem)
+			      (IP-SUB (CODING-IP-SUB 1:sub:rp:nomsbj:2008:nar)
+				      (NP-OB1 *T*-1)
+				      (NP-SBJ (N-N pabbi-pabbi))
+				      (HVDI hafði-hafa)
+				      (RP út$-út)
+				      (VBN $vegað-vega)
+				      (PP (P hjá-hjá)
+					  (NP (NPR-D Binna-binni) (NPR-D Frank-frank))))))
+		  (CONJP (CONJ og-og)
+			 (NP (ONE-A einn-einn)
+			     (N-A sófa-sófi)
+			     (CP-REL *ICH*-2))))
+	  (PP (P frá-frá)
+	      (NP (N-D pabba-pabbi)
+		  (NP-POS (PRO-G hennar-hún))))
+	  (CP-REL-2 (WNP-3 0)
+		    (C sem-sem)
+		    (IP-SUB (CODING-IP-SUB z:sub:z:pronsbj:2008:nar)
+			    (NP-OB1 *T*-3)
+			    (NP-SBJ (PRO-N við-ég))
+			    (VBDS breiddum-breiða)
+			    (PP (P yfir-yfir)
+				(NP (ADJ-A grænt-grænn) (N-A teppi-teppi)))))
+	  (. .-.))
+  (ID 2008.MAMMA.NAR-FIC,.1038))
+/~*
+og-og loks-loks var-vera ég-ég til$-til $búinn-búa í-í
+morgungöngu$-morgunganga $na-hinn með-með Pjatta-pjatta .-.
+(2008.MAMMA.NAR-FIC,.1259)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:2008:nar)
+	  (CONJ og-og)
+	  (ADVP-TMP (ADV loks-loks))
+	  (BEDI var-vera)
+	  (NP-SBJ (PRO-N ég-ég))
+	  (RP til$-til)
+	  (VBN $búinn-búa)
+	  (PP (P í-í)
+	      (NP (N-A morgungöngu$-morgunganga) (D-A $na-hinn)))
+	  (PP (P með-með)
+	      (NP (NPR-D Pjatta-pjatta)))
+	  (. .-.))
+  (ID 2008.MAMMA.NAR-FIC,.1259))
+/~*
+Drengur$-drengur $inn-hinn hafði-hafa þá-þá undir$-undir $búið-búa ferð$-ferð
+$ina-hinn með-með lestri-lestur í-í samráði-samráð við-við afa-afi sinn-sinn
+(2008.MAMMA.NAR-FIC,.1311)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:nomsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:nomsbj:2008:nar)
+	  (NP-SBJ (N-N Drengur$-drengur) (D-N $inn-hinn))
+	  (HVDI hafði-hafa)
+	  (ADVP-TMP (ADV þá-þá))
+	  (RP undir$-undir)
+	  (VBN $búið-búa)
+	  (NP-OB1 (N-A ferð$-ferð) (D-A $ina-hinn))
+	  (PP (P með-með)
+	      (NP (N-D lestri-lestur)))
+	  (PP (P í-í)
+	      (NP (N-D samráði-samráð)
+		  (PP (P við-við)
+		      (NP (N-A afa-afi)
+			  (NP-POS (PRO-A sinn-sinn)))))))
+  (ID 2008.MAMMA.NAR-FIC,.1311))
+/~*
+og-og segir-segja henni-hún hvar-hvar maður-maður sé-vera niður$-niður
+$kominn-koma og-og hvert-hvert maður-maður ætli-ætla og-og hvenær-hvenær
+maður-maður komi-koma heim-heim .-.
+(2008.MAMMA.NAR-FIC,.1589)
+*~/
+/*
+0 :  21 CODING-IP-SUB, 22 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:2008:nar)
+	  (CONJ og-og)
+	  (NP-SBJ *con*)
+	  (VBPI segir-segja)
+	  (NP-OB2 (PRO-D henni-hún))
+	  (CP-QUE (CP-QUE (WADVP-1 (WADV hvar-hvar))
+			  (C 0)
+			  (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+				  (ADVP-LOC *T*-1)
+				  (NP-SBJ (MAN-N maður-maður))
+				  (BEPS sé-vera)
+				  (RP niður$-niður)
+				  (VBN $kominn-koma)))
+		  (CONJP (CONJ og-og)
+			 (CP-QUE (WADVP-2 (WADV hvert-hvert))
+				 (C 0)
+				 (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					 (ADVP-LOC *T*-2)
+					 (NP-SBJ (MAN-N maður-maður))
+					 (VBPS ætli-ætla))))
+		  (CONJP (CONJ og-og)
+			 (CP-QUE (WADVP-3 (WADV hvenær-hvenær))
+				 (C 0)
+				 (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					 (ADVP-LOC *T*-3)
+					 (NP-SBJ (MAN-N maður-maður))
+					 (VBPS komi-koma)
+					 (ADVP-DIR (ADV heim-heim))))))
+	  (. .-.))
+  (ID 2008.MAMMA.NAR-FIC,.1589))
+/~*
+Ég-ég horfðist-horfa í-í augu-auga við-við að-að þvert-þvert gegn-gegn
+draumum-draumur mínum-minn þá-þá yrði-verða ég-ég víst-víst aldrei-aldrei á$-á
+$litinn-líta stórvægilegur-stórvægilegur aðili-aðili í-í þeim-sá átökum-átök
+sem-sem geisuðu-geisa í-í land$-land $inu-hinn .-. Og-og að-að þótt-þótt ég-ég
+væri-vera kominn-koma í-í lið-lið með-með Sturlungu$-sturlungar $num-hinn
+þá-þá yrði-verða ég-ég aldrei-aldrei metinn-meta til-til fulls-fullur sem-sem
+einn-einn af-af þeim-það .-.
+(2008.OFSI.NAR-SAG,.2)
+*~/
+/*
+0 :  23 CODING-IP-SUB, 24 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (NP-SBJ (PRO-N Ég-ég))
+	  (VBDI horfðist-horfa)
+	  (PP (P í-í)
+	      (NP (NS-A augu-auga)))
+	  (PP (P við-við)
+	      (CP-THT (CP-THT (C að-að)
+			      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+				      (PP-LFD (NP-MSR (ADV þvert-þvert))
+					      (P gegn-gegn)
+					      (NP (NS-D draumum-draumur)
+						  (NP-POS (PRO-D mínum-minn))))
+				      (ADVP-TMP-RSP (ADV þá-þá))
+				      (RDDS yrði-verða)
+				      (NP-SBJ-1 (PRO-N ég-ég))
+				      (ADVP (ADV víst-víst))
+				      (ADVP-TMP (ADV aldrei-aldrei))
+				      (RP á$-á)
+				      (VAN $litinn-líta)
+				      (IP-SMC (CODING-IP-SMC z:z:z:z:2008:nar)
+					      (NP-SBJ *-1)
+					      (NP-PRD (ADJ-N stórvægilegur-stórvægilegur) (N-N aðili-aðili)))
+				      (PP (P í-í)
+					  (NP (D-D þeim-sá)
+					      (NS-D átökum-átök)
+					      (CP-REL (WNP-2 0)
+						      (C sem-sem)
+						      (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+							      (NP-SBJ *T*-2)
+							      (VBDI geisuðu-geisa)
+							      (PP (P í-í)
+								  (NP (N-D land$-land) (D-D $inu-hinn)))))))))
+		      (, .-.)
+		      (CONJP (CONJ Og-og)
+			     (CP-THT (C að-að)
+				     (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					     (PP-LFD (P þótt-þótt)
+						     (CP-ADV (C 0)
+							     (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+								     (NP-SBJ (PRO-N ég-ég))
+								     (BEDS væri-vera)
+								     (VBN kominn-koma)
+								     (PP (P í-í)
+									 (NP (N-A lið-lið)))
+								     (PP (P með-með)
+									 (NP (NPRS-D Sturlungu$-sturlungar) (D-D $num-hinn))))))
+					     (ADVP-TMP-RSP (ADV þá-þá))
+					     (RDDS yrði-verða)
+					     (NP-SBJ (PRO-N ég-ég))
+					     (ADVP-TMP (ADV aldrei-aldrei))
+					     (VAN metinn-meta)
+					     (PP (P til-til)
+						 (NP (ADJ-G fulls-fullur)))
+					     (CP-ADV (WADVP-3 0)
+						     (C sem-sem)
+						     (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+							     (ADVP *T*-3)
+							     (NP-SBJ (ONE-N einn-einn)
+								     (PP (P af-af)
+									 (NP (PRO-D þeim-það)))))))))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.2))
+/~*
+þeir-hann voru-vera aldeilis-aldeilis ekki-ekki enn-enn upp-upp taldir-telja
+Sturlungar$-sturlungar $nir-hinn sem-sem ég-ég drap-drepa eða-eða lét-láta
+drepa-drepa ,-, eins-eins og-og sjálfan-sjálfur ættarlauk-ættarlaukur
+þeirra-hann ,-, þann-sá fræga-frægur Snorra-snorri Sturluson-sturluson ,-,
+fyrrum-fyrrum tengdaföður-tengdafaðir minn-minn ,-,
+(2008.OFSI.NAR-SAG,.104)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:2008:nar)
+	  (NP-SBJ (PRO-N þeir-hann)
+		  (NP-PRN *ICH*-1))
+	  (BEDI voru-vera)
+	  (ADVP (ADV aldeilis-aldeilis))
+	  (NEG ekki-ekki)
+	  (ADVP-TMP (ADV enn-enn))
+	  (RP upp-upp)
+	  (VAN taldir-telja)
+	  (NP-PRN-1 (NPRS-N Sturlungar$-sturlungar)
+		    (D-N $nir-hinn)
+		    (CP-REL (WNP-2 0)
+			    (C sem-sem)
+			    (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+				    (IP-SUB (CODING-IP-SUB z:sub:z:pronsbj:2008:nar)
+					    (NP-OB1 *T*-2)
+					    (NP-SBJ (PRO-N ég-ég))
+					    (VBDI drap-drepa))
+				    (CONJP (CONJ eða-eða)
+					   (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+						   (NP-SBJ *con*)
+						   (VBDI lét-láta)
+						   (IP-INF (CODING-IP-INF z:z:z:gapsbj:2008:nar)
+							   (NP-OB1 *T*-2)
+							   (NP-SBJ *arb*)
+							   (VB drepa-drepa))
+						   (, ,-,)
+						   (ADVP (ADVR eins-eins)
+							 (PP (P og-og)
+							     (CP-CMP (WADVP-3 0)
+								     (C 0)
+								     (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+									     (ADVP *T*-3)
+									     (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+										     (NP-OB1 (NP-PRN (PRO-A sjálfan-sjálfur))
+											     (N-A ættarlauk-ættarlaukur)
+											     (NP-POS (PRO-G þeirra-hann))
+											     (, ,-,)
+											     (NP-PRN (D-A þann-sá)
+												     (ADJ-A fræga-frægur)
+												     (NPR-A Snorra-snorri)
+												     (NPR-A Sturluson-sturluson)
+												     (, ,-,)
+												     (NP-PRN (ADVP-TMP (ADV fyrrum-fyrrum))
+													     (N-A tengdaföður-tengdafaðir)
+													     (NP-POS (PRO-A minn-minn)))))))))))))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.104))
+/~*
+trúi-trúa því-það jafn-jafn heitt-heitur og-og að-að sól$-sól $in-hinn
+muni-munu upp$-upp $renna-renna næsta-nærri morgun-morgunn ,-, þar-þar til-til
+ég-ég hætti-hætta að-að trúa-trúa á-á mig-ég og-og mínar-minn
+hetjudáðir-hetjudáð og-og fari-fara ,-, ja-ja ,-, kannski-kannski ekki-ekki
+að-að efast-efa um-um að-að sól$-sól $in-hinn muni-munu upp-upp renna-renna
+á-á ný-nýr ,-, því-það að-að það-það getur-geta hún-hún alltaf-alltaf ,-,
+og-og miskunnarlaust-miskunnarlaust ;-; heldur-heldur að-að efast-efa um-um
+að-að mér-ég finnist-finna það-það yfirleitt-yfirleitt
+eftirsóknarvert-eftirsóknarverður
+(2008.OFSI.NAR-SAG,.187)
+*~/
+/*
+0 :  33 CODING-IP-SUB, 34 1:sub:rp:z:2008:nar
+0 :  133 CODING-IP-SUB, 134 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:mat:z:gapsbj:2008:nar)
+	  (NP-SBJ *con*)
+	  (VBPI trúi-trúa)
+	  (NP-OB1 (PRO-D því-það))
+	  (ADVP (ADVR jafn-jafn)
+		(ADV heitt-heitur)
+		(PP (P og-og)
+		    (CP-CMP (WADVP-1 0)
+			    (C 0)
+			    (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+				    (ADVP *T*-1)
+				    (CP-THT (C að-að)
+					    (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+						    (NP-SBJ (N-N sól$-sól) (D-N $in-hinn))
+						    (MDPS muni-munu)
+						    (RP upp$-upp)
+						    (VB $renna-renna)
+						    (NP-TMP (ADJS-A næsta-nærri) (N-A morgun-morgunn))))))))
+	  (, ,-,)
+	  (PP (ADV þar-þar)
+	      (P til-til)
+	      (CP-ADV (C 0)
+		      (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+			      (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+				      (NP-SBJ (PRO-N ég-ég))
+				      (VBPS hætti-hætta)
+				      (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+					      (TO að-að)
+					      (VB trúa-trúa)
+					      (PP (P á-á)
+						  (NP (NP (PRO-A mig-ég))
+						      (CONJP (CONJ og-og)
+							     (NP (NP-POS (PRO-A mínar-minn))
+								 (NS-A hetjudáðir-hetjudáð)))))))
+			      (CONJP (CONJ og-og)
+				     (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					     (NP-SBJ *con*)
+					     (VBPS fari-fara)
+					     (, ,-,)
+					     (INTJ ja-ja)
+					     (, ,-,)
+					     (ADVP (ADV kannski-kannski))
+					     (NEG ekki-ekki)
+					     (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+						     (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+							     (TO að-að)
+							     (VB efast-efa)
+							     (PP (P um-um)
+								 (CP-THT (C að-að)
+									 (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+										 (NP-SBJ (N-N sól$-sól) (D-N $in-hinn))
+										 (MDPS muni-munu)
+										 (RP upp-upp)
+										 (VB renna-renna)
+										 (PP (P á-á)
+										     (ADJP (ADJ-A ný-nýr))))))
+							     (, ,-,)
+							     (PP (P 0)
+								 (NP (PRO-D því-það)
+								     (CP-THT-PRN (C að-að)
+										 (IP-SUB (CODING-IP-SUB z:sub:z:pronsbj:2008:nar)
+											 (NP-OB1 (PRO-A það-það))
+											 (MDPI getur-geta)
+											 (NP-SBJ (PRO-N hún-hún))
+											 (ADVP-TMP (ADV alltaf-alltaf))
+											 (, ,-,)
+											 (ALSO og-og)
+											 (ADVP (ADV miskunnarlaust-miskunnarlaust)))))))
+						     (, ;-;)
+						     (CONJP (ADVP (ADVR heldur-heldur))
+							    (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+								    (TO að-að)
+								    (VB efast-efa)
+								    (PP (P um-um)
+									(CP-THT (C að-að)
+										(IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+											(NP-SBJ (PRO-D mér-ég))
+											(VBPS finnist-finna)
+											(NP-2 (PRO-N það-það))
+											(ADVP-TMP (ADV yfirleitt-yfirleitt))
+											(IP-SMC (CODING-IP-SMC z:z:z:z:2008:nar)
+												(NP-SBJ *ICH*-2)
+												(ADJP (ADJ-N eftirsóknarvert-eftirsóknarverður))))))))))))))
+	  (CODE {COM:threedots}))
+  (ID 2008.OFSI.NAR-SAG,.187))
+/~*
+og-og hjó-höggva svo-svo fast-fast í-í höfuð$-höfuð $ið-hinn á-á honum-hann
+með-með stórri-stór öxi-öxi að-að dynkur$-dynkur $inn-hinn mun-munu hafa-hafa
+yfir$-yfir $gnæft-gnæfa vopnaskak$-vopnaskak $ið-hinn og-og allan-allur
+skarkala-skarkali mannfjölda$-mannfjöldi $ns-hinn .-.
+(2008.OFSI.NAR-SAG,.199)
+*~/
+/*
+0 :  43 CODING-IP-SUB, 44 1:sub:rp:nomsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (CONJ og-og)
+	  (NP-SBJ *con*)
+	  (VBDI hjó-höggva)
+	  (ADVP (ADVR svo-svo)
+		(ADV fast-fast)
+		(CP-DEG *ICH*-1))
+	  (PP (P í-í)
+	      (NP (N-A höfuð$-höfuð) (D-A $ið-hinn)))
+	  (PP (P á-á)
+	      (NP (PRO-D honum-hann)))
+	  (PP (P með-með)
+	      (NP (ADJ-D stórri-stór) (N-D öxi-öxi)))
+	  (CP-DEG-1 (C að-að)
+		    (IP-SUB (CODING-IP-SUB 1:sub:rp:nomsbj:2008:nar)
+			    (NP-SBJ (N-N dynkur$-dynkur) (D-N $inn-hinn))
+			    (MDPI mun-munu)
+			    (HV hafa-hafa)
+			    (RP yfir$-yfir)
+			    (VBN $gnæft-gnæfa)
+			    (NP-OB1 (NP (N-A vopnaskak$-vopnaskak) (D-A $ið-hinn))
+				    (CONJP (CONJ og-og)
+					   (NP (Q-A allan-allur)
+					       (N-A skarkala-skarkali)
+					       (NP-POS (N-G mannfjölda$-mannfjöldi) (D-G $ns-hinn)))))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.199))
+/~*
+og-og það-það var-vera hann-hann sem-sem ég-ég hafði-hafa á$-á $kveðið-kveða
+að-að binda-binda trúss-trúss mitt-minn við-við og-og hafði-hafa þó-þó úr-úr
+mörgum-margur að-að velja-velja ,-,
+(2008.OFSI.NAR-SAG,.212)
+*~/
+/*
+0 :  23 CODING-IP-SUB, 24 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (CONJ og-og)
+	  (NP-SBJ (PRO-N það-það))
+	  (BEDI var-vera)
+	  (NP-PRD (PRO-N hann-hann))
+	  (CP-CLF (WNP-1 0)
+		  (C sem-sem)
+		  (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+			  (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+				  (NP-SBJ (PRO-N ég-ég))
+				  (HVDI hafði-hafa)
+				  (RP á$-á)
+				  (VBN $kveðið-kveða)
+				  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+					  (TO að-að)
+					  (VB binda-binda)
+					  (NP-OB1 (N-A trúss-trúss)
+						  (NP-POS (PRO-A mitt-minn)))
+					  (PP (P við-við)
+					      (NP *T*-1))))
+			  (CONJP (CONJ og-og)
+				 (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					 (NP-SBJ *con*)
+					 (HVDI hafði-hafa)
+					 (ADVP (ADV þó-þó))
+					 (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+						 (PP (P úr-úr)
+						     (NP (Q-D mörgum-margur)))
+						 (TO að-að)
+						 (VB velja-velja))))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.212))
+/~*
+mér-ég tókst-taka að-að vísu-vís að-að kæfa-kæfa í-í byrjun-byrjun
+tilefni-tilefni til-til að-að móðgast-móðga með-með því-það að-að halda-halda
+sjálf-sjálfur áfram-áfram að-að tala-tala ,-, neyða-neyða hann-hann til-til
+að-að svara-svara og-og ræða-ræða mál$-mál $in-hinn og-og hætta-hætta
+ekki-ekki fyrr-fyrr en-en þau-það voru-vera út$-út $kljáð-kljá .-.
+(2008.OFSI.NAR-SAG,.221)
+*~/
+/*
+0 :  138 CODING-IP-SUB, 139 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (NP-SBJ (PRO-D mér-ég))
+	  (VBDI tókst-taka)
+	  (PP (P að-að)
+	      (ADJP (ADJ-D vísu-vís)))
+	  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+		  (TO að-að)
+		  (VB kæfa-kæfa)
+		  (PP (P í-í)
+		      (NP (N-D byrjun-byrjun)))
+		  (NP-OB1 (N-A tilefni-tilefni))
+		  (PP (P til-til)
+		      (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+			      (TO að-að)
+			      (VB móðgast-móðga))))
+	  (PP (P með-með)
+	      (NP (PRO-D því-það)
+		  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+			  (TO að-að)
+			  (VB halda-halda)
+			  (NP-PRN (PRO-N sjálf-sjálfur))
+			  (ADVP-DIR (ADV áfram-áfram))
+			  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+				  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+					  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+						  (TO að-að)
+						  (VB tala-tala))
+					  (, ,-,)
+					  (CONJP (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+							 (TO *)
+							 (VB neyða-neyða)
+							 (NP-OB1 (PRO-A hann-hann))
+							 (PP (P til-til)
+							     (IP-INF-PRP (CODING-IP-INF-PRP z:z:z:gapsbj:2008:nar)
+									 (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+										 (TO að-að)
+										 (VB svara-svara))
+									 (CONJP (CONJ og-og)
+										(IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+											(TO *)
+											(VB ræða-ræða)
+											(NP-OB1 (NS-A mál$-mál) (D-A $in-hinn)))))))))
+				  (CONJP (CONJ og-og)
+					 (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+						 (TO *)
+						 (VB hætta-hætta)
+						 (NEG ekki-ekki)
+						 (ADVP-TMP (ADVR fyrr-fyrr)
+							   (PP (P en-en)
+							       (CP-CMP (WADVP-1 0)
+								       (C 0)
+								       (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+									       (ADVP-TMP *T*-1)
+									       (NP-SBJ (PRO-N þau-það))
+									       (BEDI voru-vera)
+									       (RP út$-út)
+									       (VAN $kljáð-kljá)))))))))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.221))
+/~*
+og-og ef-ef ég-ég reyndi-reyna að-að koma-koma mér-ég í-í burtu-burtu þá-þá
+elti-elta það-það mig-ég ,-, þótt-þótt það-það væri-vera af$-af
+$höggvið-höggva og-og lægi-liggja með-með moldugan-moldugur strjúpa$-strjúpi
+$nn-hinn á-á jörð$-jörð $inni-hinn ,-,
+(2008.OFSI.NAR-SAG,.261)
+*~/
+/*
+0 :  59 CODING-IP-SUB, 60 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:mat:z:pronsbj:2008:nar)
+	  (CONJ og-og)
+	  (PP-LFD (P ef-ef)
+		  (CP-ADV (C 0)
+			  (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+				  (NP-SBJ (PRO-N ég-ég))
+				  (VBDI reyndi-reyna)
+				  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+					  (TO að-að)
+					  (VB koma-koma)
+					  (NP-OB1 (PRO-D mér-ég))
+					  (PP (P í-í)
+					      (ADVP (ADV burtu-burtu)))))))
+	  (ADVP-TMP-RSP (ADV þá-þá))
+	  (VBDI elti-elta)
+	  (NP-SBJ (PRO-N það-það))
+	  (NP-OB1 (PRO-A mig-ég))
+	  (, ,-,)
+	  (PP (P þótt-þótt)
+	      (CP-ADV (C 0)
+		      (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+			      (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+				      (NP-SBJ (PRO-N það-það))
+				      (BEDS væri-vera)
+				      (RP af$-af)
+				      (VAN $höggvið-höggva))
+			      (CONJP (CONJ og-og)
+				     (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					     (NP-SBJ *con*)
+					     (VBDS lægi-liggja)
+					     (PP (P með-með)
+						 (NP (ADJ-A moldugan-moldugur) (N-A strjúpa$-strjúpi) (D-A $nn-hinn)))
+					     (PP (P á-á)
+						 (NP (N-D jörð$-jörð) (D-D $inni-hinn))))))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.261))
+/~*
+Ég-ég hafði-hafa heyrt-heyra margt-margur talað-tala um-um biskup-biskup
+þann-sá er-er hér-hér ríkti-ríkja þar-þar til-til fyrir-fyrir fáum-fár árum-ár
+,-, Guðmund-guðmundur Arason-arason ,-, og-og mér-ég hafði-hafa skilist-skila
+að-að væri-vera á$-á $litinn-líta sannheilagur-sannheilagur maður-maður .-.
+(2008.OFSI.NAR-SAG,.328)
+*~/
+/*
+0 :  86 CODING-IP-SUB-SPE, 87 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT-SPE (CODING-IP-MAT-SPE z:z:z:z:2008:nar)
+	      (NP-SBJ (PRO-N Ég-ég))
+	      (HVDI hafði-hafa)
+	      (VBN heyrt-heyra)
+	      (IP-SMC-SPE (CODING-IP-SMC-SPE z:z:z:z:2008:nar)
+			  (NP-SBJ (Q-A margt-margur))
+			  (VAN-A talað-tala)
+			  (PP (P um-um)
+			      (NP (N-A biskup-biskup)
+				  (D-A þann-sá)
+				  (CP-REL-SPE (WNP-1 0)
+					      (C er-er)
+					      (IP-SUB-SPE (CODING-IP-SUB-SPE z:z:z:gapsbj:2008:nar)
+							  (IP-SUB-SPE (CODING-IP-SUB-SPE z:z:z:z:2008:nar)
+								      (NP-SBJ *T*-1)
+								      (ADVP-LOC (ADV hér-hér))
+								      (VBDI ríkti-ríkja)
+								      (PP (ADV þar-þar)
+									  (P til-til)
+									  (PP (P fyrir-fyrir)
+									      (NP (Q-D fáum-fár) (NS-D árum-ár))))
+								      (, ,-,))
+							  (CONJP *ICH*-2)))
+				  (NP-PRN (NPR-A Guðmund-guðmundur) (NPR-A Arason-arason))
+				  (, ,-,)
+				  (CONJP-2 (CONJ og-og)
+					   (IP-SUB-SPE (CODING-IP-SUB-SPE z:z:z:z:2008:nar)
+						       (NP-SBJ (PRO-D mér-ég))
+						       (HVDI hafði-hafa)
+						       (VBN skilist-skila)
+						       (CP-THT-SPE (C að-að)
+								   (IP-SUB-SPE (CODING-IP-SUB-SPE 1:sub:rp:z:2008:nar)
+									       (NP-SBJ-3 *T*-1)
+									       (BEDS væri-vera)
+									       (RP á$-á)
+									       (VAN $litinn-líta)
+									       (IP-SMC-SPE (CODING-IP-SMC-SPE z:z:z:z:2008:nar)
+											   (NP-SBJ *-3)
+											   (NP-PRD (ADJ-N sannheilagur-sannheilagur) (N-N maður-maður))))))))))
+	      (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.328))
+/~*
+Í-í veislu$-veisla $na-hinn kom-koma margt-margur manna-maður ,-, meðal-meðal
+annars-annar nokkrir-nokkur íslenskir-íslenskur menn-maður sem-sem voru-vera
+þar-þar við$-við $loðandi-loða hirð$-hirð $ina-hinn ,-, og-og Þorgils-þorgils
+skarði-skarði af-af ætt-ætt Sturlunga-sturlungar þar-þar á-á meðal-meðal .-.
+(2008.OFSI.NAR-SAG,.535)
+*~/
+/*
+0 :  48 CODING-IP-SUB, 49 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (IP-MAT-1 (CODING-IP-MAT-1 z:z:z:z:2008:nar)
+		    (PP (P Í-í)
+			(NP (N-A veislu$-veisla) (D-A $na-hinn)))
+		    (VBDI kom-koma)
+		    (NP-SBJ (Q-N margt-margur)
+			    (NP-POS (NS-G manna-maður))))
+	  (, ,-,)
+	  (CONJP (IP-MAT=1 (CODING-IP-MAT=1 z:z:z:z:2008:nar)
+			   (PP (P meðal-meðal)
+			       (NP (OTHER-G annars-annar)))
+			   (NP-SBJ (Q-N nokkrir-nokkur)
+				   (ADJ-N íslenskir-íslenskur)
+				   (NS-N menn-maður)
+				   (CP-REL (WNP-2 0)
+					   (C sem-sem)
+					   (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+						   (NP-SBJ *T*-2)
+						   (BEDI voru-vera)
+						   (ADVP-LOC (ADV þar-þar))
+						   (RP við$-við)
+						   (CODE *XXX*-laga)
+						   (VAN $loðandi-loða)
+						   (NP-PRN (N-A hirð$-hirð) (D-A $ina-hinn)))))))
+	  (, ,-,)
+	  (CONJP (CONJ og-og)
+		 (IP-MAT=1 (CODING-IP-MAT=1 z:z:z:z:2008:nar)
+			   (NP-SBJ (NPR-N Þorgils-þorgils)
+				   (NP-PRN (N-N skarði-skarði))
+				   (PP (P af-af)
+				       (NP (N-D ætt-ætt)
+					   (NP-POS (NPRS-G Sturlunga-sturlungar)))))
+			   (PP (ADVP-3 (ADV þar-þar))
+			       (P á-á)
+			       (PP (P meðal-meðal)
+				   (ADVP *ICH*-3)))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.535))
+/~*
+Ég-ég var-vera til$-til $búinn-búa að-að þola-þola veröld$-veröld $ina-hinn
+eins-eins og-og hún-hún er-vera ,-, og-og án-án þess-það að-að bifast-bifa .-.
+(2008.OFSI.NAR-SAG,.613)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:2008:nar)
+	  (NP-SBJ (PRO-N Ég-ég))
+	  (BEDI var-vera)
+	  (RP til$-til)
+	  (VAN $búinn-búa)
+	  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+		  (TO að-að)
+		  (VB þola-þola)
+		  (NP-OB1 (N-A veröld$-veröld) (D-A $ina-hinn))
+		  (ADVP (ADVP (ADVR eins-eins)
+			      (PP (P og-og)
+				  (CP-CMP (WADVP-1 0)
+					  (C 0)
+					  (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+						  (ADVP *T*-1)
+						  (NP-SBJ (PRO-N hún-hún))
+						  (BEPI er-vera)))))
+			(, ,-,)
+			(CONJP (CONJ og-og)
+			       (PP (P án-án)
+				   (NP (PRO-G þess-það)
+				       (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+					       (TO að-að)
+					       (VB bifast-bifa)))))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.613))
+/~*
+Og-og ég-ég hef-hafa einhvernveg$-einhvernveg $inn-hinn aldrei-aldrei
+getað-geta fyrir$-fyrir $gefið-gefa mér-ég eða-eða okkur-ég bræðru$-bróðir
+$num-hinn eða-eða frændgarð$-frændgarður $inum-hinn yfirleitt-yfirleitt að-að
+við-ég skyldum-skulu aldrei-aldrei geta-geta goldið-gjalda Gissuri-gissur
+og-og hans-hann mönnum-maður fyrir-fyrir þeirra-hann níðingsverk-níðingsverk
+og-og hreina-hreinn illvirki-illvirki gegn-gegn Snorra-snorri frænda-frændi
+,-,
+(2008.OFSI.NAR-SAG,.702)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:pronsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:pronsbj:2008:nar)
+	  (CONJ Og-og)
+	  (NP-SBJ (PRO-N ég-ég))
+	  (HVPI hef-hafa)
+	  (NP-ADV (ONE+Q+N-A einhvernveg$-einhvernveg) (D-A $inn-hinn))
+	  (ADVP-TMP (ADV aldrei-aldrei))
+	  (MDN getað-geta)
+	  (RP fyrir$-fyrir)
+	  (VBN $gefið-gefa)
+	  (NP-OB2 (NP (PRO-D mér-ég))
+		  (CONJP (CONJ eða-eða)
+			 (NP (PRO-D okkur-ég)
+			     (NP-PRN (NS-D bræðru$-bróðir) (D-D $num-hinn))))
+		  (CONJP (CONJ eða-eða)
+			 (NP (N-D frændgarð$-frændgarður) (D-D $inum-hinn))))
+	  (ADVP (ADV yfirleitt-yfirleitt))
+	  (CP-THT (C að-að)
+		  (IP-SUB (CODING-IP-SUB 0:sub:posobj:pronsbj:2008:nar)
+			  (NP-SBJ (PRO-N við-ég))
+			  (MDDS skyldum-skulu)
+			  (ADVP-TMP (ADV aldrei-aldrei))
+			  (MD geta-geta)
+			  (VBN goldið-gjalda)
+			  (NP-OB2 (NP (NPR-D Gissuri-gissur))
+				  (CONJP (CONJ og-og)
+					 (NP (NP-POS (PRO-G hans-hann))
+					     (NS-D mönnum-maður))))
+			  (PP (P fyrir-fyrir)
+			      (NP (NP-POS (PRO-G þeirra-hann))
+				  (N-A níðingsverk-níðingsverk)
+				  (CONJP (CONJ og-og)
+					 (NX (ADJ-A hreina-hreinn) (N-A illvirki-illvirki)))))
+			  (PP (P gegn-gegn)
+			      (NP (NPR-D Snorra-snorri)
+				  (NP-PRN (N-D frænda-frændi))))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.702))
+/~*
+og-og ég-ég hélt-halda hann-hann væri-vera niður$-niður $sokkinn-sökkva í-í
+ritstörf-ritstarf ,-,
+(2008.OFSI.NAR-SAG,.930)
+*~/
+/*
+0 :  15 CODING-IP-SUB, 16 1:sub:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (CONJ og-og)
+	  (NP-SBJ (PRO-N ég-ég))
+	  (VBDI hélt-halda)
+	  (CP-THT (C 0)
+		  (IP-SUB (CODING-IP-SUB 1:sub:rp:z:2008:nar)
+			  (NP-SBJ (PRO-N hann-hann))
+			  (BEDS væri-vera)
+			  (RP niður$-niður)
+			  (VBN $sokkinn-sökkva)
+			  (PP (P í-í)
+			      (NP (NS-A ritstörf-ritstarf)))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.930))
+/~*
+hann-hann upp$-upp $ljómast-ljóma svo-svo snöggt-snöggt og-og skært-skært
+ef-ef honum-hann er-vera sýnd-sýna óvænt-óvænt elskusemi-elskusemi eða-eða
+virðing-virðing að-að hann-hann sést-sjá þá-þá ekki-ekki fyrir-fyrir í-í
+lofsyrðum-lofsyrði um-um menn-maður sem-sem hann-hann hefur-hafa fram-fram
+til-til þess-það aldrei-aldrei getað-geta nefnt-nefna án-án
+biturlegra-biturlegur ummæla-ummæli ,-,
+(2008.OFSI.NAR-SAG,.986)
+*~/
+/*
+0 :  87 CODING-IP-SUB, 88 1:sub:rp:pronsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:mat:z:z:2008:nar)
+	  (NP-SBJ (PRO-N hann-hann))
+	  (RP upp$-upp)
+	  (VBPI $ljómast-ljóma)
+	  (ADVP (ADVR svo-svo)
+		(ADV snöggt-snöggt)
+		(CONJP (CONJ og-og)
+		       (ADVX (ADV skært-skært)))
+		(CP-DEG *ICH*-1))
+	  (PP (P ef-ef)
+	      (CP-ADV (C 0)
+		      (IP-SUB (CODING-IP-SUB 0:sub:posobj:pronsbj:2008:nar)
+			      (NP-SBJ (PRO-D honum-hann))
+			      (BEPI er-vera)
+			      (VAN sýnd-sýna)
+			      (NP-OB1 (ADJ-N óvænt-óvænt)
+				      (N-N elskusemi-elskusemi)
+				      (CONJP (CONJ eða-eða)
+					     (NX (N-N virðing-virðing)))))))
+	  (CP-DEG-1 (C að-að)
+		    (IP-SUB (CODING-IP-SUB z:sub:z:z:2008:nar)
+			    (NP-SBJ (PRO-N hann-hann))
+			    (VBPI sést-sjá)
+			    (ADVP (ADV þá-þá))
+			    (NEG ekki-ekki)
+			    (RP fyrir-fyrir)
+			    (PP (P í-í)
+				(NP (NS-D lofsyrðum-lofsyrði)))
+			    (PP (P um-um)
+				(NP (NS-A menn-maður)
+				    (CP-REL (WNP-2 0)
+					    (C sem-sem)
+					    (IP-SUB (CODING-IP-SUB 1:sub:rp:pronsbj:2008:nar)
+						    (NP-OB1 *T*-2)
+						    (NP-SBJ (PRO-N hann-hann))
+						    (HVPI hefur-hafa)
+						    (RP fram-fram)
+						    (PP (P til-til)
+							(NP (PRO-G þess-það)))
+						    (ADVP-TMP (ADV aldrei-aldrei))
+						    (MDN getað-geta)
+						    (VBN nefnt-nefna)
+						    (PP (P án-án)
+							(NP (ADJ-G biturlegra-biturlegur) (NS-G ummæla-ummæli)))))))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.986))
+/~*
+En-en loks-loks var-vera á$-á $kveðið-kveða að-að halda-halda
+brúðkaup-brúðkaup síðsumars-síðsumar og-og að-að þá-þá skyldi-skulu
+jafnframt-jafnframt verða-verða fundur-fundur til-til að-að ljúka-ljúka
+öllum-allur sáttum-sátt .-.
+(2008.OFSI.NAR-SAG,.994)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:2008:nar)
+	  (CONJ En-en)
+	  (NP-SBJ *exp*)
+	  (ADVP-TMP (ADV loks-loks))
+	  (BEDI var-vera)
+	  (RP á$-á)
+	  (VAN $kveðið-kveða)
+	  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+		  (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+			  (TO að-að)
+			  (VB halda-halda)
+			  (NP-OB1 (N-A brúðkaup-brúðkaup)
+				  (NP-POS (N-G síðsumars-síðsumar))))
+		  (CONJP (CONJ og-og)
+			 (CP-THT (C að-að)
+				 (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+					 (ADVP-TMP (ADV þá-þá))
+					 (MDDS skyldi-skulu)
+					 (ADVP-TMP (ADVR+ADV jafnframt-jafnframt))
+					 (RD verða-verða)
+					 (NP-SBJ (N-N fundur-fundur))
+					 (PP (P til-til)
+					     (IP-INF-PRP (CODING-IP-INF-PRP z:z:z:gapsbj:2008:nar)
+							 (TO að-að)
+							 (VB ljúka-ljúka)
+							 (NP-OB1 (Q-D öllum-allur) (NS-D sáttum-sátt))))))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.994))
+/~*
+Hann-hann var-vera lengst-lengi af-af þekktur-þekkja fyrir-fyrir að-að
+bera-bera jafnan-jafnan kápu$-kápa $na-hinn á-á báðum-báðir öxlum-öxl og-og
+láta-láta vel-vel eða-eða sæmilega-sæmilega að-að öllum-allur ,-,
+(2008.OFSI.NAR-SAG,.1004)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:2008:nar)
+	  (NP-SBJ (PRO-N Hann-hann))
+	  (BEDI var-vera)
+	  (NP-MSR (ADVS lengst-lengi))
+	  (RP af-af)
+	  (VAN þekktur-þekkja)
+	  (PP (P fyrir-fyrir)
+	      (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+		      (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+			      (TO að-að)
+			      (VB bera-bera)
+			      (ADVP (ADV jafnan-jafnan))
+			      (NP-OB1 (N-A kápu$-kápa) (D-A $na-hinn))
+			      (PP (P á-á)
+				  (NP (Q-D báðum-báðir) (NS-D öxlum-öxl))))
+		      (CONJP (CONJ og-og)
+			     (IP-INF (CODING-IP-INF z:z:z:z:2008:nar)
+				     (TO *)
+				     (VB láta-láta)
+				     (ADVP (ADV vel-vel) (CONJ eða-eða) (ADV sæmilega-sæmilega))
+				     (PP (P að-að)
+					 (NP (Q-D öllum-allur)))))))
+	  (. ,-,))
+  (ID 2008.OFSI.NAR-SAG,.1004))
+/~*
+en-en þetta-þessi hafði-hafa sá-sá sendiboði-sendiboði er-er borið-bera
+hafði-hafa sáttaboð$-sáttaboð $in-hinn af$-af $hent-henda Sturlu-sturla
+sem-sem gjöf-gjöf frá-frá Gissuri-gissur .-.
+(2008.OFSI.NAR-SAG,.1018)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:nomsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:nomsbj:2008:nar)
+	  (CONJ en-en)
+	  (NP-OB1 (D-A þetta-þessi))
+	  (HVDI hafði-hafa)
+	  (NP-SBJ (D-N sá-sá)
+		  (N-N sendiboði-sendiboði)
+		  (CP-REL (WNP-1 0)
+			  (C er-er)
+			  (IP-SUB (CODING-IP-SUB z:sub:posobj:gapsbj:2008:nar)
+				  (NP-SBJ *T*-1)
+				  (VBN borið-bera)
+				  (HVDI hafði-hafa)
+				  (NP-OB1 (NS-A sáttaboð$-sáttaboð) (D-A $in-hinn)))))
+	  (RP af$-af)
+	  (VBN $hent-henda)
+	  (NP-OB2 (NPR-D Sturlu-sturla))
+	  (CP-ADV (WADVP-2 0)
+		  (C sem-sem)
+		  (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+			  (ADVP *T*-2)
+			  (NP-SBJ (N-N gjöf-gjöf))
+			  (PP (P frá-frá)
+			      (NP (NPR-D Gissuri-gissur)))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.1018))
+/~*
+Fundur-fundur var-vera á$-á $kveðinn-kveða að-að mánuði-mánuður liðnum-líða
+.-.
+(2008.OFSI.NAR-SAG,.1034)
+*~/
+/*
+0 :  2 CODING-IP-MAT, 3 1:mat:rp:z:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT 1:mat:rp:z:2008:nar)
+	  (NP-SBJ (N-N Fundur-fundur))
+	  (BEDI var-vera)
+	  (RP á$-á)
+	  (VAN $kveðinn-kveða)
+	  (PP (P að-að)
+	      (IP-SMC (CODING-IP-SMC z:z:z:z:2008:nar)
+		      (NP-SBJ (N-D mánuði-mánuður))
+		      (VBN-D liðnum-líða)))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.1034))
+/~*
+og-og það-það var-vera augljóst-augljós á-á öllu-allur að-að þarna-þarna
+var-vera maður-maður sem-sem hafði-hafa um$-um $gengist-ganga
+höfðingja-höfðingi ,-, enda-enda nýkominn-nýkominn frá-frá langdvölum-langdvöl
+í-í konungsgarði-konungsgarður .-.
+(2008.OFSI.NAR-SAG,.1132)
+*~/
+/*
+0 :  43 CODING-IP-SUB, 44 1:sub:rp:gapsbj:2008:nar
+*/
+( (IP-MAT (CODING-IP-MAT z:z:z:z:2008:nar)
+	  (CONJ og-og)
+	  (NP-SBJ-1 (ES það-það))
+	  (BEDI var-vera)
+	  (ADJP (ADJ-N augljóst-augljós))
+	  (PP (P á-á)
+	      (NP (Q-D öllu-allur)))
+	  (CP-THT-1 (C að-að)
+		    (IP-SUB (CODING-IP-SUB z:z:z:z:2008:nar)
+			    (IP-SUB-2 (CODING-IP-SUB-2 z:z:z:z:2008:nar)
+				      (ADVP-LOC (ADV þarna-þarna))
+				      (BEDI var-vera)
+				      (NP-SBJ (N-N maður-maður)
+					      (CP-REL (WNP-3 0)
+						      (C sem-sem)
+						      (IP-SUB (CODING-IP-SUB 1:sub:rp:gapsbj:2008:nar)
+							      (NP-SBJ *T*-3)
+							      (HVDI hafði-hafa)
+							      (RP um$-um)
+							      (VBN $gengist-ganga)
+							      (NP-OB1 (NS-A höfðingja-höfðingi))))))
+			    (, ,-,)
+			    (CONJP (IP-SUB=2 (CODING-IP-SUB=2 z:z:z:gapsbj:2008:nar)
+					     (ADVP (ADV enda-enda))
+					     (ADJP (ADJ-N nýkominn-nýkominn))
+					     (PP (P frá-frá)
+						 (NP (NS-D langdvölum-langdvöl)
+						     (PP (P í-í)
+							 (NP (N-D konungsgarði-konungsgarður)))))))))
+	  (. .-.))
+  (ID 2008.OFSI.NAR-SAG,.1132))
+/*
+FOOTER
+  source file, hits/tokens/total
+  pronsParts.ice.raw.cod	63/63/73225
+*/
+/*
+SUMMARY:  
+source files, hits/tokens/total
+  pronsParts.ice.raw.cod	63/63/73225
+whole search, hits/tokens/total
+		63/63/73225
+*/

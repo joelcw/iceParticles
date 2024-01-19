@@ -98,5 +98,5 @@ partNarOnly.data$zYear <- scale(partNarOnly.data$Year, center=TRUE, scale=TRUE)
 
 partNarOnly.data <- subset(partNarOnly.data, Diag != "both")
 partNarOnly.data <- droplevels(partNarOnly.data)
-narOnly.fit <- glmer(OV~(1|Text)+zYear+Clause+Year+Diag+Diag*zYear, data=partNarOnly.data, family=binomial)
+narOnly.fit <- glmer(OV~(1|Text)+zYear+Clause+Diag+Diag*zYear, data=partNarOnly.data, family=binomial)
 summary(narOnly.fit)
