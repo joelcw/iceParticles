@@ -45,13 +45,19 @@ coding_query:
 }
 
 //diagnostic is: both diagnostics in same clause, or pronoun, or particle. Auxs are constrained to precede so that we don't get "both" examples with top or stylistic fronting.
+//This query now excludes a number of verbs in particle constructions, in the rp case only. These can be found in the iceParts directory verbsWithRPsToExclude.txt, with the Python file used to generate them from outputs/late-rps.out. These are all verbs that appear with pre-verbal particles in the 20th and 21st century portions of the corpus.
+
 
 3:{
 
  qobj: (IP* idoms object) AND (object idoms Q*|NUM*|NEG|ONE*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
+    
     both: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes object) AND (finite_aux precedes RP)
+    
     pronobj: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
-    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP)
+    
+    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (nonfin_mainverb idoms !*-búa|-breyta|-ræða|-bera|-geta|-ferma|-koma|-ala|-nema|-selja|-minna|-kveða|-leggja|-flýja|-vega|-finna|-ganga|-reka|-ræða|-líta|-klæða|-leiða|-una|-sökkva|-taka|-vinna|-steypa|-bregða|-hafa|-halda|-gefa|-lifa|-gá|-leggja|-skilja|-búa|-telja|-renna|-gnæfa|-kljá|-höggva|-sökkva|-ljóma|-þekkja|-henda)
+    
     posobj: (IP* idoms object) AND (object doms any_nominal|CONJ*|N*|D*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
 
     //Note that object traces will be in this later category and should be excluded:
