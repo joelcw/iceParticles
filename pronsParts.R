@@ -17,7 +17,9 @@ colnames(foo) <- c("OV","Clause","Diag","SbjType","Year","Genre","Text","SentNum
 
 "Got up to subsetting"
 
-part.data <- subset(foo, OV != "z" & Clause != "z" & Diag != "z" & SbjType != "z" & Year != "0" & Year != "" & Year != "na" & Text != "" & Text != "z")
+#   & SbjType != "z"
+#Allow all possible subjects including missing ones 
+part.data <- subset(foo, OV != "z" & Clause != "z" & Diag != "z" & Year != "0" & Year != "" & Year != "na" & Text != "" & Text != "z")
 
 ####For now, we are only interested in particles and pronoun objs
 part.data <- subset(part.data, Diag != "qobj" & Diag != "posobj")

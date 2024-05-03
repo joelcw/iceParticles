@@ -56,7 +56,8 @@ coding_query:
     
     pronobj: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
     
-    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (nonfin_mainverb idoms !*-búa|-breyta|-ræða|-bera|-geta|-ferma|-koma|-ala|-nema|-selja|-minna|-kveða|-leggja|-flýja|-vega|-finna|-ganga|-reka|-ræða|-líta|-klæða|-leiða|-una|-sökkva|-taka|-vinna|-steypa|-bregða|-hafa|-halda|-gefa|-lifa|-gá|-leggja|-skilja|-búa|-telja|-renna|-gnæfa|-kljá|-höggva|-sökkva|-ljóma|-þekkja|-henda)
+    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (nonfin_mainverb idoms !*-búa|*-breyta|*-ræða|*-bera|*-geta|*-ferma|*-koma|*-ala|*-nema|*-selja|*-minna|*-kveða|*-leggja|*-flýja|*-vega|*-finna|*-ganga|*-reka|*-ræða|*-líta|*-klæða|*-leiða|*-una|*-sökkva|*-taka|*-vinna|*-steypa|*-bregða|*-hafa|*-halda|*-gefa|*-lifa|*-gá|*-leggja|*-skilja|*-búa|*-telja|*-renna|*-gnæfa|*-kljá|*-höggva|*-sökkva|*-ljóma|*-þekkja|*-henda)
+    //AND (RP idoms !*-fyrir)
     
     posobj: (IP* idoms object) AND (object doms any_nominal|CONJ*|N*|D*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
 
@@ -69,11 +70,11 @@ coding_query:
 
 4: {
   
- gapsbj: ((IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly \**) AND (IP* idoms object)) OR (IP-*-*|IP-*=* idoms !NP-SBJ*)
+ gapsbj: ((IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly \**) AND (IP* idoms object|RP)) OR (IP-*-*|IP-*=* idoms !NP-SBJ*)
      
-     pronsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly PRO*) AND (IP* idoms object)
+     pronsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly PRO*) AND (IP* idoms object|RP)
     
-     nomsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object) 
+     nomsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object|RP) 
     
     z: ELSE
     }
