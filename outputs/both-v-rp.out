@@ -1,10 +1,10 @@
 /*
 PREFACE:  
 Copyright 2010 Beth Randall
-Date:  Thu Jan 18 15:25:25 GMT 2024
+Date:  Fri May 03 13:11:50 BST 2024
 
 command file:     both-v-rp.q
-input file:       outputs/pronsParts.ice.raw.cod
+input file:       outputs/both.out
 output file:      outputs/both-v-rp.out
 
 definition file:  verbtopic.def
@@ -20,7 +20,191 @@ query:   IP*  idoms  CODING-IP*
 */
 /*
 HEADER:
-source file:  pronsParts.ice.raw.cod
+source file:  both.out
+*/
+/*
+HEADER:
+source file:  1150.HOMILIUBOK.REL-SER
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1150.HOMILIUBOK.REL-SER	0/0/3
+*/
+/*
+HEADER:
+source file:  1210.JARTEIN.REL-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1210.JARTEIN.REL-SAG	0/0/2
+*/
+/*
+HEADER:
+source file:  1210.THORLAKUR.REL-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1210.THORLAKUR.REL-SAG	0/0/2
+*/
+/*
+HEADER:
+source file:  1260.JOMSVIKINGAR.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1260.JOMSVIKINGAR.NAR-SAG	0/0/1
+*/
+/*
+HEADER:
+source file:  1275.MORKIN.NAR-HIS
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1275.MORKIN.NAR-HIS	0/0/1
+*/
+/*
+HEADER:
+source file:  1300.ALEXANDER.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1300.ALEXANDER.NAR-SAG	0/0/2
+*/
+/*
+HEADER:
+source file:  1310.GRETTIR.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1310.GRETTIR.NAR-SAG	0/0/3
+*/
+/*
+HEADER:
+source file:  1325.ARNI.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1325.ARNI.NAR-SAG	0/0/4
+*/
+/*
+HEADER:
+source file:  1350.BANDAMENNM.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1350.BANDAMENNM.NAR-SAG	0/0/3
+*/
+/*
+HEADER:
+source file:  1350.FINNBOGI.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1350.FINNBOGI.NAR-SAG	0/0/1
+*/
+/*
+HEADER:
+source file:  1350.MARTA.REL-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1350.MARTA.REL-SAG	0/0/3
+*/
+/*
+HEADER:
+source file:  1400.GUNNAR2.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1400.GUNNAR2.NAR-SAG	0/0/1
+*/
+/*
+HEADER:
+source file:  1400.VIGLUNDUR.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1400.VIGLUNDUR.NAR-SAG	0/0/3
+*/
+/*
+HEADER:
+source file:  1450.BANDAMENN.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1450.BANDAMENN.NAR-SAG	0/0/4
+*/
+/*
+HEADER:
+source file:  1450.ECTORSSAGA.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1450.ECTORSSAGA.NAR-SAG	0/0/3
+*/
+/*
+HEADER:
+source file:  1450.JUDIT.REL-BIB
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1450.JUDIT.REL-BIB	0/0/2
+*/
+/*
+HEADER:
+source file:  1450.VILHJALMUR.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1450.VILHJALMUR.NAR-SAG	0/0/4
+*/
+/*
+HEADER:
+source file:  1475.AEVINTYRI.NAR-REL
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1475.AEVINTYRI.NAR-REL	0/0/8
+*/
+/*
+HEADER:
+source file:  1480.JARLMANN.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1480.JARLMANN.NAR-SAG	0/0/3
+*/
+/*
+HEADER:
+source file:  1525.ERASMUS.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1525.ERASMUS.NAR-SAG	0/0/2
+*/
+/*
+HEADER:
+source file:  1525.GEORGIUS.NAR-REL
 */
 /~*
 og-og mælti-mæla síðan-síðan :-: Nú-nú eftir-eftir ykkrum-ykkar góðum-góður
@@ -137,6 +321,204 @@ gefið-gefa fyrir-fyrir guðs-guð skuld-skuld .-.
 	      (. .-.))
   (ID 1525.GEORGIUS.NAR-REL,.809)) 
 
+/*
+FOOTER
+  source file, hits/tokens/total
+  1525.GEORGIUS.NAR-REL	4/4/7
+*/
+/*
+HEADER:
+source file:  1540.NTACTS.REL-BIB
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1540.NTACTS.REL-BIB	0/0/10
+*/
+/*
+HEADER:
+source file:  1540.NTJOHN.REL-BIB
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1540.NTJOHN.REL-BIB	0/0/14
+*/
+/*
+HEADER:
+source file:  1593.EINTAL.REL-OTH
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1593.EINTAL.REL-OTH	0/0/16
+*/
+/*
+HEADER:
+source file:  1628.OLAFUREGILS.BIO-TRA
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1628.OLAFUREGILS.BIO-TRA	0/0/1
+*/
+/*
+HEADER:
+source file:  1630.GERHARD.REL-OTH
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1630.GERHARD.REL-OTH	0/0/9
+*/
+/*
+HEADER:
+source file:  1650.ILLUGI.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1650.ILLUGI.NAR-SAG	0/0/1
+*/
+/*
+HEADER:
+source file:  1659.PISLARSAGA.BIO-AUT
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1659.PISLARSAGA.BIO-AUT	0/0/1
+*/
+/*
+HEADER:
+source file:  1661.INDIAFARI.BIO-TRA
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1661.INDIAFARI.BIO-TRA	0/0/4
+*/
+/*
+HEADER:
+source file:  1675.ARMANN.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1675.ARMANN.NAR-FIC	0/0/3
+*/
+/*
+HEADER:
+source file:  1675.MAGNUS.BIO-OTH
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1675.MAGNUS.BIO-OTH	0/0/3
+*/
+/*
+HEADER:
+source file:  1720.VIDALIN.REL-SER
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1720.VIDALIN.REL-SER	0/0/3
+*/
+/*
+HEADER:
+source file:  1725.BISKUPASOGUR.NAR-REL
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1725.BISKUPASOGUR.NAR-REL	0/0/9
+*/
+/*
+HEADER:
+source file:  1745.KLIM.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1745.KLIM.NAR-FIC	0/0/10
+*/
+/*
+HEADER:
+source file:  1790.FIMMBRAEDRA.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1790.FIMMBRAEDRA.NAR-SAG	0/0/2
+*/
+/*
+HEADER:
+source file:  1791.JONSTEINGRIMS.BIO-AUT
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1791.JONSTEINGRIMS.BIO-AUT	0/0/2
+*/
+/*
+HEADER:
+source file:  1830.HELLISMENN.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1830.HELLISMENN.NAR-SAG	0/0/1
+*/
+/*
+HEADER:
+source file:  1850.PILTUR.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1850.PILTUR.NAR-FIC	0/0/3
+*/
+/*
+HEADER:
+source file:  1859.HUGVEKJUR.REL-SER
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1859.HUGVEKJUR.REL-SER	0/0/11
+*/
+/*
+HEADER:
+source file:  1861.ORRUSTA.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1861.ORRUSTA.NAR-FIC	0/0/1
+*/
+/*
+HEADER:
+source file:  1882.TORFHILDUR.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1882.TORFHILDUR.NAR-FIC	0/0/5
+*/
+/*
+HEADER:
+source file:  1907.LEYSING.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1907.LEYSING.NAR-FIC	0/0/2
+*/
+/*
+HEADER:
+source file:  1920.ARIN.REL-SER
+*/
 /~*
 Huggunar-huggun Krists-kristur hver-hver vill-vilja ekki-ekki verða-verða
 hennar-hún að$-að $njótandi-njóta ?-?
@@ -159,12 +541,84 @@ hennar-hún að$-að $njótandi-njóta ?-?
 /*
 FOOTER
   source file, hits/tokens/total
-  pronsParts.ice.raw.cod	5/5/73225
+  1920.ARIN.REL-SER	1/1/1
+*/
+/*
+HEADER:
+source file:  1985.MARGSAGA.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1985.MARGSAGA.NAR-FIC	0/0/5
+*/
+/*
+HEADER:
+source file:  1985.SAGAN.NAR-FIC
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  1985.SAGAN.NAR-FIC	0/0/2
+*/
+/*
+HEADER:
+source file:  2008.OFSI.NAR-SAG
+*/
+/*
+FOOTER
+  source file, hits/tokens/total
+  2008.OFSI.NAR-SAG	0/0/3
 */
 /*
 SUMMARY:  
 source files, hits/tokens/total
-  pronsParts.ice.raw.cod	5/5/73225
+  1150.HOMILIUBOK.REL-SER	0/0/3
+  1210.JARTEIN.REL-SAG	0/0/2
+  1210.THORLAKUR.REL-SAG	0/0/2
+  1260.JOMSVIKINGAR.NAR-SAG	0/0/1
+  1275.MORKIN.NAR-HIS	0/0/1
+  1300.ALEXANDER.NAR-SAG	0/0/2
+  1310.GRETTIR.NAR-SAG	0/0/3
+  1325.ARNI.NAR-SAG	0/0/4
+  1350.BANDAMENNM.NAR-SAG	0/0/3
+  1350.FINNBOGI.NAR-SAG	0/0/1
+  1350.MARTA.REL-SAG	0/0/3
+  1400.GUNNAR2.NAR-SAG	0/0/1
+  1400.VIGLUNDUR.NAR-SAG	0/0/3
+  1450.BANDAMENN.NAR-SAG	0/0/4
+  1450.ECTORSSAGA.NAR-SAG	0/0/3
+  1450.JUDIT.REL-BIB	0/0/2
+  1450.VILHJALMUR.NAR-SAG	0/0/4
+  1475.AEVINTYRI.NAR-REL	0/0/8
+  1480.JARLMANN.NAR-SAG	0/0/3
+  1525.ERASMUS.NAR-SAG	0/0/2
+  1525.GEORGIUS.NAR-REL	4/4/7
+  1540.NTACTS.REL-BIB	0/0/10
+  1540.NTJOHN.REL-BIB	0/0/14
+  1593.EINTAL.REL-OTH	0/0/16
+  1628.OLAFUREGILS.BIO-TRA	0/0/1
+  1630.GERHARD.REL-OTH	0/0/9
+  1650.ILLUGI.NAR-SAG	0/0/1
+  1659.PISLARSAGA.BIO-AUT	0/0/1
+  1661.INDIAFARI.BIO-TRA	0/0/4
+  1675.ARMANN.NAR-FIC	0/0/3
+  1675.MAGNUS.BIO-OTH	0/0/3
+  1720.VIDALIN.REL-SER	0/0/3
+  1725.BISKUPASOGUR.NAR-REL	0/0/9
+  1745.KLIM.NAR-FIC	0/0/10
+  1790.FIMMBRAEDRA.NAR-SAG	0/0/2
+  1791.JONSTEINGRIMS.BIO-AUT	0/0/2
+  1830.HELLISMENN.NAR-SAG	0/0/1
+  1850.PILTUR.NAR-FIC	0/0/3
+  1859.HUGVEKJUR.REL-SER	0/0/11
+  1861.ORRUSTA.NAR-FIC	0/0/1
+  1882.TORFHILDUR.NAR-FIC	0/0/5
+  1907.LEYSING.NAR-FIC	0/0/2
+  1920.ARIN.REL-SER	1/1/1
+  1985.MARGSAGA.NAR-FIC	0/0/5
+  1985.SAGAN.NAR-FIC	0/0/2
+  2008.OFSI.NAR-SAG	0/0/3
 whole search, hits/tokens/total
-		5/5/73225
+		5/5/184
 */

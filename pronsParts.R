@@ -17,8 +17,7 @@ colnames(foo) <- c("OV","Clause","Diag","SbjType","Year","Genre","Text","SentNum
 
 "Got up to subsetting"
 
-#   & SbjType != "z"
-#Allow all possible subjects including missing ones 
+#& SbjType != "z" 
 part.data <- subset(foo, OV != "z" & Clause != "z" & Diag != "z" & Year != "0" & Year != "" & Year != "na" & Text != "" & Text != "z")
 
 ####For now, we are only interested in particles and pronoun objs
@@ -59,7 +58,7 @@ p <- ggplot(partSubOnly.data, aes(Year, OV, color=Diag, group=Diag)) +
   ylim(0,1) + 
   theme_bw() + theme(panel.border = element_blank())
 
-ggsave(p, file = "~/iceParticles/pronsPartsSubOnly.png", width = 8, height = 5)
+ggsave(p, file = "~/iceParticles/pronsPartsSubOnly.verbsExcluded.png", width = 8, height = 5)
 
 partNarOnly.data <- subset(part.data, SimpleGenre == "nar" & Clause != "invq")
 partNarOnly.data <- droplevels(partNarOnly.data)
@@ -76,7 +75,7 @@ q <- ggplot(partNarOnly.data, aes(Year, OV, color=Diag, group=Diag)) +
   ylim(0,1) + 
   theme_bw() + theme(panel.border = element_blank())
 
-ggsave(q, file = "~/iceParticles/pronsPartsNarOnly.png", width = 8, height = 5)
+ggsave(q, file = "~/iceParticles/pronsPartsNarOnly.verbsExcluded.png", width = 8, height = 5)
 
 #binning by 50 years and converting to proportion so we can see anything at all:
 partNarOnly.data$Year2 <- floor(partNarOnly.data$Year/50)*50
@@ -94,7 +93,7 @@ k <- ggplot(plot.data, aes(Year2, ov, color=Diag, group=Diag)) +
   ylim(0,1) + 
   theme_bw() + theme(panel.border = element_blank())
 
-ggsave(k, file = "~/iceParticles/pronsPartsNarOnlyBinned.png", width = 8, height = 5)
+ggsave(k, file = "~/iceParticles/pronsPartsNarOnlyBinned.verbsExcluded.png", width = 8, height = 5)
 
 partNarOnly.data$zYear <- scale(partNarOnly.data$Year, center=TRUE, scale=TRUE)
 
