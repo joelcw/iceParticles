@@ -1,4 +1,4 @@
-#query for finding inseparable prefixes to exclude from set of diagnostics. Note that an overt subject is necessary in order to not catch stylistic fronting of RPs
+//query for finding inseparable prefixes to exclude from set of diagnostics. Note that an overt subject is necessary in order to not catch stylistic fronting of RPs
 add_to_ignore: \**
 nodes_only:t
 remove_nodes:t
