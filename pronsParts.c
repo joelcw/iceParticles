@@ -48,6 +48,8 @@ coding_query:
 //This query now excludes a number of verbs in particle constructions, in the rp case only. These can be found in the iceParts directory verbsWithRPsToExclude.txt, with the Python file used to generate them from outputs/late-rps.out. These are all verbs that appear with pre-verbal particles in the 20th and 21st century portions of the corpus.
 
 
+//The massive list of "insep" are inseparable prefixes to exclude from the "rp" code
+
 3:{
 
  qobj: (IP* idoms object) AND (object idoms Q*|NUM*|NEG|ONE*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
@@ -55,9 +57,487 @@ coding_query:
     both: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes object) AND (finite_aux precedes RP)
     
     pronobj: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
+
+    insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-of) AND (nonfin_mainverb idoms *-marka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-of) AND (nonfin_mainverb idoms *-ná)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-of) AND (nonfin_mainverb idoms *-taka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-gefa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-líta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-dæma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-víta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-fara)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-láta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-sjá)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-klæða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-kafa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-flytja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-bjóða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-koma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-ljúka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-kringja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-snúa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-leysa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-bæta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-koma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-niður) AND (nonfin_mainverb idoms *-brjóta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-heyra)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-gefa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-kveikja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-vinna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-velja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-með) AND (nonfin_mainverb idoms *-taka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-neita)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-vekja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-setja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-skúfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-of) AND (nonfin_mainverb idoms *-sækja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-lífa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-bera)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-teikna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-setja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-leiða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-minna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-leysa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-spyrja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-leggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-festa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-sigla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-biðja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-virða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-hefja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-með) AND (nonfin_mainverb idoms *-kenna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-reka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-senda)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-fylla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-sperra)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-stíga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-leggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-reiða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-byggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-fyllast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-breiðast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-láta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-rætast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-reikna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-eta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-arma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-girða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-vísa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-niður) AND (nonfin_mainverb idoms *-þrykkja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-hafast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-buga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-telja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-of) AND (nonfin_mainverb idoms *-bjóða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-svelgja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-gæta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-koma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-koma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-binda)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-undir) AND (nonfin_mainverb idoms *-standa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-vaxta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-koma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-búa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-niður) AND (nonfin_mainverb idoms *-stíga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-liggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-slétta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-troða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-klaga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-gefa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-falla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-hella)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-drífa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-skafa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-niður) AND (nonfin_mainverb idoms *-sökkva)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-þvo)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-gefa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-standa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-reka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-breiða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-vega)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-lykta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-nægja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-ráða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-leiða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-breyta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-fara)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-flytja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-taka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-með) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-bevísa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-bera)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-ég) AND (nonfin_mainverb idoms *-þurfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-saka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-falla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-frá) AND (nonfin_mainverb idoms *-segja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-kanna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-hæfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-nauðsynja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-bera)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-vísa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-leiða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-svalla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-lýsa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-fella)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-fýsa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-slá)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-lossa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-láta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-hlýða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-skilja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-liggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-víkja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-með) AND (nonfin_mainverb idoms *-þurfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-bera)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-falla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-frá) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-spila)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-eggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-hjá) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-hrökkva)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-halda)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-hræra)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-ganga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-setja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-vilja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-lykja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-liggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-ráða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-skilja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-með) AND (nonfin_mainverb idoms *-fylgja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-telja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-rækjast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-lifa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-tala)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-rísa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-vakna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-líta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-þurfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-ljóma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-setja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-reisa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) AND (nonfin_mainverb idoms *-víkja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-gangast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-rækja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-yfir) AND (nonfin_mainverb idoms *-gnæfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-ausa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-búa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-kalla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-taka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-fara)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-nefna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-bera)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-mæla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-slá)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-flæmast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-deila)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-plána)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-leggja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-senda)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-henda)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-nefna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-rætast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-bera)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-niður) AND (nonfin_mainverb idoms *-setja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-renna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-úr) AND (nonfin_mainverb idoms *-skurða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-þýða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-götvast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-vinna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-greina)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-rétta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-leita)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-erta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-falla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-prenta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-þrengja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-inn) AND (nonfin_mainverb idoms *-ræta)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-mála)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-leysa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-segja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-söka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-kaupa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-grafa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-stoða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-standa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-ná)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-bjóða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-fylgja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-þykja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-lista)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-málga)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) (CONJ og-og) (RP við-við)) AND (nonfin_mainverb idoms *-sjá)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-við) (CONJ og-og) (RP við-við)) AND (nonfin_mainverb idoms *-fá)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-varpa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-girnast)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-niður) AND (nonfin_mainverb idoms *-sá)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-forma)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-of) AND (nonfin_mainverb idoms *-selja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-saka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-stunda)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-sala)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-leiða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-sækja)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fyrir) AND (nonfin_mainverb idoms *-leita)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-skýra)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-færa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-hylla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-búa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-lýsa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-kveða)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-til) AND (nonfin_mainverb idoms *-kynna)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-varpa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-af) AND (nonfin_mainverb idoms *-þakka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-út) AND (nonfin_mainverb idoms *-hverfa)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-ljúka)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-fram) AND (nonfin_mainverb idoms *-kalla)
+
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-upp) AND (nonfin_mainverb idoms *-götva)
+
     
-    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (nonfin_mainverb idoms !*-búa|*-breyta|*-ræða|*-bera|*-geta|*-ferma|*-koma|*-ala|*-nema|*-selja|*-minna|*-kveða|*-leggja|*-flýja|*-vega|*-finna|*-ganga|*-reka|*-ræða|*-líta|*-klæða|*-leiða|*-una|*-sökkva|*-taka|*-vinna|*-steypa|*-bregða|*-hafa|*-halda|*-gefa|*-lifa|*-gá|*-leggja|*-skilja|*-búa|*-telja|*-renna|*-gnæfa|*-kljá|*-höggva|*-sökkva|*-ljóma|*-þekkja|*-henda)
-    //AND (RP idoms !*-fyrir)
+    rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb)
+
+
+    //AND (nonfin_mainverb idoms !*-búa|*-breyta|*-ræða|*-bera|*-geta|*-ferma|*-koma|*-ala|*-nema|*-selja|*-minna|*-kveða|*-leggja|*-flýja|*-vega|*-finna|*-ganga|*-reka|*-ræða|*-líta|*-klæða|*-leiða|*-una|*-sökkva|*-taka|*-vinna|*-steypa|*-bregða|*-hafa|*-halda|*-gefa|*-lifa|*-gá|*-leggja|*-skilja|*-búa|*-telja|*-renna|*-gnæfa|*-kljá|*-höggva|*-sökkva|*-ljóma|*-þekkja|*-henda)
+    
     
     posobj: (IP* idoms object) AND (object doms any_nominal|CONJ*|N*|D*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
 

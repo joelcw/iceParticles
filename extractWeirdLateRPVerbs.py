@@ -4,20 +4,18 @@ import sys,string,re
 
 fileString = sys.stdin.read()
 
-letterList = []
-
-for ii in string.ascii_letters:
-    if ii != "z":
-        letterList.append(ii)
-
 
 regex = re.compile("(\(RP .+?(-.+?)\)\n\s*\(VB[PD].*?)(-.+?)\)", flags=re.MULTILINE)
 
 matchList = regex.finditer(fileString)
 
-ii = 0
 
+templateList = []
 
 for thing in matchList:
-    sys.stdout.write("%s: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *%s) AND (nonfin_mainverb idoms *%s)\n\n" % (letterList[ii],thing.group(2),thing.group(3)))
-    ii = ii+1
+    template = "(IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *%s) AND (nonfin_mainverb idoms *%s)\n\n" % (thing.group(2),thing.group(3))
+    if template not in templateList:
+        templateList.append(template)
+
+for thing in templateList:
+    sys.stdout.write("insep: %s" % (thing)) 

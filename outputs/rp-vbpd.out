@@ -1,7 +1,7 @@
 /*
 PREFACE:  
 Copyright 2010 Beth Randall
-Date:  Wed May 29 14:28:40 BST 2024
+Date:  Wed May 29 14:39:54 BST 2024
 
 command file:     rp-vbpd.q
 output file:      outputs/rp-vbpd.out
@@ -105,17 +105,18 @@ $ið-hinn lýsist-lýsa og-og hitnar-hitna af-af sólu$-sól $nni-hinn ,-,
 En-en svo-svo sem-sem þeir-hann náðu-ná að-að sjá-sjá Guð-guð oftlega-oftlega
 líkams-líkami augum-auga ,-, svo-svo skulum-skulu vér-ég og-og renna-renna
 hug-hugur órum-vor á-á himna-himninn til-til Guðs-guð að-að biðja-biðja oss-ég
-miskunnar-miskunn og-og hjálpar-hjálp ,-, að-að hann-hann fyr$-fyr $gefi-gefa
-oss-ég syndir-synd ,-, og-og vætta-vætta oss-ég vissar-viss miskunnar-miskunn
-,-, ef-ef vér-ég snúumst-snúa frá-frá syndum-synd til-til Guðs-guð og-og
-fyr$-fyr $gefum-gefa þeim-það ,-, er-er við-við oss-ég misgjöra-misgjöra .-.
+miskunnar-miskunn og-og hjálpar-hjálp ,-, að-að hann-hann fyr$-fyrir
+$gefi-gefa oss-ég syndir-synd ,-, og-og vætta-vætta oss-ég vissar-viss
+miskunnar-miskunn ,-, ef-ef vér-ég snúumst-snúa frá-frá syndum-synd til-til
+Guðs-guð og-og fyr$-fyrir $gefum-gefa þeim-það ,-, er-er við-við oss-ég
+misgjöra-misgjöra .-.
 (1150.HOMILIUBOK.REL-SER,.888)
 *~/
 /*
 89 IP-SUB:  89 IP-SUB, 90 NP-SBJ, 91 PRO-N, 95 VBPS, 93 RP
 */
 ( (IP-SUB (NP-SBJ (PRO-N hann-hann))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPS $gefi-gefa)
 	  (NP-OB2 (PRO-D oss-ég))
 	  (NP-OB1 (NS-A syndir-synd)))
@@ -124,7 +125,7 @@ fyr$-fyr $gefum-gefa þeim-það ,-, er-er við-við oss-ég misgjöra-misgjöra
 
 /~*
 Nú-nú skulum-skulu vér-ég biðja-biðja almáttkan-almáttugur Guð-guð ,-, að-að
-hann-hann fyr$-fyr $gefi-gefa oss-ég sakar-sök og-og syndir-synd og-og
+hann-hann fyr$-fyrir $gefi-gefa oss-ég sakar-sök og-og syndir-synd og-og
 veiti-veita oss-ég eilífa-eilífur miskunn-miskunn með-með sér-sig að-að
 vera-vera ,-, þar-þar er-er hann-hann er-vera sæll-sæll sjálfur-sjálfur í-í
 ,-, með-með allri-allur himinríkis-himinríki dýrð-dýrð .-.
@@ -134,7 +135,7 @@ vera-vera ,-, þar-þar er-er hann-hann er-vera sæll-sæll sjálfur-sjálfur í
 23 IP-SUB:  23 IP-SUB, 24 NP-SBJ, 25 PRO-N, 29 VBPS, 27 RP
 */
 ( (IP-SUB (NP-SBJ (PRO-N hann-hann))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPS $gefi-gefa)
 	  (NP-OB2 (PRO-D oss-ég))
 	  (NP-OB1 (NS-A sakar-sök) (CONJ og-og) (NS-A syndir-synd)))
@@ -142,22 +143,22 @@ vera-vera ,-, þar-þar er-er hann-hann er-vera sæll-sæll sjálfur-sjálfur í
 
 
 /~*
-fyr$-fyr $gefið-gefa sakar-sök misgjörendum-misgerandi við-við yður-þú ,-,
-að-að yður-þú fyr$-fyr $gefist-gefa ,-,
+fyr$-fyrir $gefið-gefa sakar-sök misgjörendum-misgerandi við-við yður-þú ,-,
+að-að yður-þú fyr$-fyrir $gefist-gefa ,-,
 (1150.HOMILIUBOK.REL-SER,.1107)
 *~/
 /*
 23 IP-SUB:  23 IP-SUB, 24 NP-SBJ, 25 PRO-D, 29 VBPI, 27 RP
 */
 ( (IP-SUB (NP-SBJ (PRO-D yður-þú))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPI $gefist-gefa))
   (ID 1150.HOMILIUBOK.REL-SER,.1107)) 
 
 
 /~*
 Þeim-það var-vera það-það til-til auka-auka fyrdæmingar-fyrdæming sinnar-sinn
-,-, er-er þeir-hann fyr$-fyr $litu-líta þann-sá borinn-bera ,-, er-er
+,-, er-er þeir-hann fyr$-fyrir $litu-líta þann-sá borinn-bera ,-, er-er
 þeir-hann vissu-vita miklu-mikill fyrr-fyrr ,-, að-að borinn-bera mundi-munu
 verða-verða og-og hvar-hvar hann-hann mundi-munu borinn-bera vera-vera ,-,
 því-það að-að þeir-hann skýrðu-skýra stað-staður burðar-burður hans-hann ,-,
@@ -173,7 +174,7 @@ fyrdæmingar-fyrdæming ,-, en-en oss-ég til-til tænaðar-tænaður ,-,
 27 IP-SUB:  27 IP-SUB, 28 NP-SBJ, 29 PRO-N, 33 VBDI, 31 RP
 */
 ( (IP-SUB (NP-SBJ (PRO-N þeir-hann))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBDI $litu-líta)
 	  (NP-OB1 (D-A þann-sá)
 		  (VAN-A borinn-bera)
@@ -191,7 +192,7 @@ fyrdæmingar-fyrdæming ,-, en-en oss-ég til-til tænaðar-tænaður ,-,
 
 /~*
 Af-af því-það frestar-fresta hann-hann komu$-koma $nni-hinn ,-, að-að
-síður-varla finni-finna hann-hann þá-þá ,-, er-er hann-hann fyr$-fyr
+síður-varla finni-finna hann-hann þá-þá ,-, er-er hann-hann fyr$-fyrir
 $dæmi-dæma .-.
 (1150.HOMILIUBOK.REL-SER,.1399)
 *~/
@@ -200,7 +201,7 @@ $dæmi-dæma .-.
 */
 ( (IP-SUB (ADVP-TMP *T*-2)
 	  (NP-SBJ (PRO-N hann-hann))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPS $dæmi-dæma))
   (ID 1150.HOMILIUBOK.REL-SER,.1399)) 
 
@@ -225,14 +226,14 @@ Eigi-ekki hræðist-hræðast þú-þú Guð-guð ,-,
 
 
 /~*
-Annar-annar fyr$-fyr $fórst-fara ,-,
+Annar-annar fyr$-fyrir $fórst-fara ,-,
 (1150.HOMILIUBOK.REL-SER,.1671)
 *~/
 /*
 1 IP-MAT:  1 IP-MAT, 2 NP-SBJ, 3 OTHER-N, 7 VBDI, 5 RP
 */
 ( (IP-MAT (NP-SBJ (OTHER-N Annar-annar))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBDI $fórst-fara)
 	  (. ,-,))
   (ID 1150.HOMILIUBOK.REL-SER,.1671)) 
@@ -265,7 +266,7 @@ Drottinn-drottinn ,-, er-er þú-þú kemur-koma í-í ríki-ríki þitt-þinn .
 /~*
 Nú-nú skulum-skulu vér-ég biðja-biðja fyr-fyrir heiðnum-heiðinn mönnum-maður
 ,-, að-að Guð-guð almáttugur-almáttugur færi-fara illsku-illska frá-frá
-hjörtum-hjarta þeirra-hann og-og þeir-hann fyr$-fyr $láti-láta
+hjörtum-hjarta þeirra-hann og-og þeir-hann fyr$-fyrir $láti-láta
 skurðgoð-skurðgoð ,-, en-en þeir-hann snúist-snúa til-til Guðs-guð
 lifanda-lifa og-og sanns-sannur og-og einkasonar-einkasonur hans-hann
 Jesú-jesús Krists-kristur ,-, Guðs-guð og-og Drottins-drottinn vors-vor .-.
@@ -275,7 +276,7 @@ Jesú-jesús Krists-kristur ,-, Guðs-guð og-og Drottins-drottinn vors-vor .-.
 49 IP-SUB:  49 IP-SUB, 50 NP-SBJ, 51 PRO-N, 55 VBPS, 53 RP
 */
 ( (IP-SUB (NP-SBJ (PRO-N þeir-hann))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPS $láti-láta)
 	  (NP-OB1 (NS-A skurðgoð-skurðgoð)))
   (ID 1150.HOMILIUBOK.REL-SER,.1722)) 
@@ -283,7 +284,7 @@ Jesú-jesús Krists-kristur ,-, Guðs-guð og-og Drottins-drottinn vors-vor .-.
 
 /~*
 Fyr$-fyrir $gefnar-gefa skulu-skulu syndir-synd þeim-sá mönnum-maður ,-, er-er
-ér-þú fyr$-fyr $gefið-gefa ,-,
+ér-þú fyr$-fyrir $gefið-gefa ,-,
 (1150.HOMILIUBOK.REL-SER,.1791)
 *~/
 /*
@@ -291,14 +292,14 @@ Fyr$-fyrir $gefnar-gefa skulu-skulu syndir-synd þeim-sá mönnum-maður ,-, er-
 */
 ( (IP-SUB-SPE (NP-OB2 *T*-1)
 	      (NP-SBJ (PRO-N ér-þú))
-	      (RP fyr$-fyr)
+	      (RP fyr$-fyrir)
 	      (VBPI $gefið-gefa))
   (ID 1150.HOMILIUBOK.REL-SER,.1791)) 
 
 
 /~*
-og-og eigi-ekki munu-munu fyr$-fyr $gefast-gefa þeim-það ,-, er-er ér-þú
-fyr$-fyr $gefið-gefa eigi-ekki .-. "-"
+og-og eigi-ekki munu-munu fyr$-fyrir $gefast-gefa þeim-það ,-, er-er ér-þú
+fyr$-fyrir $gefið-gefa eigi-ekki .-. "-"
 (1150.HOMILIUBOK.REL-SER,.1792)
 *~/
 /*
@@ -306,7 +307,7 @@ fyr$-fyr $gefið-gefa eigi-ekki .-. "-"
 */
 ( (IP-SUB-SPE (NP-OB2 *T*-1)
 	      (NP-SBJ (PRO-N ér-þú))
-	      (RP fyr$-fyr)
+	      (RP fyr$-fyrir)
 	      (VBPI $gefið-gefa)
 	      (NEG eigi-ekki))
   (ID 1150.HOMILIUBOK.REL-SER,.1792)) 
@@ -333,7 +334,7 @@ til-til lítill-lítill ,-, sem-sem oft-oft kann-kunna verða-verða .-.
 
 /~*
 Og-og ef-ef hann-hann gerir-gera svo-svo fyrir-fyrir Guðs-guð sakar-sök ,-,
-að-að hann-hann fyr$-fyr $dæmir-dæma sig-sig sjálfur-sjálfur
+að-að hann-hann fyr$-fyrir $dæmir-dæma sig-sig sjálfur-sjálfur
 lítillátlega-lítillátlega frá-frá þjónustu-þjónusta þeirri-sá ,-, þá-þá
 viljum-vilja vér-ég víst-víst vilnast-vilnast þess-það ,-, að-að Guð-guð
 muni-munu honum-hann það-það láta-láta verða-verða að-að nekkverri-nokkur
@@ -345,7 +346,7 @@ líkn-líkn .-.
 */
 ( (IP-SUB (NP-SBJ (PRO-N hann-hann)
 		  (NP-PRN *ICH*-1))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPI $dæmir-dæma)
 	  (NP-OB1 (PRO-A sig-sig))
 	  (NP-PRN-1 (PRO-N sjálfur-sjálfur))
@@ -359,7 +360,7 @@ líkn-líkn .-.
 Leitum-leita alls-allur við-við of-of þá-sá atferðarbót-atferðarbót ,-, er-er
 vér-ég höfum-hafa fengið-fá á-á langaföstu-langafasta ,-, þeirri-sá er-er
 nú-nú er-vera liðin-líða ,-, í-í föstum-fasta og-og í-í meinlætum-meinlæti
-og-og í-í ölmusugjöfum-ölmusugjöf ,-, að-að sú-sá fyr$-fyr $farist-fara
+og-og í-í ölmusugjöfum-ölmusugjöf ,-, að-að sú-sá fyr$-fyrir $farist-fara
 eigi-ekki í-í endurnýjun-endurnýjun synda-synd þeirra-sá ,-, er-er nú-nú
 höfum-hafa vér-ég við-við skilist-skilja og-og til-til skrifta-skrift
 borið-bera .-.
@@ -369,7 +370,7 @@ borið-bera .-.
 95 IP-SUB:  95 IP-SUB, 96 NP-SBJ, 97 D-N, 101 VBPS, 99 RP
 */
 ( (IP-SUB (NP-SBJ (D-N sú-sá))
-	  (RP fyr$-fyr)
+	  (RP fyr$-fyrir)
 	  (VBPS $farist-fara)
 	  (NEG eigi-ekki)
 	  (PP (P í-í)
