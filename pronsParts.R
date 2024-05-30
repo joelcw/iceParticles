@@ -18,7 +18,7 @@ colnames(foo) <- c("OV","Clause","Diag","SbjType","Year","Genre","Text","SentNum
 "Got up to subsetting"
 
 #& SbjType != "z" 
-part.data <- subset(foo, OV != "z" & Clause != "z" & Diag != "z" & Year != "0" & Year != "" & Year != "na" & Text != "" & Text != "z")
+part.data <- subset(foo, OV != "z" & Clause != "z" & Diag != "z" & Diag != "insep" & Year != "0" & Year != "" & Year != "na" & Text != "" & Text != "z")
 
 ####For now, we are only interested in particles and pronoun objs
 part.data <- subset(part.data, Diag != "qobj" & Diag != "posobj")
@@ -31,7 +31,7 @@ part.data <- droplevels(part.data)
 "finished droplevels"
 
 
-####Make sure dates abd 0/1 codes are stored as numbers, and weights
+####Make sure dates and 0/1 codes are stored as numbers, and weights
 
 part.data$Year <- as.numeric(as.character(part.data$Year))
 part.data$OV <- as.numeric(as.character(part.data$OV))
