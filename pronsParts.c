@@ -617,7 +617,7 @@ insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AN
 
 insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-leggja)
 
-insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-D $skildum-skilja)
+insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-að) AND (nonfin_mainverb idoms *-skilja)
 
 insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-á) AND (nonfin_mainverb idoms *-kveða)
 
