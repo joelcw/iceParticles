@@ -5,7 +5,7 @@ import sys,string,re
 fileString = sys.stdin.read()
 
 
-regex = re.compile("(\(RP .+?(-.+?)\)\n\s*\(V.*?)(-.+?)\)", flags=re.MULTILINE)
+regex = re.compile("(\(RP .+?(-.+?)\)\n\s*\(V.*?)(-[^NADG]+?)\)", flags=re.MULTILINE)
 
 matchList = regex.finditer(fileString)
 
