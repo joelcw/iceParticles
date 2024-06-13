@@ -11,13 +11,13 @@ coding_query:
 // 1: ov
 // 0: vo
 1: {
- \1: (IP* idoms object|RP|IP-SMC*|IP-PPL*) 
+ \1: (IP* idoms object|RP|IP-SMC*|IP-PPL-*OB*) 
            AND (IP* idoms finite_aux)
-    AND (IP* iDoms nonfin_mainverb)  AND (finite_aux precedes object|RP|IP-SMC*|IP-PPL*) AND (object|RP|IP-SMC*|IP-PPL* precedes nonfin_mainverb)
+    AND (IP* iDoms nonfin_mainverb)  AND (finite_aux precedes object|RP|IP-SMC*|IP-PPL-*OB*) AND (object|RP|IP-SMC*|IP-PPL-*OB* precedes nonfin_mainverb)
 
-	\0: (IP* idoms object|RP|IP-SMC*|IP-PPL*) 
+	\0: (IP* idoms object|RP|IP-SMC*|IP-PPL-*OB*) 
            AND (IP* idoms finite_aux)
-    AND (IP* iDoms nonfin_mainverb) AND (finite_aux precedes nonfin_mainverb) AND (nonfin_mainverb precedes object|RP|IP-SMC*|IP-PPL*)
+    AND (IP* iDoms nonfin_mainverb) AND (finite_aux precedes nonfin_mainverb) AND (nonfin_mainverb precedes object|RP|IP-SMC*|IP-PPL-*OB*)
 
 	z: ELSE
 }
@@ -25,11 +25,11 @@ coding_query:
 
 // MAT vs Qs with inversion vs other SUB clauses
 2: {
-	mat: (IP-MAT* idoms object|RP|IP-SMC*|IP-PPL*) 
+	mat: (IP-MAT* idoms object|RP|IP-SMC*|IP-PPL-*OB*) 
     //CONJ has to be excluded because the C is up a level in those cases:
-    invq: (IP-SUB* idoms object|RP|IP-SMC*|IP-PPL*) AND (IP-SUB* hassister !C|CONJ*)
+    invq: (IP-SUB* idoms object|RP|IP-SMC*|IP-PPL-*OB*) AND (IP-SUB* hassister !C|CONJ*)
 
-    	sub: (IP-SUB* idoms object|RP|IP-SMC*|IP-PPL*) 
+    	sub: (IP-SUB* idoms object|RP|IP-SMC*|IP-PPL-*OB*) 
 
         z: ELSE
 
@@ -53,12 +53,6 @@ coding_query:
 3:{
 
  qobj: (IP* idoms object) AND (object idoms Q*|NUM*|NEG|ONE*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
-    
-    both: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes object) AND (finite_aux precedes RP)
-    
-    pronobj: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
-
-    smc: (IP* idoms IP-SMC*|IP-PPL*) AND (IP* idoms finite_aux) AND (finite_aux precedes IP-SMC*|IP-PPL*) AND (IP* idoms nonfin_mainverb)
 
     
     //BEGIN list of inseparables from entire corpus
@@ -646,6 +640,13 @@ insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AN
 insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb) AND (RP idoms *-um) AND (nonfin_mainverb idoms *-ganga)
 
     //END list of inseparables from the later part of the corpus with nonfin verbs
+
+
+    both: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes object) AND (finite_aux precedes RP)
+    
+    pronobj: (IP* idoms object) AND (object idomsonly PRO*) AND (IP* idoms finite_aux) AND (finite_aux precedes object)
+
+    smc: (IP* idoms IP-SMC*|IP-PPL-*OB*) AND (IP* idoms finite_aux) AND (finite_aux precedes IP-SMC*|IP-PPL-*OB*) AND (IP* idoms nonfin_mainverb)
     
     rp: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AND (IP* idoms nonfin_mainverb)
 
@@ -665,11 +666,11 @@ insep: (IP* idoms RP) AND (IP* idoms finite_aux) AND (finite_aux precedes RP) AN
 
 4: {
   
- gapsbj: ((IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly \**) AND (IP* idoms object|RP|IP-SMC*|IP-PPL*)) OR (IP-*-*|IP-*=* idoms !NP-SBJ*)
+ gapsbj: ((IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly \**) AND (IP* idoms object|RP|IP-SMC*|IP-PPL-*OB*)) OR (IP-*-*|IP-*=* idoms !NP-SBJ*)
      
-     pronsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly PRO*) AND (IP* idoms object|RP|IP-SMC*|IP-PPL*)
+     pronsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* idomsonly PRO*) AND (IP* idoms object|RP|IP-SMC*|IP-PPL-*OB*)
     
-     nomsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object|RP|IP-SMC*|IP-PPL*) 
+     nomsbj: (IP* idoms NP-SBJ*) AND (NP-SBJ* doms any_nominal|CONJ*|N*|D*) AND (IP* idoms object|RP|IP-SMC*|IP-PPL-*OB*) 
     
     z: ELSE
     }

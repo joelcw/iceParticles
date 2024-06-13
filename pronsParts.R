@@ -63,6 +63,9 @@ ggsave(p, file = "~/iceParticles/pronsPartsSubOnly.verbsExcluded.png", width = 8
 partNarOnly.data <- subset(part.data, SimpleGenre == "nar" & Clause != "invq")
 partNarOnly.data <- droplevels(partNarOnly.data)
 
+partNarOnlyNoSMC.data <- subset(partNarOnly.data, Diag != "smc")
+partNarOnlyNoSMC.data <- droplevels(partNarOnlyNoSMC.data)
+
 q <- ggplot(partNarOnly.data, aes(Year, OV, color=Diag, group=Diag)) + 
   labs(y = "Proportion of OV Diagnostics in Narrative Texts", x = "\nYear") + 
   stat_sum(aes(size=..n.., alpha=.1)) + 
@@ -95,9 +98,20 @@ k <- ggplot(plot.data, aes(Year2, ov, color=Diag, group=Diag)) +
 
 ggsave(k, file = "~/iceParticles/pronsPartsNarOnlyBinned.verbsExcluded.png", width = 8, height = 5)
 
+###Stats
+
+##Only prons vs rps
+
 partNarOnly.data$zYear <- scale(partNarOnly.data$Year, center=TRUE, scale=TRUE)
 
-partNarOnly.data <- subset(partNarOnly.data, Diag != "both")
-partNarOnly.data <- droplevels(partNarOnly.data)
-narOnly.fit <- glmer(OV~(1|Text)+zYear+Clause+Diag+Diag*zYear, data=partNarOnly.data, family=binomial)
-summary(narOnly.fit)
+partNarOnlyPronsParts.data <- subset(partNarOnly.data, Diag != "both" & Diag != "smc")
+partNarOnlyPronsParts.data <- droplevels(partNarOnlyPronsParts.data)
+narOnlyPronsParts.fit <- glmer(OV~(1|Text)+zYear+Clause+Diag+Diag*zYear, data=partNarOnlyPronsParts.data, family=binomial)
+summary(narOnlyPronsParts.fit)
+
+narOnlyPronsPartNoInters.fit <- glmer(OV~(1|Text)+zYear+Clause+Diag, data=partNarOnlyPronsParts.data, family=binomial)
+anova(narOnlyPronsParts.fit,narOnlyPronsPartNoInters.fit,test="Chisq")
+AIC(narOnlyPronsParts.fit)-AIC(narOnlyPronsPartNoInters.fit)
+BIC(narOnlyPronsParts.fit)-BIC(narOnlyPronsPartNoInters.fit)
+
+##prons vs rps with "both"
